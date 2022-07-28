@@ -27,16 +27,16 @@
   <h3 align="center">STEM Monitoring and Analytics</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    A joint project by the Asian Institute of Management Masters in Data Science Program (AIM MSDS) and the Unilab Foundation!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the Report»</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://docs.streamlit.io/">Check Streamlit</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/AstroMC98/STEM-Monitoring-and-Analytics/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/AstroMC98/STEM-Monitoring-and-Analytics/issues">Request Feature</a>
   </p>
 </div>
 
