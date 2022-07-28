@@ -1,0 +1,176 @@
+,index,Clusters,Jobs
+0,0,0.0625,Robotics Engineers
+1,1,0.109375,Robotics Engineers
+2,2,0.0625,Robotics Engineers
+3,3,0.046875,Robotics Engineers
+4,4,0.4375,Robotics Engineers
+5,5,0.125,Robotics Engineers
+6,6,0.15625,Robotics Engineers
+7,0,0.09018567639257294,Computer Network Support Specialists
+8,1,0.03713527851458886,Computer Network Support Specialists
+9,2,0.08488063660477453,Computer Network Support Specialists
+10,3,0.38461538461538464,Computer Network Support Specialists
+11,4,0.16976127320954906,Computer Network Support Specialists
+12,5,0.08488063660477453,Computer Network Support Specialists
+13,6,0.14854111405835543,Computer Network Support Specialists
+14,0,0.06222222222222222,Computer Systems Engineers/Architects
+15,1,0.09222222222222222,Computer Systems Engineers/Architects
+16,2,0.07111111111111111,Computer Systems Engineers/Architects
+17,3,0.3333333333333333,Computer Systems Engineers/Architects
+18,4,0.26222222222222225,Computer Systems Engineers/Architects
+19,5,0.08666666666666667,Computer Systems Engineers/Architects
+20,6,0.09222222222222222,Computer Systems Engineers/Architects
+21,0,0.044905008635578586,Information Security Engineers
+22,1,0.06390328151986183,Information Security Engineers
+23,2,0.044905008635578586,Information Security Engineers
+24,3,0.4265975820379965,Information Security Engineers
+25,4,0.25215889464594127,Information Security Engineers
+26,5,0.07253886010362694,Information Security Engineers
+27,6,0.09499136442141623,Information Security Engineers
+28,0,0.11175337186897881,Data Scientists
+29,1,0.22254335260115607,Data Scientists
+30,2,0.0674373795761079,Data Scientists
+31,3,0.128131021194605,Data Scientists
+32,4,0.18015414258188825,Data Scientists
+33,5,0.13198458574181118,Data Scientists
+34,6,0.1579961464354528,Data Scientists
+35,0,0.10619469026548672,Medical Records Specialists
+36,1,0.0,Medical Records Specialists
+37,2,0.04424778761061947,Medical Records Specialists
+38,3,0.05309734513274336,Medical Records Specialists
+39,4,0.23008849557522124,Medical Records Specialists
+40,5,0.37168141592920356,Medical Records Specialists
+41,6,0.19469026548672566,Medical Records Specialists
+42,0,0.24615384615384617,Electrical And Electronic Engineering Technologists And Technicians
+43,1,0.06538461538461539,Electrical And Electronic Engineering Technologists And Technicians
+44,2,0.09615384615384616,Electrical And Electronic Engineering Technologists And Technicians
+45,3,0.08076923076923077,Electrical And Electronic Engineering Technologists And Technicians
+46,4,0.22692307692307692,Electrical And Electronic Engineering Technologists And Technicians
+47,5,0.15384615384615385,Electrical And Electronic Engineering Technologists And Technicians
+48,6,0.13076923076923078,Electrical And Electronic Engineering Technologists And Technicians
+49,0,0.08790675084992715,Software Developers
+50,1,0.09519184069936863,Software Developers
+51,2,0.056338028169014086,Software Developers
+52,3,0.1622146673142302,Software Developers
+53,4,0.39388052452646916,Software Developers
+54,5,0.08742107819329771,Software Developers
+55,6,0.11704711024769306,Software Developers
+56,0,0.12307692307692308,Blockchain Engineers
+57,1,0.11153846153846154,Blockchain Engineers
+58,2,0.03461538461538462,Blockchain Engineers
+59,3,0.11153846153846154,Blockchain Engineers
+60,4,0.39615384615384613,Blockchain Engineers
+61,5,0.11923076923076924,Blockchain Engineers
+62,6,0.10384615384615385,Blockchain Engineers
+63,0,0.08148148148148149,Computer Systems Analysts
+64,1,0.07407407407407407,Computer Systems Analysts
+65,2,0.05308641975308642,Computer Systems Analysts
+66,3,0.12839506172839507,Computer Systems Analysts
+67,4,0.30617283950617286,Computer Systems Analysts
+68,5,0.10740740740740741,Computer Systems Analysts
+69,6,0.24938271604938272,Computer Systems Analysts
+70,0,0.08608321377331421,Software Quality Assurance Analysts And Testers
+71,1,0.0746054519368723,Software Quality Assurance Analysts And Testers
+72,2,0.058823529411764705,Software Quality Assurance Analysts And Testers
+73,3,0.15781922525107603,Software Quality Assurance Analysts And Testers
+74,4,0.3988522238163558,Software Quality Assurance Analysts And Testers
+75,5,0.09469153515064563,Software Quality Assurance Analysts And Testers
+76,6,0.1291248206599713,Software Quality Assurance Analysts And Testers
+77,0,0.1124031007751938,Business Intelligence Analysts
+78,1,0.11143410852713179,Business Intelligence Analysts
+79,2,0.05135658914728682,Business Intelligence Analysts
+80,3,0.10755813953488372,Business Intelligence Analysts
+81,4,0.20348837209302326,Business Intelligence Analysts
+82,5,0.13953488372093023,Business Intelligence Analysts
+83,6,0.2742248062015504,Business Intelligence Analysts
+84,0,0.16058394160583941,Operations Research Analysts
+85,1,0.12043795620437957,Operations Research Analysts
+86,2,0.07664233576642336,Operations Research Analysts
+87,3,0.09854014598540146,Operations Research Analysts
+88,4,0.14963503649635038,Operations Research Analysts
+89,5,0.19343065693430658,Operations Research Analysts
+90,6,0.20072992700729927,Operations Research Analysts
+91,0,0.17676767676767677,Industrial-Organizational Psychologists
+92,1,0.03535353535353535,Industrial-Organizational Psychologists
+93,2,0.05555555555555555,Industrial-Organizational Psychologists
+94,3,0.12121212121212122,Industrial-Organizational Psychologists
+95,4,0.08080808080808081,Industrial-Organizational Psychologists
+96,5,0.2222222222222222,Industrial-Organizational Psychologists
+97,6,0.30808080808080807,Industrial-Organizational Psychologists
+98,0,0.09666666666666666,Computer And Information Systems Managers
+99,1,0.05,Computer And Information Systems Managers
+100,2,0.07,Computer And Information Systems Managers
+101,3,0.17333333333333334,Computer And Information Systems Managers
+102,4,0.3,Computer And Information Systems Managers
+103,5,0.16333333333333333,Computer And Information Systems Managers
+104,6,0.14666666666666667,Computer And Information Systems Managers
+105,0,0.2905405405405405,Digital Forensics Analysts
+106,1,0.10135135135135136,Digital Forensics Analysts
+107,2,0.04054054054054054,Digital Forensics Analysts
+108,3,0.21621621621621623,Digital Forensics Analysts
+109,4,0.13513513513513514,Digital Forensics Analysts
+110,5,0.16891891891891891,Digital Forensics Analysts
+111,6,0.0472972972972973,Digital Forensics Analysts
+112,0,0.09935897435897435,Data Warehousing Specialists
+113,1,0.20512820512820512,Data Warehousing Specialists
+114,2,0.05128205128205128,Data Warehousing Specialists
+115,3,0.1346153846153846,Data Warehousing Specialists
+116,4,0.22756410256410256,Data Warehousing Specialists
+117,5,0.1282051282051282,Data Warehousing Specialists
+118,6,0.15384615384615385,Data Warehousing Specialists
+119,0,0.07952622673434856,Database Architects
+120,1,0.1996615905245347,Database Architects
+121,2,0.05245346869712352,Database Architects
+122,3,0.18274111675126903,Database Architects
+123,4,0.1844331641285956,Database Architects
+124,5,0.09983079526226735,Database Architects
+125,6,0.20135363790186125,Database Architects
+126,0,0.08108108108108109,"Geological Technicians, Except Hydrologic Technicians"
+127,1,0.1036036036036036,"Geological Technicians, Except Hydrologic Technicians"
+128,2,0.12162162162162163,"Geological Technicians, Except Hydrologic Technicians"
+129,3,0.07207207207207207,"Geological Technicians, Except Hydrologic Technicians"
+130,4,0.40540540540540543,"Geological Technicians, Except Hydrologic Technicians"
+131,5,0.08108108108108109,"Geological Technicians, Except Hydrologic Technicians"
+132,6,0.13513513513513514,"Geological Technicians, Except Hydrologic Technicians"
+133,0,0.07676348547717843,Database Administrators
+134,1,0.14522821576763487,Database Administrators
+135,2,0.03734439834024896,Database Administrators
+136,3,0.22199170124481327,Database Administrators
+137,4,0.31950207468879666,Database Administrators
+138,5,0.06431535269709543,Database Administrators
+139,6,0.13485477178423236,Database Administrators
+140,0,0.07216494845360824,Medical And Clinical Laboratory Technologists
+141,1,0.010309278350515464,Medical And Clinical Laboratory Technologists
+142,2,0.26804123711340205,Medical And Clinical Laboratory Technologists
+143,3,0.07216494845360824,Medical And Clinical Laboratory Technologists
+144,4,0.07216494845360824,Medical And Clinical Laboratory Technologists
+145,5,0.35051546391752575,Medical And Clinical Laboratory Technologists
+146,6,0.15463917525773196,Medical And Clinical Laboratory Technologists
+147,0,0.041237113402061855,Microsystems Engineers
+148,1,0.05670103092783505,Microsystems Engineers
+149,2,0.13058419243986255,Microsystems Engineers
+150,3,0.23711340206185566,Microsystems Engineers
+151,4,0.3487972508591065,Microsystems Engineers
+152,5,0.07560137457044673,Microsystems Engineers
+153,6,0.10996563573883161,Microsystems Engineers
+154,0,0.06551724137931035,Computer Network Architects
+155,1,0.017241379310344827,Computer Network Architects
+156,2,0.06551724137931035,Computer Network Architects
+157,3,0.5689655172413793,Computer Network Architects
+158,4,0.11724137931034483,Computer Network Architects
+159,5,0.07931034482758621,Computer Network Architects
+160,6,0.08620689655172414,Computer Network Architects
+161,0,0.11194029850746269,Telecommunications Engineering Specialists
+162,1,0.03731343283582089,Telecommunications Engineering Specialists
+163,2,0.08955223880597014,Telecommunications Engineering Specialists
+164,3,0.373134328358209,Telecommunications Engineering Specialists
+165,4,0.1417910447761194,Telecommunications Engineering Specialists
+166,5,0.13432835820895522,Telecommunications Engineering Specialists
+167,6,0.11194029850746269,Telecommunications Engineering Specialists
+168,0,0.05921052631578947,Penetration Testers
+169,1,0.02631578947368421,Penetration Testers
+170,2,0.02631578947368421,Penetration Testers
+171,3,0.46710526315789475,Penetration Testers
+172,4,0.27631578947368424,Penetration Testers
+173,5,0.05263157894736842,Penetration Testers
+174,6,0.09210526315789473,Penetration Testers

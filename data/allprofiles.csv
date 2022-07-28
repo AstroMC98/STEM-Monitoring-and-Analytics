@@ -1,0 +1,1071 @@
+,skill,count,degree,standard_count,standard_degree,skill profile,job
+0,Business,251,507,13.179997042936938,7.82110349646873,core,Computer Systems Analysts
+1,"Policy Analysis, Research, and Development",198,407,10.325240523085967,6.119292422331665,core,Computer Systems Analysts
+2,Design,165,401,8.547750614499513,6.0171837578834415,core,Computer Systems Analysts
+3,Communication,153,454,7.9013906477408025,6.919143627176086,core,Computer Systems Analysts
+4,"Water Supply, Testing, and Treatment",139,366,7.147304019855641,5.421549881935469,core,Computer Systems Analysts
+5,Analysis,135,358,6.931850697602737,5.285404996004504,core,Computer Systems Analysts
+6,"Company, Product, and Service Knowledge",132,414,6.770260705913059,6.23841919752126,core,Computer Systems Analysts
+7,Science and Research,113,380,5.7468574252117675,5.659803432314658,core,Computer Systems Analysts
+8,Computer Science,110,372,5.585267433522089,5.523658546383693,core,Computer Systems Analysts
+9,Business Requirements,87,266,4.346410830567895,3.7197388077984046,core,Computer Systems Analysts
+10,Information Technology,76,314,3.75391419437241,4.5366081233841955,core,Computer Systems Analysts
+11,"Engineering, Scientific, and Technical Instruments",73,297,3.592324202682733,4.247300240780895,core,Computer Systems Analysts
+12,Salesforce,63,245,3.0536908970504744,3.362358482229621,core,Computer Systems Analysts
+13,Business Process,58,237,2.7843742442343453,3.226213596298656,core,Computer Systems Analysts
+14,Sales,55,269,2.6227842525446676,3.7707931400225165,core,Computer Systems Analysts
+15,"Maintenance, Repair, and Facility Services",47,233,2.1918776080388604,3.158141153333173,core,Computer Systems Analysts
+16,Software Development,46,198,2.138014277475635,2.5625072773852007,core,Computer Systems Analysts
+17,SAP,45,243,2.084150946912409,3.3283222607468796,core,Computer Systems Analysts
+18,Administration,44,258,2.030287616349183,3.5835939218674393,core,Computer Systems Analysts
+19,Production and Assembly,42,231,1.9225609552227314,3.124104931850432,specialized,Computer Systems Analysts
+20,Oracle,41,244,1.8686976246595055,3.34534037148825,specialized,Computer Systems Analysts
+21,Project Management,40,235,1.8148342940962796,3.1921773748159143,specialized,Computer Systems Analysts
+22,User Acceptance Testing (UAT),37,205,1.653244302406602,2.681634052574795,specialized,Computer Systems Analysts
+23,Candidate Relationship Management (CRM),37,227,1.653244302406602,3.056032488884949,specialized,Computer Systems Analysts
+24,Writing,37,196,1.653244302406602,2.5284710559024592,specialized,Computer Systems Analysts
+25,Java,34,191,1.4916543107169244,2.443380502195606,specialized,Computer Systems Analysts
+27,Architecture and Construction,33,212,1.4377909801536986,2.8007608277643894,specialized,Computer Systems Analysts
+28,Accounting,32,212,1.3839276495904727,2.8007608277643894,specialized,Computer Systems Analysts
+29,Finance,31,202,1.3300643190272468,2.630579720350683,specialized,Computer Systems Analysts
+30,"Law, Regulation, and Compliance",29,229,1.2223376579007952,3.0900687103676905,specialized,Computer Systems Analysts
+31,"Fire Prevention, Safety, and Control",28,236,1.1684743273375693,3.209195485557285,specialized,Computer Systems Analysts
+32,JavaScript and jQuery,27,191,1.1146109967743434,2.443380502195606,specialized,Computer Systems Analysts
+34,JavaScript,27,190,1.1146109967743434,2.4263623914542354,specialized,Computer Systems Analysts
+41,Education and Training,21,183,0.7914310133949882,2.3072356162646406,specialized,Computer Systems Analysts
+26,Business Analysis,34,153,1.4916543107169244,1.7966922940235213,bridging,Computer Systems Analysts
+33,Language,27,160,1.1146109967743434,1.9158190692131158,bridging,Computer Systems Analysts
+35,Marketing,25,145,1.0068843356478916,1.6605474080925562,bridging,Computer Systems Analysts
+36,Banking,24,121,0.9530210050846658,1.2521127502996607,bridging,Computer Systems Analysts
+37,Problem Solving,24,129,0.9530210050846658,1.3882576362306258,bridging,Computer Systems Analysts
+38,Acceptance Testing,23,133,0.8991576745214399,1.4563300791961085,bridging,Computer Systems Analysts
+39,Information Systems,22,153,0.845294343958214,1.7966922940235213,bridging,Computer Systems Analysts
+40,HyperText Markup Language (HTML),21,151,0.7914310133949882,1.76265607254078,bridging,Computer Systems Analysts
+42,Cascading Style Sheets (CSS),21,157,0.7914310133949882,1.864764736989004,bridging,Computer Systems Analysts
+43,System Requirements,20,117,0.7375676828317623,1.184040307334178,bridging,Computer Systems Analysts
+44,JIRA,20,111,0.7375676828317623,1.0819316428859542,bridging,Computer Systems Analysts
+45,Technical Support and Services,19,104,0.6837043522685364,0.9628048676963596,bridging,Computer Systems Analysts
+46,C,19,142,0.6837043522685364,1.6094930758684443,bridging,Computer Systems Analysts
+47,C and C++,19,143,0.6837043522685364,1.626511186609815,bridging,Computer Systems Analysts
+48,Quality Assurance and Control,19,135,0.6837043522685364,1.4903663006788497,bridging,Computer Systems Analysts
+49,Databases,18,142,0.6298410217053106,1.6094930758684443,bridging,Computer Systems Analysts
+50,Application Programming Interface (API),18,131,0.6298410217053106,1.422293857713367,bridging,Computer Systems Analysts
+51,Billing and Invoicing,18,110,0.6298410217053106,1.0649135321445835,bridging,Computer Systems Analysts
+52,Travel and Tourism,18,148,0.6298410217053106,1.7116017403166681,bridging,Computer Systems Analysts
+53,Automation,18,133,0.6298410217053106,1.4563300791961085,bridging,Computer Systems Analysts
+54,Inventory and Warehousing,17,150,0.5759776911420847,1.7456379617994093,bridging,Computer Systems Analysts
+55,Netsuite,17,100,0.5759776911420847,0.8947324247308771,bridging,Computer Systems Analysts
+56,Data Migration,16,131,0.5221143605788588,1.422293857713367,bridging,Computer Systems Analysts
+57,Visualforce,16,86,0.5221143605788588,0.656478874351688,bridging,Computer Systems Analysts
+58,Linux,16,122,0.5221143605788588,1.2691308610410312,bridging,Computer Systems Analysts
+59,Change Management,16,132,0.5221143605788588,1.4393119684547377,bridging,Computer Systems Analysts
+60,Web Services,15,122,0.468251030015633,1.2691308610410312,bridging,Computer Systems Analysts
+61,Data Management,15,145,0.468251030015633,1.6605474080925562,bridging,Computer Systems Analysts
+62,Unit Testing,15,85,0.468251030015633,0.6394607636103173,bridging,Computer Systems Analysts
+63,Functional Specification,15,92,0.468251030015633,0.7585875387999119,bridging,Computer Systems Analysts
+64,Analytics,14,151,0.4143876994524071,1.76265607254078,bridging,Computer Systems Analysts
+65,Installation,14,105,0.4143876994524071,0.9798229784377303,bridging,Computer Systems Analysts
+66,Scripting,14,111,0.4143876994524071,1.0819316428859542,bridging,Computer Systems Analysts
+67,Application Development,14,105,0.4143876994524071,0.9798229784377303,bridging,Computer Systems Analysts
+68,"Transportation, Supply Chain, and Logistics",14,148,0.4143876994524071,1.7116017403166681,bridging,Computer Systems Analysts
+69,Change Requests,14,81,0.4143876994524071,0.5713883206448348,bridging,Computer Systems Analysts
+70,C#,14,116,0.4143876994524071,1.1670221965928074,bridging,Computer Systems Analysts
+71,Systems Analysis,13,95,0.36052436888918127,0.8096418710240239,bridging,Computer Systems Analysts
+72,Initiative and Leadership,13,88,0.36052436888918127,0.6905150958344293,bridging,Computer Systems Analysts
+73,UI/UX,13,91,0.36052436888918127,0.7415694280585412,bridging,Computer Systems Analysts
+74,Manufacturing and Production,12,138,0.30666103832595537,1.5414206329029616,bridging,Computer Systems Analysts
+75,Software Engineering,12,103,0.30666103832595537,0.945786756954989,bridging,Computer Systems Analysts
+76,UNIX,12,89,0.30666103832595537,0.7075332065758,bridging,Computer Systems Analysts
+77,Debugging,12,105,0.30666103832595537,0.9798229784377303,bridging,Computer Systems Analysts
+78,PHP,12,85,0.30666103832595537,0.6394607636103173,bridging,Computer Systems Analysts
+79,System Design and Implementation,12,90,0.30666103832595537,0.7245513173171706,bridging,Computer Systems Analysts
+80,Computer Engineering,12,97,0.30666103832595537,0.8436780925067651,bridging,Computer Systems Analysts
+81,MySQL,12,99,0.30666103832595537,0.8777143139895064,bridging,Computer Systems Analysts
+82,Unix,12,89,0.30666103832595537,0.7075332065758,bridging,Computer Systems Analysts
+84,Requirements Analysis,12,61,0.30666103832595537,0.23102610581742183,bridging,Computer Systems Analysts
+85,Events and Conferences,12,77,0.30666103832595537,0.5033158776793522,bridging,Computer Systems Analysts
+86,Microsoft Office,11,102,0.25279770776272953,0.9287686462136183,bridging,Computer Systems Analysts
+87,Technical Writing,11,80,0.25279770776272953,0.5543702099034641,bridging,Computer Systems Analysts
+88,Payroll,11,112,0.25279770776272953,1.0989497536273247,bridging,Computer Systems Analysts
+89,XML,11,118,0.25279770776272953,1.2010584180755488,bridging,Computer Systems Analysts
+90,Microsoft Dynamics,11,97,0.25279770776272953,0.8436780925067651,bridging,Computer Systems Analysts
+91,Business Management,10,117,0.19893437719950366,1.184040307334178,bridging,Computer Systems Analysts
+92,Solution Design,10,97,0.19893437719950366,0.8436780925067651,bridging,Computer Systems Analysts
+93,Business Solutions,10,94,0.19893437719950366,0.7926237602826531,bridging,Computer Systems Analysts
+94,Gap Analysis,10,90,0.19893437719950366,0.7245513173171706,bridging,Computer Systems Analysts
+95,Process Analysis,10,77,0.19893437719950366,0.5033158776793522,bridging,Computer Systems Analysts
+96,Customer Service,10,102,0.19893437719950366,0.9287686462136183,bridging,Computer Systems Analysts
+97,Advanced Business Application Programming (ABAP),9,84,0.1450710466362778,0.6224426528689467,bridging,Computer Systems Analysts
+98,Salesforce Development,9,56,0.1450710466362778,0.14593555211056858,bridging,Computer Systems Analysts
+99,Business Strategy,9,54,0.1450710466362778,0.1118993306278273,bridging,Computer Systems Analysts
+100,System Configuration,9,66,0.1450710466362778,0.31611665952427503,bridging,Computer Systems Analysts
+101,Human Capital Management (HCM),9,106,0.1450710466362778,0.996841089179101,bridging,Computer Systems Analysts
+102,Data Integrity,9,84,0.1450710466362778,0.6224426528689467,bridging,Computer Systems Analysts
+103,PL/SQL,9,68,0.1450710466362778,0.35015288100701636,bridging,Computer Systems Analysts
+104,Industrial Engineering,8,67,0.09120771607305193,0.3331347702656457,bridging,Computer Systems Analysts
+105,Warehouse Management,8,91,0.09120771607305193,0.7415694280585412,bridging,Computer Systems Analysts
+106,Service Management,8,84,0.09120771607305193,0.6224426528689467,bridging,Computer Systems Analysts
+107,Purchasing,8,106,0.09120771607305193,0.996841089179101,bridging,Computer Systems Analysts
+108,Systems Development,8,86,0.09120771607305193,0.656478874351688,bridging,Computer Systems Analysts
+109,"Economics, Policy, and Social Studies",8,116,0.09120771607305193,1.1670221965928074,bridging,Computer Systems Analysts
+110,General Ledger,8,90,0.09120771607305193,0.7245513173171706,bridging,Computer Systems Analysts
+111,Operating Systems,7,79,0.037344385509826064,0.5373520991620935,bridging,Computer Systems Analysts
+112,Recruitment,7,81,0.037344385509826064,0.5713883206448348,bridging,Computer Systems Analysts
+113,Visualization,7,64,0.037344385509826064,0.28208043804153377,bridging,Computer Systems Analysts
+115,ERP software,7,60,0.037344385509826064,0.21400799507605117,bridging,Computer Systems Analysts
+116,Business Intelligence,7,85,0.037344385509826064,0.6394607636103173,bridging,Computer Systems Analysts
+118,Technical Assistance,7,67,0.037344385509826064,0.3331347702656457,bridging,Computer Systems Analysts
+120,Software Design,7,70,0.037344385509826064,0.38418910248975763,bridging,Computer Systems Analysts
+121,System Testing,7,92,0.037344385509826064,0.7585875387999119,bridging,Computer Systems Analysts
+122,JSON,7,99,0.037344385509826064,0.8777143139895064,bridging,Computer Systems Analysts
+123,Database Management,7,49,0.037344385509826064,0.02680877692097406,bridging,Computer Systems Analysts
+124,Integration Testing,7,93,0.037344385509826064,0.7756056495412825,bridging,Computer Systems Analysts
+125,HTML5,7,112,0.037344385509826064,1.0989497536273247,bridging,Computer Systems Analysts
+126,Python,7,76,0.037344385509826064,0.48629776693798155,bridging,Computer Systems Analysts
+127,Database Design,7,69,0.037344385509826064,0.367170991748387,bridging,Computer Systems Analysts
+128,Customer and Client Support,7,54,0.037344385509826064,0.1118993306278273,bridging,Computer Systems Analysts
+129,Software Testing,7,68,0.037344385509826064,0.35015288100701636,bridging,Computer Systems Analysts
+0,"Policy Analysis, Research, and Development",33,190,8.170190781639334,5.598647335343381,core,Blockchain Engineers
+1,Design,26,182,6.282025999475498,5.312426363571414,core,Blockchain Engineers
+2,"Company, Product, and Service Knowledge",22,158,5.2030746953818765,4.453763448255515,core,Blockchain Engineers
+3,Communication,20,153,4.663599043335066,4.274875340898036,core,Blockchain Engineers
+4,"Water Supply, Testing, and Treatment",18,143,4.124123391288255,3.917099126183077,core,Blockchain Engineers
+5,Business,16,144,3.584647739241445,3.952876747654573,core,Blockchain Engineers
+6,Architecture and Construction,14,127,3.045172087194634,3.344657182639144,core,Blockchain Engineers
+7,Java,13,99,2.775434261171229,2.342883781437261,core,Blockchain Engineers
+9,Science and Research,9,91,1.6964829570776077,2.0566628096652946,specialized,Blockchain Engineers
+10,Computer Science,9,90,1.6964829570776077,2.0208851881937986,specialized,Blockchain Engineers
+13,Linux,7,110,1.1570073050307972,2.736437617623715,specialized,Blockchain Engineers
+8,Oracle,10,87,1.966220783101013,1.913552323779311,bridging,Blockchain Engineers
+11,Blockchain,8,64,1.4267451310542023,1.0906670299349073,bridging,Blockchain Engineers
+12,Web Services,8,85,1.4267451310542023,1.8419970808363195,bridging,Blockchain Engineers
+14,"Engineering, Scientific, and Technical Instruments",7,79,1.1570073050307972,1.6273313520073445,bridging,Blockchain Engineers
+15,IBM WebSphere,7,51,1.1570073050307972,0.6255579508054615,bridging,Blockchain Engineers
+16,"Fire Prevention, Safety, and Control",7,86,1.1570073050307972,1.8777747023078153,bridging,Blockchain Engineers
+17,Production and Assembly,7,59,1.1570073050307972,0.9117789225774281,bridging,Blockchain Engineers
+18,Banking,6,56,0.8872694790073918,0.8044460581629406,bridging,Blockchain Engineers
+19,Language,6,65,0.8872694790073918,1.126444651406403,bridging,Blockchain Engineers
+20,Analysis,6,78,0.8872694790073918,1.5915537305358487,bridging,Blockchain Engineers
+21,JavaScript and jQuery,6,86,0.8872694790073918,1.8777747023078153,bridging,Blockchain Engineers
+22,JavaScript,6,85,0.8872694790073918,1.8419970808363195,bridging,Blockchain Engineers
+23,Git,5,66,0.6175316529839865,1.1622222728778988,bridging,Blockchain Engineers
+24,Scripting,5,49,0.6175316529839865,0.5540027078624699,bridging,Blockchain Engineers
+25,Application Programming Interface (API),5,63,0.6175316529839865,1.0548894084634113,bridging,Blockchain Engineers
+26,Unix,5,55,0.6175316529839865,0.7686684366914448,bridging,Blockchain Engineers
+27,MuleSoft,5,59,0.6175316529839865,0.9117789225774281,bridging,Blockchain Engineers
+28,UI/UX,5,59,0.6175316529839865,0.9117789225774281,bridging,Blockchain Engineers
+29,Version Control,5,61,0.6175316529839865,0.9833341655204197,bridging,Blockchain Engineers
+30,Python,5,77,0.6175316529839865,1.555776109064353,bridging,Blockchain Engineers
+31,Problem Solving,5,87,0.6175316529839865,1.913552323779311,bridging,Blockchain Engineers
+32,XML,5,50,0.6175316529839865,0.5897803293339656,bridging,Blockchain Engineers
+33,Middleware,5,49,0.6175316529839865,0.5540027078624699,bridging,Blockchain Engineers
+34,UNIX,5,55,0.6175316529839865,0.7686684366914448,bridging,Blockchain Engineers
+35,Software Development,5,48,0.6175316529839865,0.518225086390974,bridging,Blockchain Engineers
+36,Amazon Web Services (AWS),4,68,0.3477938269605812,1.2337775158208906,bridging,Blockchain Engineers
+37,Swift,4,37,0.3477938269605812,0.12467125020451994,bridging,Blockchain Engineers
+38,Travel and Tourism,4,46,0.3477938269605812,0.44666984344798233,bridging,Blockchain Engineers
+43,Simple Object Access Protocol (SOAP),4,43,0.3477938269605812,0.33933697903349486,bridging,Blockchain Engineers
+45,Business Requirements,3,37,0.07805600093717587,0.12467125020451994,bridging,Blockchain Engineers
+48,"Maintenance, Repair, and Facility Services",3,50,0.07805600093717587,0.5897803293339656,bridging,Blockchain Engineers
+55,Business Analysis,3,38,0.07805600093717587,0.16044887167601576,bridging,Blockchain Engineers
+57,Writing,3,51,0.07805600093717587,0.6255579508054615,bridging,Blockchain Engineers
+58,Facebook,3,47,0.07805600093717587,0.48244746491947815,bridging,Blockchain Engineers
+59,Software Architecture,3,48,0.07805600093717587,0.518225086390974,bridging,Blockchain Engineers
+61,Administration,3,68,0.07805600093717587,1.2337775158208906,bridging,Blockchain Engineers
+64,Automation,3,34,0.07805600093717587,0.017338385790032468,bridging,Blockchain Engineers
+67,PHP,3,66,0.07805600093717587,1.1622222728778988,bridging,Blockchain Engineers
+71,Solution Design,3,54,0.07805600093717587,0.7328908152199489,bridging,Blockchain Engineers
+0,"Policy Analysis, Research, and Development",2037,1181,20.458966843702942,9.442029052272904,core,Software Developers
+1,Design,1617,992,16.193680544561268,7.819138850826453,core,Software Developers
+2,Science and Research,1019,870,10.120725290069071,6.771558932432449,core,Software Developers
+3,"Company, Product, and Service Knowledge",992,901,9.846528313695677,7.037747272352237,core,Software Developers
+4,Computer Science,978,827,9.704352103724288,6.402329944801775,core,Software Developers
+5,"Water Supply, Testing, and Treatment",922,761,9.135647263838731,5.835606382391904,core,Software Developers
+6,Communication,900,895,8.912227505312263,6.986226948496794,core,Software Developers
+7,Business,891,909,8.820828513187797,7.106441037492828,core,Software Developers
+8,JavaScript,844,657,8.343522665426706,4.942587435564229,core,Software Developers
+9,JavaScript and jQuery,844,672,8.343522665426706,5.071388245202836,core,Software Developers
+10,"Engineering, Scientific, and Technical Instruments",797,852,7.866216817665613,6.6169979608661205,core,Software Developers
+11,Software Development,740,636,7.287356534210671,4.762266302070179,core,Software Developers
+12,Java,700,700,6.881138791435273,5.3118164231949025,core,Software Developers
+13,C,666,748,6.535853710076185,5.723979014038445,core,Software Developers
+14,C and C++,666,753,6.535853710076185,5.766912617251314,core,Software Developers
+15,Git,559,551,5.449221248151996,4.032395047451406,core,Software Developers
+16,Cascading Style Sheets (CSS),531,564,5.164868828209217,4.144022415804865,core,Software Developers
+17,Architecture and Construction,529,667,5.144557941070447,5.028454641989967,core,Software Developers
+18,C#,506,636,4.910982738974593,4.762266302070179,core,Software Developers
+19,Application Programming Interface (API),505,623,4.900827295405208,4.650638933716719,core,Software Developers
+20,Information Technology,505,637,4.900827295405208,4.770853022712752,core,Software Developers
+21,HyperText Markup Language (HTML),501,581,4.860205521127669,4.289996666728619,core,Software Developers
+22,Amazon Web Services (AWS),479,580,4.6367857626012,4.281409946086046,core,Software Developers
+23,Analysis,410,716,3.936060156313639,5.449203953476084,core,Software Developers
+24,Python,385,618,3.682174067079015,4.60770533050385,core,Software Developers
+25,Language,379,629,3.6212414056627056,4.702159257572162,core,Software Developers
+26,Production and Assembly,367,558,3.499376082830086,4.092502091949422,core,Software Developers
+27,UI/UX,363,547,3.4587543085525465,3.99804816488111,core,Software Developers
+28,MySQL,363,526,3.4587543085525465,3.81772703138706,core,Software Developers
+29,Android,362,448,3.448598864983161,3.147962821266303,core,Software Developers
+30,Automation,358,623,3.4079770907056215,4.650638933716719,core,Software Developers
+31,PHP,357,467,3.3978216471362366,3.3111105134752057,core,Software Developers
+32,Writing,348,545,3.3064226550117723,3.9808747235959623,core,Software Developers
+33,"Maintenance, Repair, and Facility Services",341,601,3.2353345500260775,4.461731079580096,core,Software Developers
+34,React,329,473,3.113469227193458,3.3626308373306486,core,Software Developers
+35,jQuery,326,485,3.0830028964853033,3.465671485041534,core,Software Developers
+36,Databases,324,551,3.0626920093465335,4.032395047451406,core,Software Developers
+37,DevOps,312,553,2.940826686513914,4.049568488736553,core,Software Developers
+38,"Fire Prevention, Safety, and Control",298,583,2.798650476542525,4.307170108013767,core,Software Developers
+39,Web Services,291,452,2.7275623715568305,3.1823097038365984,core,Software Developers
+40,Linux,281,545,2.626007935862981,3.9808747235959623,core,Software Developers
+41,Application Development,262,452,2.433054508044667,3.1823097038365984,core,Software Developers
+42,Debugging,257,465,2.382277290197742,3.293937072190058,core,Software Developers
+43,ASP.NET,254,424,2.3518109594895873,2.941881525844532,core,Software Developers
+44,HTML5,249,432,2.3010337416426627,3.0105752909851224,core,Software Developers
+45,Web Development,237,382,2.1791684188100433,2.5812392588564324,core,Software Developers
+46,Unit Testing,235,422,2.1588575316712735,2.9247080845593842,core,Software Developers
+47,Scripting,234,586,2.1487020881018886,4.332930269941489,core,Software Developers
+48,Web Applications,226,381,2.067458539546809,2.5726525382138585,core,Software Developers
+49,Oracle,224,547,2.047147652408039,3.99804816488111,core,Software Developers
+50,JSON,211,447,1.9151268860060349,3.1393761006237293,specialized,Software Developers
+51,Docker,209,440,1.8948159988672648,3.079269056125713,specialized,Software Developers
+52,Software Engineering,206,458,1.86434966815911,3.2338300276920413,specialized,Software Developers
+53,Problem Solving,200,480,1.8034170067428004,3.422737881828665,specialized,Software Developers
+54,Business Requirements,196,445,1.7627952324652607,3.122202659338582,specialized,Software Developers
+55,Continuous Integration,189,435,1.691707127479566,3.036335452912844,specialized,Software Developers
+56,Object-Oriented Programming (OOP),185,347,1.6510853532020262,2.280704036366349,specialized,Software Developers
+57,Programming languages,183,376,1.6307744660632564,2.5297189350009894,specialized,Software Developers
+58,Computer Engineering,176,372,1.5596863610775618,2.495372052430694,specialized,Software Developers
+59,"Law, Regulation, and Compliance",172,495,1.5190645868000219,3.551538691467272,specialized,Software Developers
+60,XML,169,470,1.4885982560918671,3.336870675402927,specialized,Software Developers
+61,Spring,165,354,1.4479764818143273,2.3408110808643654,specialized,Software Developers
+63,TypeScript,159,372,1.3870438203980178,2.495372052430694,specialized,Software Developers
+64,Google,157,427,1.3667329332592477,2.9676416877722533,specialized,Software Developers
+65,C++,156,445,1.3565774896898628,3.122202659338582,specialized,Software Developers
+66,Jenkins,151,413,1.305800271842938,2.8474275987762203,specialized,Software Developers
+67,JIRA,149,431,1.2854893847041684,3.0019885703425486,specialized,Software Developers
+68,MongoDB,147,357,1.2651784975653986,2.366571242792087,specialized,Software Developers
+69,Bootstrap,147,320,1.2651784975653986,2.0488625790168564,specialized,Software Developers
+70,PostgreSQL,146,332,1.2550230539960134,2.1519032267277423,specialized,Software Developers
+71,NoSQL,144,384,1.2347121668572436,2.5984127001415795,specialized,Software Developers
+72,Kubernetes,137,396,1.163624061871549,2.7014533478524654,specialized,Software Developers
+73,Simple Object Access Protocol (SOAP),136,371,1.153468618302164,2.4867853317881203,specialized,Software Developers
+74,Version Control,133,373,1.1230022875940093,2.503958773073268,specialized,Software Developers
+75,Administration,132,477,1.1128468440246244,3.396977719900944,specialized,Software Developers
+76,Technical Documentation,130,351,1.0925359568858544,2.315050918936644,specialized,Software Developers
+77,Education and Training,124,398,1.0316032954695447,2.718626789137613,specialized,Software Developers
+79,GitHub,117,348,0.9605151904838501,2.289290757008923,specialized,Software Developers
+80,Github,117,356,0.9605151904838501,2.357984522149513,specialized,Software Developers
+82,AJAX,116,331,0.9503597469144652,2.1433165060851684,specialized,Software Developers
+84,Software Design,114,319,0.9300488597756953,2.0402758583742826,specialized,Software Developers
+85,Microservices,113,333,0.9198934162063104,2.160489947370316,specialized,Software Developers
+86,Scalability,103,342,0.8183389805124609,2.23777043315348,specialized,Software Developers
+87,Project Management,103,380,0.8183389805124609,2.5640658175712847,specialized,Software Developers
+88,UNIX,101,357,0.7980280933736911,2.366571242792087,specialized,Software Developers
+89,Unix,101,350,0.7980280933736911,2.3064641982940706,specialized,Software Developers
+91,Servers,98,374,0.7675617626655362,2.512545493715842,specialized,Software Developers
+95,Quality Assurance and Control,95,357,0.7370954319573814,2.366571242792087,specialized,Software Developers
+98,Analytics,91,395,0.6964736576798416,2.6928666272098916,specialized,Software Developers
+102,Relational Databases,86,338,0.6456964398329169,2.2034235505831847,specialized,Software Developers
+107,Marketing,82,321,0.6050746655553771,2.0574492996594302,specialized,Software Developers
+111,Ansible,71,324,0.4933647862921427,2.0832094615871517,specialized,Software Developers
+127,Apache,62,326,0.40196579416767825,2.1003829028722993,specialized,Software Developers
+135,Continuous Delivery,57,322,0.3511885763207535,2.066036020302004,specialized,Software Developers
+62,Swift,165,261,1.4479764818143273,1.542246061105002,bridging,Software Developers
+78,Node.js,122,304,1.0112924083307748,1.9114750487356755,bridging,Software Developers
+81,Kotlin,116,237,0.9503597469144652,1.3361647656832305,bridging,Software Developers
+83,Technical Support and Services,116,299,0.9503597469144652,1.8685414455228064,bridging,Software Developers
+90,Test-Driven Development (TDD),100,303,0.7878726498043062,1.9028883280931017,bridging,Software Developers
+92,Laravel,96,237,0.7472508755267663,1.3361647656832305,bridging,Software Developers
+93,Mobile Development,96,239,0.7472508755267663,1.3533382069683781,bridging,Software Developers
+94,Algorithms,95,290,0.7370954319573814,1.7912609597396423,bridging,Software Developers
+96,Usability,94,257,0.7269399883879964,1.5078991785347067,bridging,Software Developers
+97,User Experience,93,284,0.7167845448186115,1.7397406358841994,bridging,Software Developers
+99,Product Development,89,300,0.6761627705410718,1.8771281661653803,bridging,Software Developers
+100,Ruby,89,297,0.6761627705410718,1.8513680042376588,bridging,Software Developers
+101,Development Environment,87,292,0.6558518834023018,1.80843440102479,bridging,Software Developers
+103,Software Development Life Cycle,85,294,0.6355409962635319,1.8256078423099376,bridging,Software Developers
+104,Extract Transform Load (ETL),84,272,0.625385552694147,1.6366999881733137,bridging,Software Developers
+105,Data Structures,83,281,0.6152301091247621,1.713980473956478,bridging,Software Developers
+106,Mobile App,82,232,0.6050746655553771,1.2932311624703614,bridging,Software Developers
+108,Banking,81,299,0.5949192219859921,1.8685414455228064,bridging,Software Developers
+109,Server-Side,78,226,0.5644528912778374,1.2417108386149187,bridging,Software Developers
+110,React Native,74,196,0.5238311170002976,0.9841092193377045,bridging,Software Developers
+112,Entity Framework,71,251,0.4933647862921427,1.4563788546792638,bridging,Software Developers
+113,System Design and Implementation,69,287,0.4730538991533728,1.7655007978119208,bridging,Software Developers
+114,User Interface,69,252,0.4730538991533728,1.4649655753218376,bridging,Software Developers
+115,Bash,68,282,0.4628984555839879,1.7225671945990517,bridging,Software Developers
+116,Information Systems,68,297,0.4628984555839879,1.8513680042376588,bridging,Software Developers
+117,.NET Framework,67,245,0.45274301201460293,1.404858530823821,bridging,Software Developers
+118,Emerging Technologies,67,218,0.45274301201460293,1.1730170734743282,bridging,Software Developers
+119,Compensation and Benefits,67,301,0.45274301201460293,1.885714886807954,bridging,Software Developers
+120,Software Systems,67,270,0.45274301201460293,1.619526546888166,bridging,Software Developers
+121,Initiative and Leadership,66,272,0.442587568445218,1.6366999881733137,bridging,Software Developers
+122,Google Cloud Platform,66,299,0.442587568445218,1.8685414455228064,bridging,Software Developers
+123,Integration Testing,65,228,0.43243212487583305,1.2588842799000663,bridging,Software Developers
+124,Terraform,64,302,0.42227668130644813,1.894301607450528,bridging,Software Developers
+125,Performance Tuning,64,231,0.42227668130644813,1.2846444418277878,bridging,Software Developers
+126,User Acceptance Testing (UAT),63,267,0.41212123773706316,1.5937663849604446,bridging,Software Developers
+128,Android SDK,61,154,0.3918103505982933,0.6234669523496047,bridging,Software Developers
+129,SASS,61,257,0.3918103505982933,1.5078991785347067,bridging,Software Developers
+130,Test Automation,60,259,0.3816549070289083,1.5250726198198543,bridging,Software Developers
+131,JavaScript Frameworks,60,225,0.3816549070289083,1.233124117972345,bridging,Software Developers
+132,Spring Boot,60,242,0.3816549070289083,1.3790983688960996,bridging,Software Developers
+133,Travel and Tourism,59,245,0.3714994634595234,1.404858530823821,bridging,Software Developers
+134,Agile Methodology,58,239,0.3613440198901384,1.3533382069683781,bridging,Software Developers
+136,Android Studio,57,181,0.3511885763207535,0.8553084096990974,bridging,Software Developers
+137,Redis,56,259,0.34103313275136854,1.5250726198198543,bridging,Software Developers
+138,Configuration Management,56,300,0.34103313275136854,1.8771281661653803,bridging,Software Developers
+139,Business Process,56,230,0.34103313275136854,1.276057721185214,bridging,Software Developers
+140,Xcode,54,181,0.32072224561259866,0.8553084096990974,bridging,Software Developers
+141,GraphQL,54,202,0.32072224561259866,1.0356295431931473,bridging,Software Developers
+142,Health Information Systems (HIS),53,192,0.3105668020432137,0.9497623367674093,bridging,Software Developers
+143,Agile Software Development,53,237,0.3105668020432137,1.3361647656832305,bridging,Software Developers
+144,Events and Conferences,53,304,0.3105668020432137,1.9114750487356755,bridging,Software Developers
+145,Django,52,204,0.3004113584738287,1.052802984478295,bridging,Software Developers
+146,Web Application Development,52,204,0.3004113584738287,1.052802984478295,bridging,Software Developers
+147,Installation,52,226,0.3004113584738287,1.2417108386149187,bridging,Software Developers
+148,E-Commerce,51,268,0.2902559149044438,1.6023531056030185,bridging,Software Developers
+149,Solution Design,51,218,0.2902559149044438,1.1730170734743282,bridging,Software Developers
+150,React.js,50,176,0.28010047133505883,0.8123748064862284,bridging,Software Developers
+151,Design Specifications,50,210,0.28010047133505883,1.1043233083337378,bridging,Software Developers
+152,Webpack,50,160,0.28010047133505883,0.6749872762050475,bridging,Software Developers
+153,Sales,50,282,0.28010047133505883,1.7225671945990517,bridging,Software Developers
+154,Bitbucket,50,275,0.28010047133505883,1.6624601501010352,bridging,Software Developers
+155,Root Cause Analysis,49,213,0.2699450277656739,1.1300834702614593,bridging,Software Developers
+156,Operating Systems,49,294,0.2699450277656739,1.8256078423099376,bridging,Software Developers
+157,Selenium,49,264,0.2699450277656739,1.5680062230327232,bridging,Software Developers
+158,Recruitment,48,199,0.25978958419628895,1.009869381265426,bridging,Software Developers
+159,Azure DevOps,47,221,0.24963414062690403,1.1987772354020496,bridging,Software Developers
+160,Candidate Relationship Management (CRM),47,188,0.24963414062690403,0.915415454197114,bridging,Software Developers
+161,Database Design,47,233,0.24963414062690403,1.3018178831129352,bridging,Software Developers
+162,Finance,47,246,0.24963414062690403,1.4134452514663949,bridging,Software Developers
+163,Active Server Pages (ASP),46,211,0.2394786970575191,1.1129100289763116,bridging,Software Developers
+164,RESTful API,45,171,0.22932325348813412,0.7694412032733594,bridging,Software Developers
+165,Media and Writing,45,255,0.22932325348813412,1.490725737249559,bridging,Software Developers
+166,Gitlab,44,210,0.21916780991874918,1.1043233083337378,bridging,Software Developers
+167,JUnit,43,219,0.20901236634936424,1.181603794116902,bridging,Software Developers
+168,Junit,43,221,0.20901236634936424,1.1987772354020496,bridging,Software Developers
+169,IOS Applications,43,102,0.20901236634936424,0.17695747893576677,bridging,Software Developers
+170,Firebase,43,152,0.20901236634936424,0.6062935110644571,bridging,Software Developers
+171,Data Storage,43,204,0.20901236634936424,1.052802984478295,bridging,Software Developers
+172,IOS Development,42,149,0.1988569227799793,0.5805333491367356,bridging,Software Developers
+173,Change Management,42,284,0.1988569227799793,1.7397406358841994,bridging,Software Developers
+174,Performance Testing,41,212,0.18870147921059435,1.1214967496188855,bridging,Software Developers
+175,Cloud Infrastructure,41,213,0.18870147921059435,1.1300834702614593,bridging,Software Developers
+176,Google Cloud,41,239,0.18870147921059435,1.3533382069683781,bridging,Software Developers
+177,PL/SQL,41,172,0.18870147921059435,0.7780279239159331,bridging,Software Developers
+178,Code Review,41,199,0.18870147921059435,1.009869381265426,bridging,Software Developers
+179,Elasticsearch,40,265,0.1785460356412094,1.576592943675297,bridging,Software Developers
+180,Android Development,39,144,0.16839059207182447,0.5375997459238666,bridging,Software Developers
+181,Chef,39,290,0.16839059207182447,1.7912609597396423,bridging,Software Developers
+182,Customer Service,39,249,0.16839059207182447,1.4392054133941161,bridging,Software Developers
+183,Software Development Methodologies,38,201,0.15823514850243953,1.0270428225505734,bridging,Software Developers
+184,WordPress,38,189,0.15823514850243953,0.9240021748396878,bridging,Software Developers
+185,Software Architecture,37,225,0.14807970493305458,1.233124117972345,bridging,Software Developers
+186,Management Systems,37,225,0.14807970493305458,1.233124117972345,bridging,Software Developers
+187,Acceptance Testing,37,167,0.14807970493305458,0.7350943207030641,bridging,Software Developers
+188,Transmission Control Protocol (TCP),37,235,0.14807970493305458,1.3189913243980829,bridging,Software Developers
+189,Programming Concepts,37,129,0.14807970493305458,0.40879893628525954,bridging,Software Developers
+190,Stage,37,212,0.14807970493305458,1.1214967496188855,bridging,Software Developers
+191,Spring Framework,36,183,0.13792426136366964,0.872481850984245,bridging,Software Developers
+192,Application Design,36,189,0.13792426136366964,0.9240021748396878,bridging,Software Developers
+193,Cloud Computing,36,211,0.13792426136366964,1.1129100289763116,bridging,Software Developers
+194,Benchmarking,36,121,0.13792426136366964,0.3401051711446691,bridging,Software Developers
+195,Data Modeling,36,201,0.13792426136366964,1.0270428225505734,bridging,Software Developers
+196,Tooling,36,221,0.13792426136366964,1.1987772354020496,bridging,Software Developers
+197,Nginx,36,226,0.13792426136366964,1.2417108386149187,bridging,Software Developers
+198,Control Systems,36,212,0.13792426136366964,1.1214967496188855,bridging,Software Developers
+199,SAP,35,163,0.1277688177942847,0.700747438132769,bridging,Software Developers
+200,Machine Learning (ML),35,213,0.1277688177942847,1.1300834702614593,bridging,Software Developers
+201,Flowcharts,35,160,0.1277688177942847,0.6749872762050475,bridging,Software Developers
+202,Grafana,35,183,0.1277688177942847,0.872481850984245,bridging,Software Developers
+203,Research And Development,34,179,0.11761337422489974,0.8381349684139499,bridging,Software Developers
+204,Vue.js,34,177,0.11761337422489974,0.8209615271288022,bridging,Software Developers
+205,Cloud Services,34,253,0.11761337422489974,1.4735522959644114,bridging,Software Developers
+206,Microsoft SQL Server,34,168,0.11761337422489974,0.743681041345638,bridging,Software Developers
+207,Database Management,34,174,0.11761337422489974,0.7952013652010808,bridging,Software Developers
+208,Mobile Application Development,34,182,0.11761337422489974,0.8638951303416712,bridging,Software Developers
+209,Object-Oriented Design,33,181,0.1074579306555148,0.8553084096990974,bridging,Software Developers
+210,Business Intelligence,33,232,0.1074579306555148,1.2932311624703614,bridging,Software Developers
+211,Android Applications,33,112,0.1074579306555148,0.26282468536150483,bridging,Software Developers
+212,Magento,33,165,0.1074579306555148,0.7179208794179165,bridging,Software Developers
+213,Web Design and Development,33,183,0.1074579306555148,0.872481850984245,bridging,Software Developers
+214,Browser Compatibility,33,126,0.1074579306555148,0.3830387743575381,bridging,Software Developers
+215,Big Data,33,227,0.1074579306555148,1.2502975592574925,bridging,Software Developers
+216,Confluence,32,201,0.09730248708612986,1.0270428225505734,bridging,Software Developers
+217,.NET Development,32,149,0.09730248708612986,0.5805333491367356,bridging,Software Developers
+218,Facebook,32,193,0.09730248708612986,0.9583490574099831,bridging,Software Developers
+219,Ruby On Rails,32,141,0.09730248708612986,0.5118395839961452,bridging,Software Developers
+220,Ruby on Rails,32,137,0.09730248708612986,0.47749270142585,bridging,Software Developers
+221,Microsoft Azure,31,206,0.08714704351674492,1.0699764257634425,bridging,Software Developers
+222,Warehousing,31,185,0.08714704351674492,0.8896552922693927,bridging,Software Developers
+223,Data Management,31,210,0.08714704351674492,1.1043233083337378,bridging,Software Developers
+224,Art and Illustration,31,214,0.08714704351674492,1.138670190904033,bridging,Software Developers
+225,Puppet,31,250,0.08714704351674492,1.44779213403669,bridging,Software Developers
+226,Library and Archiving,31,152,0.08714704351674492,0.6062935110644571,bridging,Software Developers
+227,Scripting Languages,31,233,0.08714704351674492,1.3018178831129352,bridging,Software Developers
+228,"Transportation, Supply Chain, and Logistics",30,185,0.07699159994735998,0.8896552922693927,bridging,Software Developers
+229,Artificial Intelligence (AI),30,229,0.07699159994735998,1.2674710005426402,bridging,Software Developers
+230,Xamarin,30,143,0.07699159994735998,0.5290130252812928,bridging,Software Developers
+231,Middleware,30,218,0.07699159994735998,1.1730170734743282,bridging,Software Developers
+232,Release Management,30,235,0.07699159994735998,1.3189913243980829,bridging,Software Developers
+233,Perl,30,193,0.07699159994735998,0.9583490574099831,bridging,Software Developers
+234,"Economics, Policy, and Social Studies",29,260,0.06683615637797502,1.5336593404624281,bridging,Software Developers
+235,Data Warehousing,29,156,0.06683615637797502,0.6406403936347522,bridging,Software Developers
+236,System Administration,29,241,0.06683615637797502,1.3705116482535258,bridging,Software Developers
+237,Process Improvement and Optimization,28,189,0.056680712808590085,0.9240021748396878,bridging,Software Developers
+238,Energy and Utilities,28,193,0.056680712808590085,0.9583490574099831,bridging,Software Developers
+239,Codebase,28,137,0.056680712808590085,0.47749270142585,bridging,Software Developers
+240,AUTO,27,156,0.046525269239205136,0.6406403936347522,bridging,Software Developers
+241,API Design,27,129,0.046525269239205136,0.40879893628525954,bridging,Software Developers
+242,System Testing,27,106,0.046525269239205136,0.211304361506062,bridging,Software Developers
+243,Sprint Planning,27,122,0.046525269239205136,0.34869189178724286,bridging,Software Developers
+244,System Requirements,27,152,0.046525269239205136,0.6062935110644571,bridging,Software Developers
+245,Systems Analysis,27,159,0.046525269239205136,0.6664005555624737,bridging,Software Developers
+246,Graphic and Visual Design,27,118,0.046525269239205136,0.31434500921694764,bridging,Software Developers
+247,Drupal,27,138,0.046525269239205136,0.48607942206842375,bridging,Software Developers
+248,Product Management,27,167,0.046525269239205136,0.7350943207030641,bridging,Software Developers
+249,Templates,27,183,0.046525269239205136,0.872481850984245,bridging,Software Developers
+250,Scala,26,161,0.036369825669820194,0.6835739968476213,bridging,Software Developers
+251,Google Play,26,141,0.036369825669820194,0.5118395839961452,bridging,Software Developers
+252,Slack,26,132,0.036369825669820194,0.43455909821298094,bridging,Software Developers
+253,Maintainability,26,178,0.036369825669820194,0.829548247771376,bridging,Software Developers
+254,ServiceNow,26,143,0.036369825669820194,0.5290130252812928,bridging,Software Developers
+255,Incident Management,26,219,0.036369825669820194,1.181603794116902,bridging,Software Developers
+256,Memory Management,25,159,0.02621438210043525,0.6664005555624737,bridging,Software Developers
+257,Visualization,25,148,0.02621438210043525,0.5719466284941618,bridging,Software Developers
+258,RabbitMQ,25,220,0.02621438210043525,1.1901905147594758,bridging,Software Developers
+259,Financial Services,25,172,0.02621438210043525,0.7780279239159331,bridging,Software Developers
+260,Design Reviews,25,168,0.02621438210043525,0.743681041345638,bridging,Software Developers
+261,Gradle,25,125,0.02621438210043525,0.3744520537149643,bridging,Software Developers
+262,Service Level,25,215,0.02621438210043525,1.147256911546607,bridging,Software Developers
+263,Computer Programming,25,163,0.02621438210043525,0.700747438132769,bridging,Software Developers
+264,TCP/IP,25,208,0.02621438210043525,1.0871498670485902,bridging,Software Developers
+265,Database Systems,25,188,0.02621438210043525,0.915415454197114,bridging,Software Developers
+266,Symfony,24,150,0.016058938531050306,0.5891200697793094,bridging,Software Developers
+267,Shopify,24,152,0.016058938531050306,0.6062935110644571,bridging,Software Developers
+268,Ubuntu,24,184,0.016058938531050306,0.8810685716268188,bridging,Software Developers
+269,Containerization,24,171,0.016058938531050306,0.7694412032733594,bridging,Software Developers
+270,MariaDB,24,158,0.016058938531050306,0.6578138349198999,bridging,Software Developers
+271,Requirements Analysis,24,164,0.016058938531050306,0.7093341587753427,bridging,Software Developers
+272,Database Administration,24,149,0.016058938531050306,0.5805333491367356,bridging,Software Developers
+273,Nunit,24,143,0.016058938531050306,0.5290130252812928,bridging,Software Developers
+274,API Gateway,24,133,0.016058938531050306,0.44314581885555476,bridging,Software Developers
+275,Statistics,24,193,0.016058938531050306,0.9583490574099831,bridging,Software Developers
+276,Templating,23,112,0.005903494961665361,0.26282468536150483,bridging,Software Developers
+277,Architectural Patterns,23,122,0.005903494961665361,0.34869189178724286,bridging,Software Developers
+278,Software Testing,23,166,0.005903494961665361,0.7265076000604903,bridging,Software Developers
+279,Systems Integration,23,123,0.005903494961665361,0.3572786124298167,bridging,Software Developers
+280,Scheduling,23,183,0.005903494961665361,0.872481850984245,bridging,Software Developers
+281,R,23,159,0.005903494961665361,0.6664005555624737,bridging,Software Developers
+282,Test Data,23,122,0.005903494961665361,0.34869189178724286,bridging,Software Developers
+283,Systems Development,23,136,0.005903494961665361,0.46890598078327617,bridging,Software Developers
+284,Cocoa Touch,23,111,0.005903494961665361,0.254237964718931,bridging,Software Developers
+285,Cloud Technologies,23,159,0.005903494961665361,0.6664005555624737,bridging,Software Developers
+286,OpenShift,23,166,0.005903494961665361,0.7265076000604903,bridging,Software Developers
+287,Project Planning,23,142,0.005903494961665361,0.520426304638719,bridging,Software Developers
+288,Kibana,23,119,0.005903494961665361,0.32293172985952145,bridging,Software Developers
+0,"Company, Product, and Service Knowledge",24,116,7.3425642321544125,4.163268587749616,core,Electrical And Electronic Engineering Technologists And Technicians
+1,Communication,22,164,6.671896998500254,6.3326878768984765,core,Electrical And Electronic Engineering Technologists And Technicians
+2,Business,19,138,5.6658961480190175,5.157585761942843,core,Electrical And Electronic Engineering Technologists And Technicians
+3,"Policy Analysis, Research, and Development",17,122,4.995228914364859,4.434445998893223,core,Electrical And Electronic Engineering Technologists And Technicians
+4,Analysis,17,114,4.995228914364859,4.072876117368414,core,Electrical And Electronic Engineering Technologists And Technicians
+5,"Water Supply, Testing, and Treatment",12,105,3.3185608302294636,3.666110000653002,core,Electrical And Electronic Engineering Technologists And Technicians
+6,"Engineering, Scientific, and Technical Instruments",12,75,3.3185608302294636,2.310222944934964,core,Electrical And Electronic Engineering Technologists And Technicians
+7,Marketing,10,59,2.647893596575306,1.5870831818853441,adjacent,Electrical And Electronic Engineering Technologists And Technicians
+8,Science and Research,8,88,1.9772263629211477,2.8977740024127807,specialized,Electrical And Electronic Engineering Technologists And Technicians
+9,Production and Assembly,8,76,1.9772263629211477,2.3554191801255655,specialized,Electrical And Electronic Engineering Technologists And Technicians
+10,Design,8,109,1.9772263629211477,3.8468949414154068,specialized,Electrical And Electronic Engineering Technologists And Technicians
+16,Google,5,85,0.9712255124399105,2.762185296840977,specialized,Electrical And Electronic Engineering Technologists And Technicians
+11,Digital Marketing,7,54,1.6418927460940687,1.361102005932338,bridging,Electrical And Electronic Engineering Technologists And Technicians
+12,Sales,7,29,1.6418927460940687,0.2311961261673065,bridging,Electrical And Electronic Engineering Technologists And Technicians
+13,Writing,6,38,1.3065591292669896,0.6379622428827179,bridging,Electrical And Electronic Engineering Technologists And Technicians
+14,Accounting,5,40,0.9712255124399105,0.7283547132639203,bridging,Electrical And Electronic Engineering Technologists And Technicians
+15,Education and Training,5,40,0.9712255124399105,0.7283547132639203,bridging,Electrical And Electronic Engineering Technologists And Technicians
+18,Problem Solving,4,24,0.6358918956128314,0.005214950214300207,bridging,Electrical And Electronic Engineering Technologists And Technicians
+19,Business Analysis,4,32,0.6358918956128314,0.36678483173911025,bridging,Electrical And Electronic Engineering Technologists And Technicians
+20,Java,4,67,0.6358918956128314,1.9486530634101542,bridging,Electrical And Electronic Engineering Technologists And Technicians
+21,Statistics,4,40,0.6358918956128314,0.7283547132639203,bridging,Electrical And Electronic Engineering Technologists And Technicians
+23,Information Technology,4,55,0.6358918956128314,1.4062982411229392,bridging,Electrical And Electronic Engineering Technologists And Technicians
+24,"Economics, Policy, and Social Studies",3,24,0.30055827878575236,0.005214950214300207,bridging,Electrical And Electronic Engineering Technologists And Technicians
+25,Travel and Tourism,3,25,0.30055827878575236,0.050411185404901464,bridging,Electrical And Electronic Engineering Technologists And Technicians
+26,Media and Writing,3,37,0.30055827878575236,0.5927660076921165,bridging,Electrical And Electronic Engineering Technologists And Technicians
+27,"Transportation, Supply Chain, and Logistics",3,26,0.30055827878575236,0.09560742059550273,bridging,Electrical And Electronic Engineering Technologists And Technicians
+28,Recruitment,3,29,0.30055827878575236,0.2311961261673065,bridging,Electrical And Electronic Engineering Technologists And Technicians
+29,Python,3,45,0.30055827878575236,0.9543358892169266,bridging,Electrical And Electronic Engineering Technologists And Technicians
+31,DevOps,3,63,0.30055827878575236,1.767868122647749,bridging,Electrical And Electronic Engineering Technologists And Technicians
+34,"Fire Prevention, Safety, and Control",3,34,0.30055827878575236,0.45717730212031277,bridging,Electrical And Electronic Engineering Technologists And Technicians
+35,"Law, Regulation, and Compliance",3,28,0.30055827878575236,0.18599989097670525,bridging,Electrical And Electronic Engineering Technologists And Technicians
+36,Art and Illustration,3,41,0.30055827878575236,0.7735509484545215,bridging,Electrical And Electronic Engineering Technologists And Technicians
+37,Computer Science,3,56,0.30055827878575236,1.4514944763135402,bridging,Electrical And Electronic Engineering Technologists And Technicians
+0,"Company, Product, and Service Knowledge",19,83,4.5157072613492435,4.643631663692275,core,Medical Records Specialists
+3,Nursing,13,50,2.856029247989644,2.2449472927394427,core,Medical Records Specialists
+5,Communication,12,66,2.5794162457630443,3.407945775625665,core,Medical Records Specialists
+6,Medical Records,11,62,2.3028032435364443,3.1171961549041094,core,Medical Records Specialists
+1,Current Procedural Terminology (CPT),17,45,3.962481256896044,1.8815102668374988,adjacent,Medical Records Specialists
+2,"Law, Regulation, and Compliance",14,33,3.132642250216244,1.0092614046728325,adjacent,Medical Records Specialists
+4,Health Care,13,34,2.856029247989644,1.0819488098532215,adjacent,Medical Records Specialists
+7,"Economics, Policy, and Social Studies",10,25,2.0261902413098447,0.4277621632297219,adjacent,Medical Records Specialists
+8,"Policy Analysis, Research, and Development",9,56,1.7495772390832447,2.681071723821776,specialized,Medical Records Specialists
+18,PHP,3,48,0.08989922572364503,2.0995724823786652,specialized,Medical Records Specialists
+13,Business,6,44,0.9197382324034448,1.8088228616571098,bridging,Medical Records Specialists
+14,Customer Service,6,30,0.9197382324034448,0.7911991891316661,bridging,Medical Records Specialists
+15,Forth,4,28,0.36651222795024496,0.6458243787708884,bridging,Medical Records Specialists
+16,Medical Terminology,3,20,0.08989922572364503,0.06432513732777764,bridging,Medical Records Specialists
+17,Compensation and Benefits,3,26,0.08989922572364503,0.5004495684101107,bridging,Medical Records Specialists
+19,Procedure Codes,3,21,0.08989922572364503,0.1370125425081665,bridging,Medical Records Specialists
+20,Science and Research,3,37,0.08989922572364503,1.300011025394388,bridging,Medical Records Specialists
+0,Business,358,630,12.847702852380225,7.3003499928387665,core,Data Scientists
+1,Analysis,273,545,9.717515562588579,6.205028565889966,core,Data Scientists
+2,"Policy Analysis, Research, and Development",263,488,9.349258234377796,5.470518903112536,core,Data Scientists
+3,Communication,227,519,8.023531852818982,5.86998907058798,core,Data Scientists
+4,Science and Research,221,509,7.8025774558925125,5.741127726241063,core,Data Scientists
+5,Analytics,219,478,7.728925990250356,5.341657558765618,core,Data Scientists
+6,"Company, Product, and Service Knowledge",210,500,7.397494394860653,5.625152516328837,core,Data Scientists
+7,Python,205,432,7.213365730755261,4.7488953747697975,core,Data Scientists
+8,Design,187,415,6.550502539975854,4.529831089380037,core,Data Scientists
+9,Computer Science,166,459,5.777162150733211,5.096821004506475,core,Data Scientists
+10,"Engineering, Scientific, and Technical Instruments",161,449,5.593033486627821,4.967959660159557,core,Data Scientists
+11,Statistics,147,387,5.077473227132726,4.169019325208668,core,Data Scientists
+12,Data Analysis,125,379,4.267307105069005,4.065930249731133,core,Data Scientists
+13,Extract Transform Load (ETL),122,364,4.15682990660577,3.872638233210757,core,Data Scientists
+14,Tableau,121,344,4.120004173784692,3.614915544516922,core,Data Scientists
+15,Visualization,115,330,3.899049776858223,3.4345096624312372,core,Data Scientists
+16,Machine Learning (ML),107,356,3.6044439142895977,3.7695491577332234,core,Data Scientists
+17,Databases,105,312,3.530792448647441,3.202559242606786,core,Data Scientists
+18,Data Science,90,325,2.978406456331268,3.370078990257779,core,Data Scientists
+19,Architecture and Construction,85,345,2.794277792225877,3.627801678951614,core,Data Scientists
+20,R,81,283,2.6469748609415644,2.828861344000725,core,Data Scientists
+21,Big Data,81,338,2.6469748609415644,3.5375987379087714,core,Data Scientists
+22,Language,79,354,2.573323395299408,3.74377688886384,core,Data Scientists
+23,"Water Supply, Testing, and Treatment",79,311,2.573323395299408,3.1896731081720944,core,Data Scientists
+24,Data Quality,77,302,2.4996719296572514,3.0736978982598684,core,Data Scientists
+25,Data Visualization,76,284,2.4628461968361735,2.841747478435417,core,Data Scientists
+26,Data Mining,71,246,2.2787175327307825,2.35207436991713,core,Data Scientists
+27,Amazon Web Services (AWS),70,321,2.241891799909704,3.3185344525190117,core,Data Scientists
+28,Power BI,66,280,2.0945888686253915,2.7902029406966498,core,Data Scientists
+29,Business Intelligence,64,280,2.0209374029832348,2.7902029406966498,core,Data Scientists
+30,Writing,63,276,1.9841116701621568,2.7386584029578827,specialized,Data Scientists
+31,Data Management,58,287,1.7999830060567659,2.8804058817394917,specialized,Data Scientists
+32,Java,55,284,1.6895058075935312,2.841747478435417,specialized,Data Scientists
+33,Project Management,55,285,1.6895058075935312,2.854633612870108,specialized,Data Scientists
+34,"Maintenance, Repair, and Facility Services",55,277,1.6895058075935312,2.7515445373925744,specialized,Data Scientists
+35,Google,54,281,1.652680074772453,2.8030890751313415,specialized,Data Scientists
+36,Production and Assembly,54,261,1.652680074772453,2.545366386437506,specialized,Data Scientists
+37,Business Requirements,53,249,1.615854341951375,2.3907327732212047,specialized,Data Scientists
+38,Information Technology,50,256,1.5053771434881402,2.480935714264047,specialized,Data Scientists
+39,Algorithms,50,252,1.5053771434881402,2.42939117652528,specialized,Data Scientists
+40,Marketing,50,237,1.5053771434881402,2.236099160004904,specialized,Data Scientists
+42,Automation,45,258,1.3212484793827493,2.5067079831334307,specialized,Data Scientists
+45,Oracle,42,251,1.2107712809195146,2.4165050420905883,specialized,Data Scientists
+46,Artificial Intelligence (AI),42,239,1.2107712809195146,2.2618714288742874,specialized,Data Scientists
+47,Scripting,41,260,1.1739455480984367,2.5324802520028142,specialized,Data Scientists
+49,Data Engineering,40,227,1.1371198152773583,2.107237815657986,specialized,Data Scientists
+50,Administration,38,257,1.063468349635202,2.493821848698739,specialized,Data Scientists
+51,"Fire Prevention, Safety, and Control",38,266,1.063468349635202,2.609797058610965,specialized,Data Scientists
+56,Linux,34,267,0.9161654183508892,2.6226831930456567,specialized,Data Scientists
+63,Data Integration,32,228,0.8425139527087327,2.120123950092678,specialized,Data Scientists
+65,Education and Training,29,236,0.7320367542454982,2.223213025570212,specialized,Data Scientists
+73,DevOps,26,238,0.6215595557822636,2.2489852944395956,specialized,Data Scientists
+80,Apache,23,228,0.5110823573190291,2.120123950092678,specialized,Data Scientists
+41,Sales,47,213,1.3948999450249056,1.9268319335723014,bridging,Data Scientists
+43,"Economics, Policy, and Social Studies",45,180,1.3212484793827493,1.5015894972274733,bridging,Data Scientists
+44,Finance,43,193,1.2475970137405927,1.6691092448784661,bridging,Data Scientists
+48,Data Modeling,40,205,1.1371198152773583,1.8237428580947674,bridging,Data Scientists
+52,Dashboard,37,197,1.0266426168141238,1.7206537826172332,bridging,Data Scientists
+53,Problem Solving,37,186,1.0266426168141238,1.578906303835624,bridging,Data Scientists
+54,Relational Databases,37,182,1.0266426168141238,1.5273617660968568,bridging,Data Scientists
+55,Data Pipeline,36,205,0.9898168839930456,1.8237428580947674,bridging,Data Scientists
+57,Warehousing,34,212,0.9161654183508892,1.9139457991376096,bridging,Data Scientists
+58,Data Processing,33,209,0.879339685529811,1.8752873958335343,bridging,Data Scientists
+59,Data Warehousing,33,197,0.879339685529811,1.7206537826172332,bridging,Data Scientists
+60,Data Collection,33,182,0.879339685529811,1.5273617660968568,bridging,Data Scientists
+61,Statistical Analysis,33,168,0.879339685529811,1.3469558840111722,bridging,Data Scientists
+62,Metadata,32,199,0.8425139527087327,1.7464260514866168,bridging,Data Scientists
+64,Scala,30,209,0.7688624870665764,1.8752873958335343,bridging,Data Scientists
+66,Unstructured Data,28,171,0.69521102142442,1.3856142873152473,bridging,Data Scientists
+67,Microsoft Excel,28,150,0.69521102142442,1.1150054641867204,bridging,Data Scientists
+68,Product Development,27,140,0.6583852886033418,0.9861441198398027,bridging,Data Scientists
+69,MySQL,27,201,0.6583852886033418,1.7721983203560003,bridging,Data Scientists
+70,"Law, Regulation, and Compliance",27,201,0.6583852886033418,1.7721983203560003,bridging,Data Scientists
+71,Microsoft Office,26,152,0.6215595557822636,1.140777733056104,bridging,Data Scientists
+72,Data Architecture,26,201,0.6215595557822636,1.7721983203560003,bridging,Data Scientists
+74,Information Systems,26,193,0.6215595557822636,1.6691092448784661,bridging,Data Scientists
+75,Software Development,25,176,0.5847338229611854,1.4500449594887062,bridging,Data Scientists
+76,Data Governance,25,198,0.5847338229611854,1.733539917051925,bridging,Data Scientists
+77,Process Improvement and Optimization,25,133,0.5847338229611854,0.8959411787969603,bridging,Data Scientists
+78,Airflow,24,162,0.5479080901401072,1.2696390774030215,bridging,Data Scientists
+79,Application Programming Interface (API),23,166,0.5110823573190291,1.3211836151417886,bridging,Data Scientists
+81,Accounting,22,129,0.4742566244979508,0.8443966410581933,bridging,Data Scientists
+82,Customer Service,22,160,0.4742566244979508,1.243866808533638,bridging,Data Scientists
+83,Talend,21,150,0.4374308916768726,1.1150054641867204,bridging,Data Scientists
+84,Data Cleansing,21,143,0.4374308916768726,1.024802523143878,bridging,Data Scientists
+85,UNIX,21,193,0.4374308916768726,1.6691092448784661,bridging,Data Scientists
+86,Unix,21,191,0.4374308916768726,1.6433369760090826,bridging,Data Scientists
+87,Quality Assurance and Control,20,119,0.4006051588557944,0.7155352967112757,bridging,Data Scientists
+88,C++,20,155,0.4006051588557944,1.179436136360179,bridging,Data Scientists
+89,SAS,19,158,0.36377942603471625,1.2180945396642544,bridging,Data Scientists
+90,Google Data,19,123,0.36377942603471625,0.7670798344500427,bridging,Data Scientists
+91,C,19,214,0.36377942603471625,1.9397180680069932,bridging,Data Scientists
+92,C and C++,19,215,0.36377942603471625,1.952604202441685,bridging,Data Scientists
+93,Banking,18,140,0.32695369321363804,0.9861441198398027,bridging,Data Scientists
+94,Informatica,18,134,0.32695369321363804,0.9088273132316521,bridging,Data Scientists
+95,Data Transformation,18,113,0.32695369321363804,0.638218490103125,bridging,Data Scientists
+96,Web Services,18,174,0.32695369321363804,1.4242726906193226,bridging,Data Scientists
+97,Programming languages,18,150,0.32695369321363804,1.1150054641867204,bridging,Data Scientists
+98,Git,18,168,0.32695369321363804,1.3469558840111722,bridging,Data Scientists
+99,Software Engineering,18,114,0.32695369321363804,0.6511046245378168,bridging,Data Scientists
+100,Financial Services,18,124,0.32695369321363804,0.7799659688847345,bridging,Data Scientists
+101,"Transportation, Supply Chain, and Logistics",18,144,0.32695369321363804,1.0376886575785698,bridging,Data Scientists
+102,Predictive Modeling,18,155,0.32695369321363804,1.179436136360179,bridging,Data Scientists
+103,Google Analytics,18,117,0.32695369321363804,0.6897630278418921,bridging,Data Scientists
+104,Scalability,17,172,0.29012796039255984,1.398500421749939,bridging,Data Scientists
+105,SAP,17,140,0.29012796039255984,0.9861441198398027,bridging,Data Scientists
+106,Data Integrity,17,97,0.29012796039255984,0.4320403391480569,bridging,Data Scientists
+107,Initiative and Leadership,17,130,0.29012796039255984,0.8572827754928851,bridging,Data Scientists
+108,JavaScript and jQuery,17,156,0.29012796039255984,1.1923222707948709,bridging,Data Scientists
+109,JavaScript,17,154,0.29012796039255984,1.1665500019254873,bridging,Data Scientists
+110,Database Management,16,138,0.25330222757148163,0.9603718509704192,bridging,Data Scientists
+111,Raw Data,16,114,0.25330222757148163,0.6511046245378168,bridging,Data Scientists
+112,Data Storage,16,127,0.25330222757148163,0.8186243721888098,bridging,Data Scientists
+113,Data Infrastructure,16,110,0.25330222757148163,0.5995600867990498,bridging,Data Scientists
+114,TensorFlow,16,142,0.25330222757148163,1.0119163887091862,bridging,Data Scientists
+115,Data Ingestion,16,114,0.25330222757148163,0.6511046245378168,bridging,Data Scientists
+116,Business Analytics,16,149,0.25330222757148163,1.1021193297520286,bridging,Data Scientists
+117,NumPy,15,165,0.21647649475040343,1.3082974807070968,bridging,Data Scientists
+118,PostgreSQL,15,139,0.21647649475040343,0.973257985405111,bridging,Data Scientists
+119,Data Structures,15,120,0.21647649475040343,0.7284214311459675,bridging,Data Scientists
+120,Reporting Tools,15,90,0.21647649475040343,0.3418373981052145,bridging,Data Scientists
+121,Docker,15,138,0.21647649475040343,0.9603718509704192,bridging,Data Scientists
+122,Media and Writing,15,125,0.21647649475040343,0.7928521033194262,bridging,Data Scientists
+123,Kubernetes,15,151,0.21647649475040343,1.1278915986214122,bridging,Data Scientists
+124,Templates,15,121,0.21647649475040343,0.7413075655806592,bridging,Data Scientists
+125,Business Strategy,15,130,0.21647649475040343,0.8572827754928851,bridging,Data Scientists
+126,Statistical Software,14,88,0.17965076192932525,0.316065129235831,bridging,Data Scientists
+127,Statistical software,14,88,0.17965076192932525,0.316065129235831,bridging,Data Scientists
+128,Machine Learning Algorithms,14,148,0.17965076192932525,1.0892331953173369,bridging,Data Scientists
+129,Computer Engineering,14,127,0.17965076192932525,0.8186243721888098,bridging,Data Scientists
+130,Salesforce,14,120,0.17965076192932525,0.7284214311459675,bridging,Data Scientists
+131,PHP,14,99,0.17965076192932525,0.4578126080174404,bridging,Data Scientists
+132,BigQuery,14,122,0.17965076192932525,0.7541937000153509,bridging,Data Scientists
+133,Google Cloud Platform,13,115,0.14282502910824704,0.6639907589725086,bridging,Data Scientists
+135,Applied Statistics,13,66,0.14282502910824704,0.032570171672612204,bridging,Data Scientists
+136,Data Acquisition,13,120,0.14282502910824704,0.7284214311459675,bridging,Data Scientists
+137,NoSQL,13,160,0.14282502910824704,1.243866808533638,bridging,Data Scientists
+138,Data Manipulation,13,78,0.14282502910824704,0.18720378488891337,bridging,Data Scientists
+139,Art and Illustration,13,97,0.14282502910824704,0.4320403391480569,bridging,Data Scientists
+140,Data Migration,12,111,0.10599929628716884,0.6124462212337416,bridging,Data Scientists
+141,Debugging,12,97,0.10599929628716884,0.4320403391480569,bridging,Data Scientists
+142,Business Solutions,12,104,0.10599929628716884,0.5222432801908992,bridging,Data Scientists
+143,Travel and Tourism,12,128,0.10599929628716884,0.8315105066235016,bridging,Data Scientists
+144,Root Cause Analysis,12,96,0.10599929628716884,0.4191542047133651,bridging,Data Scientists
+145,Compensation and Benefits,12,102,0.10599929628716884,0.49647101132151567,bridging,Data Scientists
+146,Physics,12,119,0.10599929628716884,0.7155352967112757,bridging,Data Scientists
+147,C#,12,138,0.10599929628716884,0.9603718509704192,bridging,Data Scientists
+148,Databricks,12,136,0.10599929628716884,0.9345995821010357,bridging,Data Scientists
+149,HyperText Markup Language (HTML),11,113,0.06917356346609065,0.638218490103125,bridging,Data Scientists
+150,Business Analysis,11,109,0.06917356346609065,0.586673952364358,bridging,Data Scientists
+151,XML,11,151,0.06917356346609065,1.1278915986214122,bridging,Data Scientists
+152,Digital Marketing,11,107,0.06917356346609065,0.5609016834949745,bridging,Data Scientists
+153,Information Management,11,114,0.06917356346609065,0.6511046245378168,bridging,Data Scientists
+154,Scripting Languages,11,89,0.06917356346609065,0.32895126367052274,bridging,Data Scientists
+155,Cloud Technologies,11,120,0.06917356346609065,0.7284214311459675,bridging,Data Scientists
+156,Alteryx,11,74,0.06917356346609065,0.13565924715014632,bridging,Data Scientists
+157,Jenkins,11,131,0.06917356346609065,0.8701689099275768,bridging,Data Scientists
+158,Business Intelligence Tools,11,120,0.06917356346609065,0.7284214311459675,bridging,Data Scientists
+159,Data Mapping,11,78,0.06917356346609065,0.18720378488891337,bridging,Data Scientists
+160,Business Management,11,87,0.06917356346609065,0.30317899480113925,bridging,Data Scientists
+161,MapReduce,11,114,0.06917356346609065,0.6511046245378168,bridging,Data Scientists
+162,Inventory and Warehousing,10,80,0.03234783064501245,0.2129760537582969,bridging,Data Scientists
+163,Google Cloud,10,141,0.03234783064501245,0.9990302542744944,bridging,Data Scientists
+164,User Acceptance Testing (UAT),10,88,0.03234783064501245,0.316065129235831,bridging,Data Scientists
+165,Natural Language Processing,10,81,0.03234783064501245,0.22586218819298864,bridging,Data Scientists
+166,E-Commerce,10,98,0.03234783064501245,0.4449264735827486,bridging,Data Scientists
+167,Recruitment,10,89,0.03234783064501245,0.32895126367052274,bridging,Data Scientists
+169,Dataset,10,75,0.03234783064501245,0.14854538158483807,bridging,Data Scientists
+171,Database Design,10,121,0.03234783064501245,0.7413075655806592,bridging,Data Scientists
+172,Microsoft Azure,10,149,0.03234783064501245,1.1021193297520286,bridging,Data Scientists
+0,Communication,62,315,7.932166568330441,4.735836758348871,core,Information Security Engineers
+1,"Policy Analysis, Research, and Development",61,295,7.795261430977136,4.368656179857873,core,Information Security Engineers
+2,Business,54,306,6.836925469503994,4.570605498027922,core,Information Security Engineers
+3,Design,50,270,6.28930492009077,3.9096804567441263,core,Information Security Engineers
+4,"Engineering, Scientific, and Technical Instruments",49,275,6.152399782737464,4.0014756013668755,core,Information Security Engineers
+5,Administration,37,279,4.5095381344977925,4.074911717065075,core,Information Security Engineers
+6,Amazon Web Services (AWS),37,280,4.5095381344977925,4.093270745989625,core,Information Security Engineers
+7,Science and Research,37,288,4.5095381344977925,4.240142977386024,core,Information Security Engineers
+8,"Company, Product, and Service Knowledge",37,265,4.5095381344977925,3.817885312121377,core,Information Security Engineers
+9,Computer Science,36,279,4.372632997144487,4.074911717065075,core,Information Security Engineers
+10,Linux,35,282,4.235727859791181,4.1299888038387245,core,Information Security Engineers
+11,"Maintenance, Repair, and Facility Services",33,232,3.9619175850845694,3.212037357611231,core,Information Security Engineers
+12,"Water Supply, Testing, and Treatment",28,203,3.2773918983180397,2.6796255187992846,core,Information Security Engineers
+13,Architecture and Construction,27,226,3.1404867609647336,3.1018831840639316,core,Information Security Engineers
+14,Automation,25,235,2.8666764862581218,3.2671144443848807,core,Information Security Engineers
+16,DevOps,22,194,2.455961074198204,2.5143942584783354,core,Information Security Engineers
+17,Information Technology,22,195,2.455961074198204,2.5327532874028855,core,Information Security Engineers
+18,"Law, Regulation, and Compliance",22,223,2.455961074198204,3.046806097290282,core,Information Security Engineers
+19,Analysis,21,215,2.319055936844898,2.899933865893883,core,Information Security Engineers
+20,Scripting,19,194,2.045245662138286,2.5143942584783354,core,Information Security Engineers
+21,Servers,19,186,2.045245662138286,2.3675220270819364,core,Information Security Engineers
+22,Python,19,192,2.045245662138286,2.4776762006292357,core,Information Security Engineers
+15,Network Security,23,149,2.59286621155151,1.688237956873591,adjacent,Information Security Engineers
+24,Cloud Infrastructure,17,183,1.7714353874316742,2.312444940308287,specialized,Information Security Engineers
+25,System Administration,16,200,1.6345302500783683,2.6245484320256347,specialized,Information Security Engineers
+26,Firewall,16,171,1.6345302500783683,2.0921365932136884,specialized,Information Security Engineers
+27,Incident Response,16,171,1.6345302500783683,2.0921365932136884,specialized,Information Security Engineers
+29,Cloud Services,15,171,1.4976251127250624,2.0921365932136884,specialized,Information Security Engineers
+34,Cyber Security,13,171,1.2238148380184504,2.0921365932136884,specialized,Information Security Engineers
+36,Active Directory,13,177,1.2238148380184504,2.2022907667609877,specialized,Information Security Engineers
+39,Transmission Control Protocol (TCP),13,169,1.2238148380184504,2.0554185353645886,specialized,Information Security Engineers
+47,Kubernetes,11,185,0.9500045633118385,2.3491629981573867,specialized,Information Security Engineers
+23,Vulnerability,17,150,1.7714353874316742,1.706596985798141,bridging,Information Security Engineers
+28,Cybersecurity,15,157,1.4976251127250624,1.83511018826999,bridging,Information Security Engineers
+30,Production and Assembly,14,159,1.3607199753717565,1.8718282461190898,bridging,Information Security Engineers
+31,"Fire Prevention, Safety, and Control",14,134,1.3607199753717565,1.4128525230053428,bridging,Information Security Engineers
+32,JavaScript and jQuery,14,149,1.3607199753717565,1.688237956873591,bridging,Information Security Engineers
+33,JavaScript,14,148,1.3607199753717565,1.6698789279490411,bridging,Information Security Engineers
+35,Public Cloud,13,148,1.2238148380184504,1.6698789279490411,bridging,Information Security Engineers
+37,Java,13,138,1.2238148380184504,1.4862886387035423,bridging,Information Security Engineers
+38,Computer Engineering,13,148,1.2238148380184504,1.6698789279490411,bridging,Information Security Engineers
+40,Google,13,159,1.2238148380184504,1.8718282461190898,bridging,Information Security Engineers
+41,Problem Solving,12,157,1.0869097006651445,1.83511018826999,bridging,Information Security Engineers
+42,Events and Conferences,12,145,1.0869097006651445,1.6148018411753915,bridging,Information Security Engineers
+43,Security Operations,12,97,1.0869097006651445,0.7335684527969973,bridging,Information Security Engineers
+44,Project Management,11,158,0.9500045633118385,1.85346921719454,bridging,Information Security Engineers
+45,Unix,11,143,0.9500045633118385,1.5780837833262917,bridging,Information Security Engineers
+46,UNIX,11,144,0.9500045633118385,1.5964428122508416,bridging,Information Security Engineers
+48,Ansible,11,136,0.9500045633118385,1.4495705808544426,bridging,Information Security Engineers
+49,Operating Systems,11,123,0.9500045633118385,1.2109032048352941,bridging,Information Security Engineers
+50,Education and Training,11,153,0.9500045633118385,1.7616740725717905,bridging,Information Security Engineers
+51,Encryption,10,114,0.8130994259585326,1.0456719445143452,bridging,Information Security Engineers
+52,Disaster Recovery,10,142,0.8130994259585326,1.5597247544017419,bridging,Information Security Engineers
+53,Terraform,10,139,0.8130994259585326,1.5046476676280922,bridging,Information Security Engineers
+54,Analytics,10,126,0.8130994259585326,1.2659802916089438,bridging,Information Security Engineers
+55,TCP/IP,10,133,0.8130994259585326,1.394493494080793,bridging,Information Security Engineers
+56,Cloud Computing,9,125,0.6761942886052266,1.2476212626843939,bridging,Information Security Engineers
+57,Mitigation,9,112,0.6761942886052266,1.0089538866652454,bridging,Information Security Engineers
+58,Information Systems,9,137,0.6761942886052266,1.4679296097789925,bridging,Information Security Engineers
+59,Debugging,9,136,0.6761942886052266,1.4495705808544426,bridging,Information Security Engineers
+60,Installation,9,134,0.6761942886052266,1.4128525230053428,bridging,Information Security Engineers
+61,Virtual Private Networks (VPN),8,100,0.5392891512519207,0.788645539570647,bridging,Information Security Engineers
+62,VMware,8,110,0.5392891512519207,0.9722358288161458,bridging,Information Security Engineers
+63,Writing,8,157,0.5392891512519207,1.83511018826999,bridging,Information Security Engineers
+64,Google Cloud Platform,8,132,0.5392891512519207,1.376134465156243,bridging,Information Security Engineers
+65,Docker,8,164,0.5392891512519207,1.9636233907418392,bridging,Information Security Engineers
+66,Bash,8,117,0.5392891512519207,1.1007490312879948,bridging,Information Security Engineers
+67,Simple Object Access Protocol (SOAP),8,117,0.5392891512519207,1.1007490312879948,bridging,Information Security Engineers
+68,PHP,8,135,0.5392891512519207,1.4312115519298927,bridging,Information Security Engineers
+69,Web Services,8,122,0.5392891512519207,1.1925441759107442,bridging,Information Security Engineers
+70,Software Development,8,111,0.5392891512519207,0.9905948577406957,bridging,Information Security Engineers
+71,Chef,7,115,0.40238401389861467,1.064030973438895,bridging,Information Security Engineers
+72,In-Plane Switching (IPS),7,95,0.40238401389861467,0.6968503949478976,bridging,Information Security Engineers
+73,Google Cloud,7,119,0.40238401389861467,1.1374670891370946,bridging,Information Security Engineers
+74,Application Programming Interface (API),7,101,0.40238401389861467,0.8070045684951969,bridging,Information Security Engineers
+75,Git,7,104,0.40238401389861467,0.8620816552688465,bridging,Information Security Engineers
+76,Sales,7,74,0.40238401389861467,0.3113107875323501,bridging,Information Security Engineers
+77,Technical Support and Services,7,125,0.40238401389861467,1.2476212626843939,bridging,Information Security Engineers
+78,Penetration Testing,7,101,0.40238401389861467,0.8070045684951969,bridging,Information Security Engineers
+79,Jenkins,7,124,0.40238401389861467,1.229262233759844,bridging,Information Security Engineers
+80,XML,7,102,0.40238401389861467,0.8253635974197467,bridging,Information Security Engineers
+81,Change Management,7,98,0.40238401389861467,0.7519274817215472,bridging,Information Security Engineers
+82,Customer Service,7,104,0.40238401389861467,0.8620816552688465,bridging,Information Security Engineers
+83,Infrastructure As A Service (IaaS),7,153,0.40238401389861467,1.7616740725717905,bridging,Information Security Engineers
+84,Incident Management,6,120,0.2654788765453087,1.1558261180616445,bridging,Information Security Engineers
+85,Microsoft Azure,6,94,0.2654788765453087,0.6784913660233477,bridging,Information Security Engineers
+86,JSON,6,102,0.2654788765453087,0.8253635974197467,bridging,Information Security Engineers
+87,SSL,6,81,0.2654788765453087,0.43982399000419925,bridging,Information Security Engineers
+88,"Economics, Policy, and Social Studies",6,122,0.2654788765453087,1.1925441759107442,bridging,Information Security Engineers
+89,Virtualization,6,83,0.2654788765453087,0.476542047853299,bridging,Information Security Engineers
+90,Application Security,6,119,0.2654788765453087,1.1374670891370946,bridging,Information Security Engineers
+92,Service Management,6,102,0.2654788765453087,0.8253635974197467,bridging,Information Security Engineers
+93,Programming languages,6,75,0.2654788765453087,0.32966981645689997,bridging,Information Security Engineers
+94,Problem Management,6,83,0.2654788765453087,0.476542047853299,bridging,Information Security Engineers
+95,Ruby,6,93,0.2654788765453087,0.6601323370987978,bridging,Information Security Engineers
+96,Language,6,122,0.2654788765453087,1.1925441759107442,bridging,Information Security Engineers
+97,NoSQL,6,79,0.2654788765453087,0.4031059321550995,bridging,Information Security Engineers
+98,Puppet,6,97,0.2654788765453087,0.7335684527969973,bridging,Information Security Engineers
+99,HyperText Markup Language (HTML),6,68,0.2654788765453087,0.2011566139850508,bridging,Information Security Engineers
+100,Databases,6,97,0.2654788765453087,0.7335684527969973,bridging,Information Security Engineers
+101,Cloud Migration,5,90,0.1285737391920028,0.6050552503251482,bridging,Information Security Engineers
+102,Risk Management,5,73,0.1285737391920028,0.2929517586078002,bridging,Information Security Engineers
+103,Splunk,5,69,0.1285737391920028,0.21951564290960068,bridging,Information Security Engineers
+104,Configuration Management,5,100,0.1285737391920028,0.788645539570647,bridging,Information Security Engineers
+105,Oracle,5,95,0.1285737391920028,0.6968503949478976,bridging,Information Security Engineers
+106,Cloud Technologies,5,87,0.1285737391920028,0.5499781635514985,bridging,Information Security Engineers
+107,Unit Testing,5,63,0.1285737391920028,0.10936146936230141,bridging,Information Security Engineers
+109,Travel and Tourism,5,85,0.1285737391920028,0.5132601057023988,bridging,Information Security Engineers
+110,Microservices,5,81,0.1285737391920028,0.43982399000419925,bridging,Information Security Engineers
+111,MySQL,5,105,0.1285737391920028,0.8804406841933964,bridging,Information Security Engineers
+112,Application Development,5,106,0.1285737391920028,0.8987997131179463,bridging,Information Security Engineers
+0,Design,155,487,11.777429967432916,6.546889437516529,core,Computer Systems Engineers/Architects
+1,"Policy Analysis, Research, and Development",124,437,9.339454396344742,5.784335105324975,core,Computer Systems Engineers/Architects
+2,Business,122,437,9.182165649822926,5.784335105324975,core,Computer Systems Engineers/Architects
+3,"Company, Product, and Service Knowledge",113,418,8.474366290474746,5.494564459092184,core,Computer Systems Engineers/Architects
+4,"Engineering, Scientific, and Technical Instruments",99,410,7.373345064822023,5.372555765941535,core,Computer Systems Engineers/Architects
+5,Architecture and Construction,89,393,6.586901332212935,5.113287292996407,core,Computer Systems Engineers/Architects
+6,Communication,89,422,6.586901332212935,5.555568805667509,core,Computer Systems Engineers/Architects
+7,Science and Research,87,403,6.429612585691117,5.265798159434718,core,Computer Systems Engineers/Architects
+8,Computer Science,85,382,6.2723238391692995,4.945525339914266,core,Computer Systems Engineers/Architects
+9,Information Technology,68,273,4.935369493733849,3.2831568957366772,core,Computer Systems Engineers/Architects
+10,"Maintenance, Repair, and Facility Services",64,314,4.620792000690214,3.908451448133752,core,Computer Systems Engineers/Architects
+11,Analysis,63,376,4.542147627429306,4.854018820051279,core,Computer Systems Engineers/Architects
+12,Linux,55,383,3.912992641342035,4.9607764265580965,core,Computer Systems Engineers/Architects
+13,"Water Supply, Testing, and Treatment",51,312,3.5984151482984,3.877949274846089,core,Computer Systems Engineers/Architects
+14,Administration,49,342,3.4411264017765824,4.335481874161022,core,Computer Systems Engineers/Architects
+15,Amazon Web Services (AWS),45,300,3.126548908732947,3.6949362351201165,core,Computer Systems Engineers/Architects
+16,Automation,43,300,2.9692601622111296,3.6949362351201165,core,Computer Systems Engineers/Architects
+17,Firewall,39,246,2.6546826691674945,2.871377556353238,core,Computer Systems Engineers/Architects
+18,Python,36,334,2.4187495493847684,4.213473181010373,core,Computer Systems Engineers/Architects
+19,Project Management,35,239,2.3401051761238594,2.7646199498464203,core,Computer Systems Engineers/Architects
+20,"Fire Prevention, Safety, and Control",33,264,2.182816429602042,3.1458971159421973,core,Computer Systems Engineers/Architects
+21,Java,33,255,2.182816429602042,3.008637336147718,core,Computer Systems Engineers/Architects
+22,Servers,32,297,2.1041720563411332,3.649182975188623,core,Computer Systems Engineers/Architects
+23,Virtual Private Networks (VPN),31,221,2.0255276830802242,2.490100390257461,core,Computer Systems Engineers/Architects
+24,Production and Assembly,30,248,1.9468833098193155,2.9018797296409002,specialized,Computer Systems Engineers/Architects
+25,Software Development,28,234,1.7895945632974979,2.688364516627265,specialized,Computer Systems Engineers/Architects
+27,"Law, Regulation, and Compliance",28,259,1.7895945632974979,3.069641682723042,specialized,Computer Systems Engineers/Architects
+29,DevOps,27,208,1.710950190036589,2.291836263887657,specialized,Computer Systems Engineers/Architects
+31,Problem Solving,25,231,1.5536614435147715,2.642611256695772,specialized,Computer Systems Engineers/Architects
+33,Business Requirements,25,205,1.5536614435147715,2.246083003956164,specialized,Computer Systems Engineers/Architects
+34,Installation,24,223,1.4750170702538627,2.5206025635451232,specialized,Computer Systems Engineers/Architects
+35,Scripting,23,252,1.396372696992954,2.9628840762162243,specialized,Computer Systems Engineers/Architects
+36,Cloud Infrastructure,21,201,1.2390839504711364,2.1850786573808394,specialized,Computer Systems Engineers/Architects
+38,Application Programming Interface (API),21,210,1.2390839504711364,2.3223384371753193,specialized,Computer Systems Engineers/Architects
+39,Databases,20,211,1.1604395772102276,2.33758952381915,specialized,Computer Systems Engineers/Architects
+44,C,18,197,1.00315083068841,2.124074310805515,specialized,Computer Systems Engineers/Architects
+45,C and C++,18,196,1.00315083068841,2.108823224161684,specialized,Computer Systems Engineers/Architects
+46,Travel and Tourism,18,192,1.00315083068841,2.0478188775863595,specialized,Computer Systems Engineers/Architects
+50,Git,17,224,0.9245064574275011,2.535853650188954,specialized,Computer Systems Engineers/Architects
+26,Network Security,28,177,1.7895945632974979,1.8190525779288935,bridging,Computer Systems Engineers/Architects
+28,Network Infrastructure,28,143,1.7895945632974979,1.3005156320386366,bridging,Computer Systems Engineers/Architects
+30,Open Shortest Path First (OSPF),26,180,1.6323058167756803,1.8648058378603867,bridging,Computer Systems Engineers/Architects
+32,Sales,25,188,1.5536614435147715,1.9868145310110354,bridging,Computer Systems Engineers/Architects
+37,PHP,21,134,1.2390839504711364,1.163255852244157,bridging,Computer Systems Engineers/Architects
+40,Transmission Control Protocol (TCP),20,152,1.1604395772102276,1.4377754118331165,bridging,Computer Systems Engineers/Architects
+41,Writing,19,169,1.0817952039493188,1.6970438847782447,bridging,Computer Systems Engineers/Architects
+42,Education and Training,19,142,1.0817952039493188,1.2852645453948057,bridging,Computer Systems Engineers/Architects
+43,Language,18,178,1.00315083068841,1.8343036645727244,bridging,Computer Systems Engineers/Architects
+47,Virtualization,18,172,1.00315083068841,1.7427971447097381,bridging,Computer Systems Engineers/Architects
+48,Routing Protocols,17,133,0.9245064574275011,1.1480047656003258,bridging,Computer Systems Engineers/Architects
+49,TCP/IP,17,127,0.9245064574275011,1.0564982457373395,bridging,Computer Systems Engineers/Architects
+51,Operating Systems,16,171,0.8458620841665924,1.727546058065907,bridging,Computer Systems Engineers/Architects
+52,Change Management,16,133,0.8458620841665924,1.1480047656003258,bridging,Computer Systems Engineers/Architects
+53,MySQL,16,164,0.8458620841665924,1.6207884515590893,bridging,Computer Systems Engineers/Architects
+54,NoSQL,16,179,0.8458620841665924,1.8495547512165555,bridging,Computer Systems Engineers/Architects
+55,JavaScript,15,171,0.7672177109056836,1.727546058065907,bridging,Computer Systems Engineers/Architects
+56,JavaScript and jQuery,15,172,0.7672177109056836,1.7427971447097381,bridging,Computer Systems Engineers/Architects
+57,VMware,15,182,0.7672177109056836,1.895308011148049,bridging,Computer Systems Engineers/Architects
+58,Debugging,14,146,0.6885733376447748,1.34626889197013,bridging,Computer Systems Engineers/Architects
+59,Banking,14,123,0.6885733376447748,0.9954938991620151,bridging,Computer Systems Engineers/Architects
+60,Web Services,14,155,0.6885733376447748,1.4835286717646097,bridging,Computer Systems Engineers/Architects
+61,Technical Support and Services,14,125,0.6885733376447748,1.0259960724496773,bridging,Computer Systems Engineers/Architects
+62,Ansible,14,157,0.6885733376447748,1.514030845052272,bridging,Computer Systems Engineers/Architects
+63,Microservices,14,158,0.6885733376447748,1.5292819316961028,bridging,Computer Systems Engineers/Architects
+64,Computer Engineering,14,162,0.6885733376447748,1.5902862782714273,bridging,Computer Systems Engineers/Architects
+65,JIRA,13,153,0.6099289643838659,1.4530264984769474,bridging,Computer Systems Engineers/Architects
+66,"Economics, Policy, and Social Studies",13,144,0.6099289643838659,1.3157667186824678,bridging,Computer Systems Engineers/Architects
+67,Unix,13,152,0.6099289643838659,1.4377754118331165,bridging,Computer Systems Engineers/Architects
+68,UNIX,13,151,0.6099289643838659,1.4225243251892854,bridging,Computer Systems Engineers/Architects
+69,Analytics,13,154,0.6099289643838659,1.4682775851207786,bridging,Computer Systems Engineers/Architects
+70,Solution Design,12,127,0.5312845911229571,1.0564982457373395,bridging,Computer Systems Engineers/Architects
+71,Network Engineering,12,106,0.5312845911229571,0.7362254262168868,bridging,Computer Systems Engineers/Architects
+72,Enterprise Architecture,12,98,0.5312845911229571,0.6142167330662381,bridging,Computer Systems Engineers/Architects
+73,Kubernetes,12,157,0.5312845911229571,1.514030845052272,bridging,Computer Systems Engineers/Architects
+74,Oracle,12,166,0.5312845911229571,1.6512906248467516,bridging,Computer Systems Engineers/Architects
+75,Cloud Computing,12,133,0.5312845911229571,1.1480047656003258,bridging,Computer Systems Engineers/Architects
+76,Machine Learning (ML),12,143,0.5312845911229571,1.3005156320386366,bridging,Computer Systems Engineers/Architects
+77,Dynamic Host Configuration Protocol (DHCP),11,110,0.45264021786204833,0.7972297727922111,bridging,Computer Systems Engineers/Architects
+78,Load Balancing,11,129,0.45264021786204833,1.0870004190250016,bridging,Computer Systems Engineers/Architects
+79,Events and Conferences,11,108,0.45264021786204833,0.7667275995045489,bridging,Computer Systems Engineers/Architects
+80,Docker,11,154,0.45264021786204833,1.4682775851207786,bridging,Computer Systems Engineers/Architects
+81,C++,11,81,0.45264021786204833,0.35494826012110975,bridging,Computer Systems Engineers/Architects
+82,Disaster Recovery,11,119,0.45264021786204833,0.9344895525866908,bridging,Computer Systems Engineers/Architects
+83,SolarWinds,11,152,0.45264021786204833,1.4377754118331165,bridging,Computer Systems Engineers/Architects
+84,Solution Architecture,11,113,0.45264021786204833,0.8429830327237043,bridging,Computer Systems Engineers/Architects
+85,IT Infrastructure,11,119,0.45264021786204833,0.9344895525866908,bridging,Computer Systems Engineers/Architects
+86,Customer Service,11,131,0.45264021786204833,1.1175025923126638,bridging,Computer Systems Engineers/Architects
+87,Firmware,11,107,0.45264021786204833,0.7514765128607178,bridging,Computer Systems Engineers/Architects
+88,Marketing,11,109,0.45264021786204833,0.78197868614838,bridging,Computer Systems Engineers/Architects
+89,Infrastructure As A Service (IaaS),10,156,0.37399584460113955,1.4987797584084408,bridging,Computer Systems Engineers/Architects
+90,Terraform,10,127,0.37399584460113955,1.0564982457373395,bridging,Computer Systems Engineers/Architects
+91,React,10,139,0.37399584460113955,1.2395112854633124,bridging,Computer Systems Engineers/Architects
+92,Cloud Technologies,10,144,0.37399584460113955,1.3157667186824678,bridging,Computer Systems Engineers/Architects
+93,Incident Management,10,152,0.37399584460113955,1.4377754118331165,bridging,Computer Systems Engineers/Architects
+94,Application Development,10,136,0.37399584460113955,1.1937580255318192,bridging,Computer Systems Engineers/Architects
+95,Big Data,10,139,0.37399584460113955,1.2395112854633124,bridging,Computer Systems Engineers/Architects
+96,C#,10,152,0.37399584460113955,1.4377754118331165,bridging,Computer Systems Engineers/Architects
+98,Configuration Management,10,109,0.37399584460113955,0.78197868614838,bridging,Computer Systems Engineers/Architects
+99,Initiative and Leadership,10,114,0.37399584460113955,0.8582341193675354,bridging,Computer Systems Engineers/Architects
+100,Electronics,10,96,0.37399584460113955,0.5837145597785759,bridging,Computer Systems Engineers/Architects
+101,System Administration,9,116,0.2953514713402307,0.8887362926551976,bridging,Computer Systems Engineers/Architects
+102,Virtual Local Area Network (VLAN),9,66,0.2953514713402307,0.12618196046364352,bridging,Computer Systems Engineers/Architects
+103,Cisco Routers,9,62,0.2953514713402307,0.0651776138883192,bridging,Computer Systems Engineers/Architects
+104,Emerging Technologies,9,105,0.2953514713402307,0.7209743395730557,bridging,Computer Systems Engineers/Architects
+105,In-Plane Switching (IPS),9,114,0.2953514713402307,0.8582341193675354,bridging,Computer Systems Engineers/Architects
+106,Telecommunications,9,81,0.2953514713402307,0.35494826012110975,bridging,Computer Systems Engineers/Architects
+107,Technical Assistance,9,114,0.2953514713402307,0.8582341193675354,bridging,Computer Systems Engineers/Architects
+108,Scalability,9,116,0.2953514713402307,0.8887362926551976,bridging,Computer Systems Engineers/Architects
+109,MongoDB,9,127,0.2953514713402307,1.0564982457373395,bridging,Computer Systems Engineers/Architects
+110,Google Cloud Platform,9,164,0.2953514713402307,1.6207884515590893,bridging,Computer Systems Engineers/Architects
+111,Systems Architecture,9,93,0.2953514713402307,0.5379612998470827,bridging,Computer Systems Engineers/Architects
+112,Cloud Services,9,99,0.2953514713402307,0.6294678197100692,bridging,Computer Systems Engineers/Architects
+113,Artificial Intelligence (AI),9,106,0.2953514713402307,0.7362254262168868,bridging,Computer Systems Engineers/Architects
+114,Continuous Integration,9,123,0.2953514713402307,0.9954938991620151,bridging,Computer Systems Engineers/Architects
+115,Service Level,9,104,0.2953514713402307,0.7057232529292246,bridging,Computer Systems Engineers/Architects
+116,Telephony,9,103,0.2953514713402307,0.6904721662853935,bridging,Computer Systems Engineers/Architects
+117,Bash,9,145,0.2953514713402307,1.3310178053262989,bridging,Computer Systems Engineers/Architects
+118,Active Directory,9,140,0.2953514713402307,1.2547623721071435,bridging,Computer Systems Engineers/Architects
+119,System Design and Implementation,9,116,0.2953514713402307,0.8887362926551976,bridging,Computer Systems Engineers/Architects
+120,Software Engineering,8,117,0.21670709807932192,0.9039873792990286,bridging,Computer Systems Engineers/Architects
+121,Perl,8,114,0.21670709807932192,0.8582341193675354,bridging,Computer Systems Engineers/Architects
+122,Fortinet,8,100,0.21670709807932192,0.6447189063539003,bridging,Computer Systems Engineers/Architects
+123,Root Cause Analysis,8,80,0.21670709807932192,0.3396971734772787,bridging,Computer Systems Engineers/Architects
+124,Architectural Design,8,81,0.21670709807932192,0.35494826012110975,bridging,Computer Systems Engineers/Architects
+125,Google,8,101,0.21670709807932192,0.6599699929977313,bridging,Computer Systems Engineers/Architects
+126,PostgreSQL,8,122,0.21670709807932192,0.980242812518184,bridging,Computer Systems Engineers/Architects
+127,Technology Solutions,8,130,0.21670709807932192,1.1022515056688327,bridging,Computer Systems Engineers/Architects
+128,Apache,8,127,0.21670709807932192,1.0564982457373395,bridging,Computer Systems Engineers/Architects
+129,HTML5,8,89,0.21670709807932192,0.47695695327175835,bridging,Computer Systems Engineers/Architects
+130,Information Systems,8,138,0.21670709807932192,1.2242601988194812,bridging,Computer Systems Engineers/Architects
+131,Data Management,8,90,0.21670709807932192,0.4922080399155895,bridging,Computer Systems Engineers/Architects
+132,Uptime,8,159,0.21670709807932192,1.544533018339934,bridging,Computer Systems Engineers/Architects
+133,Candidate Relationship Management (CRM),8,84,0.21670709807932192,0.40070152005260296,bridging,Computer Systems Engineers/Architects
+135,HyperText Markup Language (HTML),8,122,0.21670709807932192,0.980242812518184,bridging,Computer Systems Engineers/Architects
+136,Network Support,8,97,0.21670709807932192,0.598965646422407,bridging,Computer Systems Engineers/Architects
+137,SSL,8,104,0.21670709807932192,0.7057232529292246,bridging,Computer Systems Engineers/Architects
+138,R,8,83,0.21670709807932192,0.3854504334087719,bridging,Computer Systems Engineers/Architects
+139,ServiceNow,8,94,0.21670709807932192,0.5532123864909138,bridging,Computer Systems Engineers/Architects
+140,Financial Services,8,111,0.21670709807932192,0.8124808594360422,bridging,Computer Systems Engineers/Architects
+141,Storage Area Network (SAN),8,105,0.21670709807932192,0.7209743395730557,bridging,Computer Systems Engineers/Architects
+142,Peripheral Component Interconnect (PCI),7,103,0.13806272481841314,0.6904721662853935,bridging,Computer Systems Engineers/Architects
+143,Cascading Style Sheets (CSS),7,122,0.13806272481841314,0.980242812518184,bridging,Computer Systems Engineers/Architects
+144,Network Monitoring,7,58,0.13806272481841314,0.00417326731299489,bridging,Computer Systems Engineers/Architects
+145,Jenkins,7,103,0.13806272481841314,0.6904721662853935,bridging,Computer Systems Engineers/Architects
+146,Citrix,7,115,0.13806272481841314,0.8734852060113665,bridging,Computer Systems Engineers/Architects
+147,Systems Engineering,7,101,0.13806272481841314,0.6599699929977313,bridging,Computer Systems Engineers/Architects
+148,Technical Documentation,7,79,0.13806272481841314,0.32444608683344756,bridging,Computer Systems Engineers/Architects
+149,UI/UX,7,71,0.13806272481841314,0.20243739368279892,bridging,Computer Systems Engineers/Architects
+150,Cloud Solutions,7,110,0.13806272481841314,0.7972297727922111,bridging,Computer Systems Engineers/Architects
+151,Electrical and Computer Engineering,7,92,0.13806272481841314,0.5227102132032516,bridging,Computer Systems Engineers/Architects
+152,Tooling,7,128,0.13806272481841314,1.0717493323811704,bridging,Computer Systems Engineers/Architects
+153,Internet Of Things (IoT),7,77,0.13806272481841314,0.2939439135457854,bridging,Computer Systems Engineers/Architects
+154,Service Management,7,82,0.13806272481841314,0.3701993467649408,bridging,Computer Systems Engineers/Architects
+155,Customer and Client Support,7,59,0.13806272481841314,0.01942435395682597,bridging,Computer Systems Engineers/Architects
+156,Statistics,7,123,0.13806272481841314,0.9954938991620151,bridging,Computer Systems Engineers/Architects
+157,Computer Systems,6,74,0.05941835155750435,0.24819065361429218,bridging,Computer Systems Engineers/Architects
+158,Ruby,6,97,0.05941835155750435,0.598965646422407,bridging,Computer Systems Engineers/Architects
+159,Compensation and Benefits,6,66,0.05941835155750435,0.12618196046364352,bridging,Computer Systems Engineers/Architects
+160,Templates,6,86,0.05941835155750435,0.43120369334026515,bridging,Computer Systems Engineers/Architects
+161,Continuous Delivery,6,134,0.05941835155750435,1.163255852244157,bridging,Computer Systems Engineers/Architects
+162,Software Design,6,124,0.05941835155750435,1.0107449858058462,bridging,Computer Systems Engineers/Architects
+163,Business Strategy,6,105,0.05941835155750435,0.7209743395730557,bridging,Computer Systems Engineers/Architects
+164,Business Systems,6,61,0.05941835155750435,0.04992652724448813,bridging,Computer Systems Engineers/Architects
+165,Quality Assurance and Control,6,113,0.05941835155750435,0.8429830327237043,bridging,Computer Systems Engineers/Architects
+166,Hardening,6,89,0.05941835155750435,0.47695695327175835,bridging,Computer Systems Engineers/Architects
+167,Equity and Debt,6,95,0.05941835155750435,0.5684634731347449,bridging,Computer Systems Engineers/Architects
+168,System Requirements,6,66,0.05941835155750435,0.12618196046364352,bridging,Computer Systems Engineers/Architects
+169,Server Administration,6,106,0.05941835155750435,0.7362254262168868,bridging,Computer Systems Engineers/Architects
+170,Business Analysis,6,79,0.05941835155750435,0.32444608683344756,bridging,Computer Systems Engineers/Architects
+171,jQuery,6,65,0.05941835155750435,0.11093087381981245,bridging,Computer Systems Engineers/Architects
+172,Business Process,6,60,0.05941835155750435,0.034675440600657054,bridging,Computer Systems Engineers/Architects
+173,Relational Databases,6,87,0.05941835155750435,0.4464547799840962,bridging,Computer Systems Engineers/Architects
+175,Management Systems,6,78,0.05941835155750435,0.3091950001896165,bridging,Computer Systems Engineers/Architects
+176,JSON,6,103,0.05941835155750435,0.6904721662853935,bridging,Computer Systems Engineers/Architects
+177,Gitlab,6,128,0.05941835155750435,1.0717493323811704,bridging,Computer Systems Engineers/Architects
+0,Communication,45,242,8.643913171380923,5.710382372754523,core,Computer Network Support Specialists
+1,"Company, Product, and Service Knowledge",43,239,8.232621366595694,5.626079508068642,core,Computer Network Support Specialists
+2,Business,34,212,6.3818082450621665,4.86735372589571,core,Computer Network Support Specialists
+3,"Policy Analysis, Research, and Development",29,192,5.353578733099095,4.3053346279898355,core,Computer Network Support Specialists
+4,"Maintenance, Repair, and Facility Services",22,198,3.914057416350796,4.473940357361598,core,Computer Network Support Specialists
+5,Science and Research,21,179,3.7084115139581817,3.940022214351016,core,Computer Network Support Specialists
+6,Technical Support and Services,19,131,3.2971197091729536,2.591176379376915,core,Computer Network Support Specialists
+7,Computer Science,19,165,3.2971197091729536,3.546608845816903,core,Computer Network Support Specialists
+8,"Engineering, Scientific, and Technical Instruments",18,183,3.091473806780339,4.052426033932191,core,Computer Network Support Specialists
+9,Customer Service,17,148,2.885827904387725,3.068892612596909,core,Computer Network Support Specialists
+10,Design,13,120,2.0632442948172685,2.282065875528684,core,Computer Network Support Specialists
+11,Information Technology,13,142,2.0632442948172685,2.9002868832251467,core,Computer Network Support Specialists
+12,Administration,12,137,1.8575983924246542,2.759782108748678,specialized,Computer Network Support Specialists
+13,Problem Solving,12,117,1.8575983924246542,2.197763010842803,specialized,Computer Network Support Specialists
+14,Sales,11,126,1.6519524900320401,2.4506716049004464,specialized,Computer Network Support Specialists
+18,Analysis,9,115,1.2406606852468118,2.1415611010522153,specialized,Computer Network Support Specialists
+22,Linux,8,113,1.0350147828541978,2.0853591912616274,specialized,Computer Network Support Specialists
+45,Service Management,5,114,0.4180770756763552,2.113460146156921,specialized,Computer Network Support Specialists
+15,Servers,10,89,1.446306587639426,1.4109362737745774,bridging,Computer Network Support Specialists
+16,Education and Training,10,110,1.446306587639426,2.001056326575746,bridging,Computer Network Support Specialists
+17,"Economics, Policy, and Social Studies",9,86,1.2406606852468118,1.326633409088696,bridging,Computer Network Support Specialists
+19,"Water Supply, Testing, and Treatment",9,81,1.2406606852468118,1.1861286346122273,bridging,Computer Network Support Specialists
+20,VMware,9,96,1.2406606852468118,1.6076429580416338,bridging,Computer Network Support Specialists
+21,Installation,8,94,1.0350147828541978,1.5514410482510461,bridging,Computer Network Support Specialists
+23,Language,8,83,1.0350147828541978,1.2423305444028148,bridging,Computer Network Support Specialists
+24,Project Management,8,80,1.0350147828541978,1.1580276797169335,bridging,Computer Network Support Specialists
+25,Knowledge Base,8,70,1.0350147828541978,0.8770181307639958,bridging,Computer Network Support Specialists
+26,"Fire Prevention, Safety, and Control",8,103,1.0350147828541978,1.80434964230869,bridging,Computer Network Support Specialists
+27,Information Systems,7,53,0.8293688804615835,0.3993018975440018,bridging,Computer Network Support Specialists
+28,Active Directory,7,90,0.8293688804615835,1.4390372286698712,bridging,Computer Network Support Specialists
+29,Virtualization,7,80,0.8293688804615835,1.1580276797169335,bridging,Computer Network Support Specialists
+30,Writing,7,70,0.8293688804615835,0.8770181307639958,bridging,Computer Network Support Specialists
+31,Cloud Computing,7,75,0.8293688804615835,1.0175229052404646,bridging,Computer Network Support Specialists
+32,Production and Assembly,7,87,0.8293688804615835,1.35473436398399,bridging,Computer Network Support Specialists
+33,Java,6,69,0.6237229780689694,0.8489171758687021,bridging,Computer Network Support Specialists
+34,Architecture and Construction,6,89,0.6237229780689694,1.4109362737745774,bridging,Computer Network Support Specialists
+35,Business Requirements,6,95,0.6237229780689694,1.57954200314634,bridging,Computer Network Support Specialists
+36,Firewall,6,106,0.6237229780689694,1.8886525069945712,bridging,Computer Network Support Specialists
+37,Python,6,59,0.6237229780689694,0.5679076269157644,bridging,Computer Network Support Specialists
+38,Scripting,6,90,0.6237229780689694,1.4390372286698712,bridging,Computer Network Support Specialists
+39,Customer and Client Support,6,46,0.6237229780689694,0.20259521327694544,bridging,Computer Network Support Specialists
+40,JavaScript and jQuery,6,73,0.6237229780689694,0.9613209954498771,bridging,Computer Network Support Specialists
+41,JavaScript,6,73,0.6237229780689694,0.9613209954498771,bridging,Computer Network Support Specialists
+42,Citrix,5,86,0.4180770756763552,1.326633409088696,bridging,Computer Network Support Specialists
+43,Capacity Planning,5,93,0.4180770756763552,1.5233400933557524,bridging,Computer Network Support Specialists
+44,HyperText Markup Language (HTML),5,64,0.4180770756763552,0.7084124013922333,bridging,Computer Network Support Specialists
+46,PHP,5,71,0.4180770756763552,0.9051190856592896,bridging,Computer Network Support Specialists
+47,Application Programming Interface (API),5,40,0.4180770756763552,0.03398948390518285,bridging,Computer Network Support Specialists
+48,Management Information Systems,5,43,0.4180770756763552,0.11829234859106415,bridging,Computer Network Support Specialists
+49,Initiative and Leadership,5,72,0.4180770756763552,0.9332200405545834,bridging,Computer Network Support Specialists
+50,TCP/IP,5,52,0.4180770756763552,0.37120094264870807,bridging,Computer Network Support Specialists
+51,Computer Engineering,5,98,0.4180770756763552,1.6638448678322213,bridging,Computer Network Support Specialists
+52,Transmission Control Protocol (TCP),5,52,0.4180770756763552,0.37120094264870807,bridging,Computer Network Support Specialists
+53,Amazon Web Services (AWS),5,81,0.4180770756763552,1.1861286346122273,bridging,Computer Network Support Specialists
+54,Automation,4,66,0.21243117328374103,0.7646143111828207,bridging,Computer Network Support Specialists
+56,Oracle,4,66,0.21243117328374103,0.7646143111828207,bridging,Computer Network Support Specialists
+57,Health Information Systems (HIS),4,78,0.21243117328374103,1.1018257699263458,bridging,Computer Network Support Specialists
+58,Application Development,4,60,0.21243117328374103,0.5960085818110582,bridging,Computer Network Support Specialists
+62,Fortinet,4,91,0.21243117328374103,1.467138183565165,bridging,Computer Network Support Specialists
+64,Business Process,4,59,0.21243117328374103,0.5679076269157644,bridging,Computer Network Support Specialists
+65,Service Level,4,97,0.21243117328374103,1.6357439129369276,bridging,Computer Network Support Specialists
+66,Microsoft Excel,4,53,0.21243117328374103,0.3993018975440018,bridging,Computer Network Support Specialists
+67,National Airspace System (NAS),4,65,0.21243117328374103,0.736513356287527,bridging,Computer Network Support Specialists
+69,Storage Area Network (SAN),4,46,0.21243117328374103,0.20259521327694544,bridging,Computer Network Support Specialists
+70,Operating Systems,3,61,0.00678527089112685,0.6241095367063519,bridging,Computer Network Support Specialists
+72,Scheduling,3,44,0.00678527089112685,0.14639330348635793,bridging,Computer Network Support Specialists
+75,JIRA,3,51,0.00678527089112685,0.34309998775341427,bridging,Computer Network Support Specialists
+80,Process Improvement and Optimization,3,40,0.00678527089112685,0.03398948390518285,bridging,Computer Network Support Specialists
+81,Statistics,3,53,0.00678527089112685,0.3993018975440018,bridging,Computer Network Support Specialists
+82,Network Security,3,61,0.00678527089112685,0.6241095367063519,bridging,Computer Network Support Specialists
+83,Telephony,3,58,0.00678527089112685,0.5398066720204706,bridging,Computer Network Support Specialists
+84,IT Service Management,3,77,0.00678527089112685,1.073724815031052,bridging,Computer Network Support Specialists
+85,Virtual Private Networks (VPN),3,47,0.00678527089112685,0.2306961681722392,bridging,Computer Network Support Specialists
+86,SolarWinds,3,86,0.00678527089112685,1.326633409088696,bridging,Computer Network Support Specialists
+87,Dynamic Host Configuration Protocol (DHCP),3,63,0.00678527089112685,0.6803114464969394,bridging,Computer Network Support Specialists
+91,Change Requests,3,52,0.00678527089112685,0.37120094264870807,bridging,Computer Network Support Specialists
+93,Events and Conferences,3,63,0.00678527089112685,0.6803114464969394,bridging,Computer Network Support Specialists
+94,"Transportation, Supply Chain, and Logistics",3,65,0.00678527089112685,0.736513356287527,bridging,Computer Network Support Specialists
+95,Microsoft Windows,3,47,0.00678527089112685,0.2306961681722392,bridging,Computer Network Support Specialists
+96,Network Infrastructure,3,40,0.00678527089112685,0.03398948390518285,bridging,Computer Network Support Specialists
+97,Compensation and Benefits,3,46,0.00678527089112685,0.20259521327694544,bridging,Computer Network Support Specialists
+0,Automation,12,60,4.137203435668958,3.3734241534066287,core,Robotics Engineers
+1,"Policy Analysis, Research, and Development",11,55,3.694860929968504,2.9540396432706064,core,Robotics Engineers
+2,Business,8,47,2.3678334128671397,2.283024427052971,core,Robotics Engineers
+3,Communication,8,51,2.3678334128671397,2.6185320351617887,core,Robotics Engineers
+4,Design,7,47,1.9254909071666853,2.283024427052971,specialized,Robotics Engineers
+5,C,6,25,1.4831484014662304,0.43773258245447316,bridging,Robotics Engineers
+6,C and C++,6,25,1.4831484014662304,0.43773258245447316,bridging,Robotics Engineers
+7,Robotics,5,37,1.0408058957657758,1.4442554067809266,bridging,Robotics Engineers
+9,"Water Supply, Testing, and Treatment",4,34,0.598463390065321,1.1926247006993131,bridging,Robotics Engineers
+10,Science and Research,4,29,0.598463390065321,0.773240190563291,bridging,Robotics Engineers
+11,Computer Science,3,23,0.15612088436486637,0.2699787784000643,bridging,Robotics Engineers
+12,Databases,3,30,0.15612088436486637,0.8571170925904954,bridging,Robotics Engineers
+13,User Acceptance Testing (UAT),3,28,0.15612088436486637,0.6893632885360865,bridging,Robotics Engineers
+15,Java,3,22,0.15612088436486637,0.18610187637285985,bridging,Robotics Engineers
+16,Programming languages,3,25,0.15612088436486637,0.43773258245447316,bridging,Robotics Engineers
+17,Prism,3,31,0.15612088436486637,0.9409939946176998,bridging,Robotics Engineers
+18,Oracle,3,24,0.15612088436486637,0.3538556804272687,bridging,Robotics Engineers
+19,Problem Solving,3,27,0.15612088436486637,0.6054863865088821,bridging,Robotics Engineers

@@ -1,0 +1,1 @@
+There are three primary data types used for this project, all of which were from publicly available sources: existing labor taxonomies, online job vacancies (OJV), and government-issued curriculums. 

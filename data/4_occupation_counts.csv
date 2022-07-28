@@ -1,0 +1,757 @@
+,Onet Occupation,2017,2018,2019,2020,2021,Total
+id,Accountants And Auditors,55,109,226,120,167,677
+id,Actuaries,0,0,2,2,2,6
+id,Acute Care Nurses,0,1,1,0,0,2
+id,Administrative Services Managers,5,8,25,31,32,101
+id,"Adult Basic Education, Adult Secondary Education, And English As A Second Language Instructors",19,49,51,36,41,196
+id,Advertising And Promotions Managers,4,1,9,13,7,34
+id,Advertising Sales Agents,4,6,7,8,24,49
+id,Aerospace Engineers,0,3,4,0,7,14
+id,"Agents And Business Managers Of Artists, Performers, And Athletes",1,0,4,8,9,22
+id,Agricultural Engineers,0,2,1,1,0,4
+id,Air Crew Members,0,4,3,2,2,11
+id,Air Crew Officers,0,0,0,1,0,1
+id,Air Traffic Controllers,1,1,1,1,4,8
+id,Aircraft Mechanics And Service Technicians,4,2,0,0,0,6
+id,"Aircraft Structure, Surfaces, Rigging, And Systems Assemblers",1,0,1,0,0,2
+id,Airfield Operations Specialists,2,1,6,1,11,21
+id,"Airline Pilots, Copilots, And Flight Engineers",0,0,0,0,1,1
+id,Amusement And Recreation Attendants,0,0,1,5,0,6
+id,Anesthesiologist Assistants,0,0,0,1,0,1
+id,Animal Caretakers,2,3,2,2,2,11
+id,Animal Control Workers,3,4,5,3,9,24
+id,Animal Scientists,0,0,0,0,2,2
+id,Animal Trainers,0,4,3,2,6,15
+id,"Anthropology And Archeology Teachers, Postsecondary",0,0,0,0,1,1
+id,Appraisers And Assessors Of Real Estate,0,0,3,1,1,5
+id,"Arbitrators, Mediators, And Conciliators",1,4,4,1,0,10
+id,"Architects, Except Landscape And Naval",8,12,15,9,5,49
+id,Architectural And Civil Drafters,3,6,15,4,8,36
+id,Architectural And Engineering Managers,5,4,6,9,11,35
+id,"Architecture Teachers, Postsecondary",1,0,0,0,1,2
+id,Archivists,0,0,2,0,1,3
+id,Art Directors,4,3,8,3,5,23
+id,"Art, Drama, And Music Teachers, Postsecondary",4,1,3,6,4,18
+id,Artillery And Missile Crew Members,0,0,0,0,1,1
+id,"Artists And Related Workers, All Other",0,0,1,0,0,1
+id,"Assemblers And Fabricators, All Other",0,0,0,0,2,2
+id,Astronomers,0,0,1,0,0,1
+id,Athletes And Sports Competitors,0,0,0,0,1,1
+id,Audio And Video Technicians,0,4,2,1,0,7
+id,Audiovisual Equipment Installers And Repairers,3,0,1,0,0,4
+id,Automotive And Watercraft Service Attendants,3,5,4,1,7,20
+id,Automotive Engineering Technicians,0,0,0,0,1,1
+id,Automotive Engineers,9,3,11,26,40,89
+id,Automotive Glass Installers And Repairers,0,0,3,0,3,6
+id,Automotive Service Technicians And Mechanics,4,3,9,17,17,50
+id,Aviation Inspectors,1,1,1,0,2,5
+id,Baggage Porters And Bellhops,0,0,0,0,1,1
+id,Bakers,3,4,7,0,4,18
+id,Barbers,0,2,0,0,0,2
+id,Baristas,2,7,20,2,2,33
+id,Bartenders,3,2,1,1,3,10
+id,Bicycle Repairers,1,0,0,0,0,1
+id,Bill And Account Collectors,62,27,59,46,228,422
+id,Billing And Posting Clerks,46,98,104,56,94,398
+id,Bioengineers And Biomedical Engineers,0,0,1,0,0,1
+id,Biofuels Processing Technicians,1,10,4,5,4,24
+id,Biofuels Production Managers,0,1,0,0,3,4
+id,Biofuels/Biodiesel Technology And Product Development Managers,0,1,0,0,0,1
+id,"Biological Science Teachers, Postsecondary",0,1,1,0,0,2
+id,Biological Technicians,3,3,0,2,4,12
+id,Biologists,1,0,0,1,1,3
+id,Biomass Plant Technicians,0,2,10,4,7,23
+id,Biomass Power Plant Managers,1,0,9,5,8,23
+id,Blockchain Engineers,0,2,4,10,14,30
+id,Boilermakers,1,0,0,0,0,1
+id,"Bookkeeping, Accounting, And Auditing Clerks",64,99,149,136,179,627
+id,Bridge And Lock Tenders,0,1,0,0,0,1
+id,Broadcast Technicians,4,3,9,3,15,34
+id,Brokerage Clerks,5,5,8,24,25,67
+id,Budget Analysts,0,1,0,3,6,10
+id,"Bus Drivers, Transit And Intercity",0,1,3,1,3,8
+id,Business Continuity Planners,0,0,2,1,6,9
+id,Business Intelligence Analysts,18,18,76,141,201,454
+id,"Business Operations Specialists, All Other",13,55,58,26,27,179
+id,"Business Teachers, Postsecondary",4,9,6,5,2,26
+id,Butchers And Meat Cutters,1,1,0,0,2,4
+id,"Buyers And Purchasing Agents, Farm Products",0,0,0,1,4,5
+id,Cabinetmakers And Bench Carpenters,1,0,1,1,1,4
+id,Calibration Technologists And Technicians,0,0,0,1,0,1
+id,Camera And Photographic Equipment Repairers,0,2,0,0,0,2
+id,"Camera Operators, Television, Video, And Film",2,0,9,4,4,19
+id,"Captains, Mates, And Pilots Of Water Vessels",0,5,2,3,3,13
+id,Cardiovascular Technologists And Technicians,2,0,0,0,0,2
+id,"Career/Technical Education Teachers, Middle School",0,1,0,2,1,4
+id,"Career/Technical Education Teachers, Postsecondary",4,0,14,6,10,34
+id,"Career/Technical Education Teachers, Secondary School",3,2,2,1,1,9
+id,Cargo And Freight Agents,5,2,5,2,5,19
+id,Carpenters,1,8,5,0,3,17
+id,Carpet Installers,0,0,1,0,0,1
+id,Cashiers,2,1,8,0,3,14
+id,Chefs And Head Cooks,1,5,7,3,1,17
+id,Chemical Engineers,0,2,0,0,1,3
+id,Chemical Equipment Operators And Tenders,1,3,1,0,0,5
+id,Chemical Plant And System Operators,3,2,3,0,5,13
+id,Chemical Technicians,2,7,5,2,4,20
+id,Chemists,2,14,10,5,6,37
+id,Chief Executives,18,20,36,23,34,131
+id,Chief Sustainability Officers,0,0,1,0,1,2
+id,"Child, Family, And School Social Workers",0,0,0,1,0,1
+id,Childcare Workers,2,6,0,1,0,9
+id,Choreographers,1,0,0,0,0,1
+id,Civil Engineering Technologists And Technicians,0,0,0,1,0,1
+id,Civil Engineers,9,41,42,15,20,127
+id,"Claims Adjusters, Examiners, And Investigators",0,1,5,6,8,20
+id,Cleaners Of Vehicles And Equipment,1,5,4,0,2,12
+id,Climate Change Policy Analysts,0,0,0,0,1,1
+id,Clinical And Counseling Psychologists,0,2,0,0,3,5
+id,Clinical Data Managers,0,0,0,0,3,3
+id,Clinical Nurse Specialists,0,0,1,1,0,2
+id,Clinical Research Coordinators,0,0,1,0,0,1
+id,Coaches And Scouts,1,7,3,12,7,30
+id,"Coating, Painting, And Spraying Machine Setters, Operators, And Tenders",1,2,1,0,0,4
+id,"Coin, Vending, And Amusement Machine Servicers And Repairers",0,0,0,6,3,9
+id,Command And Control Center Officers,1,1,3,1,2,8
+id,Command And Control Center Specialists,4,2,3,14,16,39
+id,Commercial And Industrial Designers,9,17,13,11,12,62
+id,Commercial Pilots,0,0,0,2,2,4
+id,"Communications Equipment Operators, All Other",0,0,1,0,1,2
+id,"Communications Teachers, Postsecondary",0,0,1,1,1,3
+id,"Community And Social Service Specialists, All Other",5,8,8,4,15,40
+id,Community Health Workers,4,4,3,3,2,16
+id,Compensation And Benefits Managers,1,1,3,1,1,7
+id,"Compensation, Benefits, And Job Analysis Specialists",3,3,4,14,7,31
+id,Compliance Managers,11,11,20,21,31,94
+id,Compliance Officers,0,1,3,1,1,6
+id,Computer And Information Research Scientists,0,0,1,2,1,4
+id,Computer And Information Systems Managers,0,0,5,12,15,32
+id,Computer Hardware Engineers,24,36,52,19,14,145
+id,Computer Network Architects,2,0,9,6,16,33
+id,Computer Network Support Specialists,0,1,7,11,12,31
+id,Computer Numerically Controlled Tool Operators,1,3,3,1,0,8
+id,Computer Numerically Controlled Tool Programmers,3,8,9,12,9,41
+id,"Computer Occupations, All Other",2,6,6,5,12,31
+id,Computer Programmers,44,41,71,119,227,502
+id,"Computer Science Teachers, Postsecondary",0,0,2,1,1,4
+id,Computer Systems Analysts,9,7,40,67,107,230
+id,Computer Systems Engineers/Architects,5,6,29,50,106,196
+id,Computer User Support Specialists,189,55,137,237,592,1210
+id,"Computer, Automated Teller, And Office Machine Repairers",4,4,12,6,12,38
+id,Concierges,0,0,2,1,2,5
+id,Conservation Scientists,1,0,0,0,0,1
+id,Construction And Building Inspectors,0,0,1,3,9,13
+id,"Construction And Related Workers, All Other",1,0,0,2,0,3
+id,Construction Laborers,3,5,1,0,3,12
+id,Construction Managers,1,8,6,0,3,18
+id,"Control And Valve Installers And Repairers, Except Mechanical Door",1,3,3,5,4,16
+id,Conveyor Operators And Tenders,1,3,0,3,4,11
+id,"Cooks, All Other",1,0,0,0,0,1
+id,"Cooks, Fast Food",1,0,0,0,0,1
+id,"Cooks, Institution And Cafeteria",4,17,6,1,8,36
+id,"Cooks, Private Household",0,2,1,1,1,5
+id,"Cooks, Restaurant",1,1,2,0,0,4
+id,"Cooks, Short Order",4,9,10,1,6,30
+id,Cooling And Freezing Equipment Operators And Tenders,1,6,5,1,2,15
+id,Coroners,0,0,0,3,1,4
+id,Correctional Officers And Jailers,1,0,1,0,0,2
+id,Correspondence Clerks,0,1,0,0,2,3
+id,Cost Estimators,3,5,14,5,17,44
+id,Costume Attendants,0,1,0,0,0,1
+id,"Counselors, All Other",2,0,0,6,3,11
+id,Counter And Rental Clerks,1,0,0,0,2,3
+id,Couriers And Messengers,3,6,8,5,18,40
+id,Court Reporters And Simultaneous Captioners,0,0,1,0,0,1
+id,"Court, Municipal, And License Clerks",2,3,7,8,8,28
+id,Crane And Tower Operators,2,5,1,4,2,14
+id,Credit Analysts,0,0,3,6,2,11
+id,"Credit Authorizers, Checkers, And Clerks",90,108,187,230,541,1156
+id,Credit Counselors,0,2,0,0,3,5
+id,"Criminal Justice And Law Enforcement Teachers, Postsecondary",0,1,0,0,0,1
+id,Critical Care Nurses,10,28,49,7,26,120
+id,Crossing Guards And Flaggers,3,1,0,0,2,6
+id,"Crushing, Grinding, And Polishing Machine Setters, Operators, And Tenders",2,0,0,0,0,2
+id,Curators,0,2,3,2,1,8
+id,Customer Service Representatives,128,64,113,166,568,1039
+id,Customs And Border Protection Officers,2,4,2,2,3,13
+id,Customs Brokers,1,1,2,1,2,7
+id,"Cutting And Slicing Machine Setters, Operators, And Tenders",0,0,0,0,1,1
+id,"Cutting, Punching, And Press Machine Setters, Operators, And Tenders, Metal And Plastic",0,2,0,1,0,3
+id,Dancers,0,0,1,0,2,3
+id,Data Entry Keyers,9,37,30,15,41,132
+id,Data Scientists,9,10,42,93,150,304
+id,Data Warehousing Specialists,1,0,5,12,10,28
+id,Database Administrators,5,8,17,36,48,114
+id,Database Architects,4,0,12,22,40,78
+id,Demonstrators And Product Promoters,16,32,33,19,25,125
+id,Dental Assistants,0,0,1,0,0,1
+id,Dental Hygienists,0,2,0,0,0,2
+id,Dental Laboratory Technicians,0,1,0,0,1,2
+id,"Dentists, All Other Specialists",0,0,0,1,0,1
+id,"Dentists, General",2,3,3,0,1,9
+id,Dermatologists,2,0,0,0,0,2
+id,"Designers, All Other",2,0,6,3,7,18
+id,Desktop Publishers,2,3,3,6,7,21
+id,Detectives And Criminal Investigators,0,0,1,2,2,5
+id,Dietitians And Nutritionists,0,2,1,3,2,8
+id,Digital Forensics Analysts,0,0,2,1,6,9
+id,Dining Room And Cafeteria Attendants And Bartender Helpers,0,4,1,0,0,5
+id,"Directors, Religious Activities And Education",0,0,0,1,0,1
+id,Dishwashers,0,0,2,0,1,3
+id,"Dispatchers, Except Police, Fire, And Ambulance",0,1,1,1,6,9
+id,Document Management Specialists,2,9,3,4,3,21
+id,"Door-To-Door Sales Workers, News And Street Vendors, And Related Workers",43,67,86,51,119,366
+id,"Drafters, All Other",7,23,10,8,5,53
+id,"Drilling And Boring Machine Tool Setters, Operators, And Tenders, Metal And Plastic",0,0,0,4,10,14
+id,Driver/Sales Workers,3,1,0,1,3,8
+id,"Economics Teachers, Postsecondary",0,0,0,0,1,1
+id,Economists,0,2,5,2,8,17
+id,Editors,4,0,5,4,8,21
+id,"Education Administrators, Kindergarten Through Secondary",0,0,0,3,4,7
+id,"Education Administrators, Postsecondary",0,1,1,1,1,4
+id,"Education And Childcare Administrators, Preschool And Daycare",2,2,0,2,3,9
+id,"Education Teachers, Postsecondary",0,0,1,0,0,1
+id,"Educational, Guidance, And Career Counselors And Advisors",6,7,8,13,25,59
+id,"Electric Motor, Power Tool, And Related Repairers",1,1,3,0,1,6
+id,Electrical And Electronic Engineering Technologists And Technicians,1,2,10,5,15,33
+id,Electrical And Electronic Equipment Assemblers,1,2,0,2,8,13
+id,Electrical And Electronics Drafters,2,2,0,0,2,6
+id,"Electrical And Electronics Installers And Repairers, Transportation Equipment",2,2,0,2,3,9
+id,"Electrical And Electronics Repairers, Commercial And Industrial Equipment",4,6,6,1,2,19
+id,Electrical Engineers,9,8,18,13,6,54
+id,Electrical Power-Line Installers And Repairers,0,0,0,0,1,1
+id,Electricians,2,2,1,0,1,6
+id,Electro-Mechanical And Mechatronics Technologists And Technicians,2,0,3,1,2,8
+id,Electromechanical Equipment Assemblers,0,0,3,0,3,6
+id,"Electronic Equipment Installers And Repairers, Motor Vehicles",2,0,2,0,4,8
+id,"Electronics Engineers, Except Computer",1,1,1,1,2,6
+id,"Elementary School Teachers, Except Special Education",5,2,0,1,0,8
+id,"Eligibility Interviewers, Government Programs",3,5,9,10,29,56
+id,Emergency Medicine Physicians,0,0,0,1,0,1
+id,Energy Auditors,0,1,3,0,2,6
+id,"Energy Engineers, Except Wind And Solar",0,0,1,0,1,2
+id,Engine And Other Machine Assemblers,2,1,0,0,1,4
+id,"Engineering Teachers, Postsecondary",0,2,1,0,1,4
+id,"Engineering Technologists And Technicians, Except Drafters, All Other",2,24,9,3,5,43
+id,"Engineers, All Other",6,13,8,27,36,90
+id,"English Language And Literature Teachers, Postsecondary",7,6,7,6,5,31
+id,"Entertainers And Performers, Sports And Related Workers, All Other",0,0,0,0,1,1
+id,"Entertainment And Recreation Managers, Except Gambling",0,0,1,0,0,1
+id,Environmental Compliance Inspectors,1,0,0,0,0,1
+id,Environmental Economists,0,0,0,0,2,2
+id,Environmental Engineering Technologists And Technicians,0,0,1,1,0,2
+id,Environmental Engineers,1,2,1,0,1,5
+id,"Environmental Science And Protection Technicians, Including Health",2,0,4,3,4,13
+id,"Environmental Scientists And Specialists, Including Health",1,0,1,0,4,6
+id,Epidemiologists,0,1,0,0,0,1
+id,Equal Opportunity Representatives And Officers,0,0,0,0,1,1
+id,"Excavating And Loading Machine And Dragline Operators, Surface Mining",0,1,0,0,1,2
+id,Executive Secretaries And Executive Administrative Assistants,65,85,143,112,137,542
+id,Exercise Trainers And Group Fitness Instructors,2,4,3,4,2,15
+id,"Extraction Workers, All Other",0,0,0,1,0,1
+id,"Extruding And Forming Machine Setters, Operators, And Tenders, Synthetic And Glass Fibers",0,0,1,0,0,1
+id,"Extruding, Forming, Pressing, And Compacting Machine Setters, Operators, And Tenders",0,0,2,0,0,2
+id,Fabric And Apparel Patternmakers,0,0,2,1,2,5
+id,Facilities Managers,2,3,5,3,4,17
+id,Family Medicine Physicians,0,0,1,1,0,2
+id,Farm And Home Management Educators,0,1,5,8,14,28
+id,Farm Labor Contractors,0,1,0,1,0,2
+id,"Farmers, Ranchers, And Other Agricultural Managers",0,4,1,1,0,6
+id,"Farmworkers And Laborers, Crop, Nursery, And Greenhouse",0,1,3,0,0,4
+id,"Farmworkers, Farm, Ranch, And Aquacultural Animals",1,0,0,0,0,1
+id,Fashion Designers,2,1,3,1,2,9
+id,Fast Food And Counter Workers,1,3,2,3,5,14
+id,Fiberglass Laminators And Fabricators,0,1,1,0,0,2
+id,File Clerks,3,0,6,9,1,19
+id,Film And Video Editors,3,8,10,10,15,46
+id,Financial And Investment Analysts,5,2,19,7,23,56
+id,"Financial Clerks, All Other",0,0,0,1,0,1
+id,Financial Examiners,12,15,52,30,28,137
+id,Financial Managers,25,23,48,45,78,219
+id,Financial Quantitative Analysts,7,5,37,27,31,107
+id,Financial Risk Specialists,5,8,10,25,57,105
+id,"Fine Artists, Including Painters, Sculptors, And Illustrators",1,0,1,0,0,2
+id,Fire Inspectors And Investigators,0,0,1,0,0,1
+id,First-Line Supervisors Of All Other Tactical Operations Specialists,0,0,1,2,1,4
+id,First-Line Supervisors Of Construction Trades And Extraction Workers,0,2,5,6,4,17
+id,"First-Line Supervisors Of Entertainment And Recreation Workers, Except Gambling Services",2,2,2,4,1,11
+id,"First-Line Supervisors Of Farming, Fishing, And Forestry Workers",4,12,11,8,29,64
+id,First-Line Supervisors Of Firefighting And Prevention Workers,1,4,4,3,13,25
+id,First-Line Supervisors Of Food Preparation And Serving Workers,4,4,14,3,3,28
+id,First-Line Supervisors Of Gambling Services Workers,0,0,0,1,1,2
+id,"First-Line Supervisors Of Helpers, Laborers, And Material Movers, Hand",2,3,10,6,16,37
+id,First-Line Supervisors Of Housekeeping And Janitorial Workers,1,5,8,3,0,17
+id,First-Line Supervisors Of Material-Moving Machine And Vehicle Operators,11,9,28,7,11,66
+id,"First-Line Supervisors Of Mechanics, Installers, And Repairers",7,7,11,9,24,58
+id,First-Line Supervisors Of Non-Retail Sales Workers,17,15,26,19,19,96
+id,First-Line Supervisors Of Office And Administrative Support Workers,70,92,148,110,155,575
+id,First-Line Supervisors Of Passenger Attendants,1,2,6,4,15,28
+id,First-Line Supervisors Of Personal Service Workers,0,0,1,0,3,4
+id,First-Line Supervisors Of Production And Operating Workers,9,14,16,17,20,76
+id,"First-Line Supervisors Of Protective Service Workers, All Other",0,0,1,7,3,11
+id,First-Line Supervisors Of Retail Sales Workers,38,45,95,31,37,246
+id,First-Line Supervisors Of Security Workers,0,0,2,2,0,4
+id,Fish And Game Wardens,3,4,6,0,0,13
+id,Fitness And Wellness Coordinators,0,0,3,0,3,6
+id,Flight Attendants,2,0,1,0,3,6
+id,"Floor Layers, Except Carpet, Wood, And Hard Tiles",1,0,0,0,0,1
+id,Floral Designers,1,4,1,2,1,9
+id,Food Batchmakers,0,2,3,0,1,6
+id,Food Preparation Workers,10,22,37,3,6,78
+id,Food Science Technicians,1,2,0,0,0,3
+id,Food Scientists And Technologists,2,2,5,3,0,12
+id,"Food Servers, Nonrestaurant",2,5,6,0,9,22
+id,Food Service Managers,9,22,22,7,12,72
+id,"Foreign Language And Literature Teachers, Postsecondary",5,4,6,19,35,69
+id,Forest And Conservation Workers,1,0,2,1,0,4
+id,Foresters,0,0,1,0,0,1
+id,"Forestry And Conservation Science Teachers, Postsecondary",0,1,0,0,0,1
+id,"Fraud Examiners, Investigators And Analysts",0,0,2,5,11,18
+id,Freight Forwarders,0,3,1,4,0,8
+id,Fuel Cell Engineers,0,0,1,0,2,3
+id,Fundraisers,14,23,33,26,28,124
+id,Fundraising Managers,2,2,1,1,15,21
+id,Funeral Home Managers,1,0,0,0,0,1
+id,"Furnace, Kiln, Oven, Drier, And Kettle Operators And Tenders",0,3,1,2,1,7
+id,Furniture Finishers,1,0,1,0,1,3
+id,Gambling Dealers,0,1,4,11,5,21
+id,Gambling Managers,0,2,3,4,2,11
+id,"Gambling Service Workers, All Other",0,0,2,0,4,6
+id,Gas Compressor And Gas Pumping Station Operators,3,1,3,2,3,12
+id,Gas Plant Operators,2,3,8,10,7,30
+id,General And Operations Managers,6,5,20,18,17,66
+id,General Internal Medicine Physicians,1,0,4,1,0,6
+id,Genetic Counselors,0,0,0,0,1,1
+id,Geodetic Surveyors,1,2,0,0,1,4
+id,Geographic Information Systems Technologists And Technicians,2,2,2,3,5,14
+id,"Geological Technicians, Except Hydrologic Technicians",0,2,7,3,12,24
+id,"Geoscientists, Except Hydrologists And Geographers",0,0,1,3,1,5
+id,Geothermal Technicians,1,1,1,0,0,3
+id,"Glass Blowers, Molders, Benders, And Finishers",0,0,2,0,0,2
+id,Government Property Inspectors And Investigators,15,13,24,32,46,130
+id,"Graders And Sorters, Agricultural Products",0,0,0,0,1,1
+id,Graphic Designers,38,53,121,68,65,345
+id,"Grinding And Polishing Workers, Hand",1,0,0,0,1,2
+id,"Grinding, Lapping, Polishing, And Buffing Machine Tool Setters, Operators, And Tenders, Metal And Plastic",0,1,2,1,4,8
+id,"Hairdressers, Hairstylists, And Cosmetologists",2,7,5,1,0,15
+id,Hazardous Materials Removal Workers,1,1,0,0,0,2
+id,"Health And Safety Engineers, Except Mining Safety Engineers And Inspectors",3,1,5,6,10,25
+id,Health Education Specialists,0,1,2,0,0,3
+id,Health Informatics Specialists,0,0,0,1,0,1
+id,Health Information Technologists And Medical Registrars,0,0,2,1,4,7
+id,"Health Specialties Teachers, Postsecondary",1,3,2,1,5,12
+id,"Health Technologists And Technicians, All Other",0,2,0,0,1,3
+id,"Healthcare Diagnosing Or Treating Practitioners, All Other",7,7,54,31,19,118
+id,"Healthcare Practitioners And Technical Workers, All Other",0,1,0,0,1,2
+id,Healthcare Social Workers,0,1,0,1,1,3
+id,"Healthcare Support Workers, All Other",0,2,0,0,2,4
+id,Hearing Aid Specialists,0,0,0,0,1,1
+id,"Heating, Air Conditioning, And Refrigeration Mechanics And Installers",0,1,0,0,0,1
+id,Heavy And Tractor-Trailer Truck Drivers,6,22,13,3,11,55
+id,"Helpers, Construction Trades, All Other",1,1,0,0,0,2
+id,Helpers--Electricians,3,1,0,1,0,5
+id,"Helpers--Installation, Maintenance, And Repair Workers",0,1,2,0,1,4
+id,"Helpers--Painters, Paperhangers, Plasterers, And Stucco Masons",0,0,1,0,0,1
+id,Helpers--Production Workers,5,6,8,0,1,20
+id,Highway Maintenance Workers,0,1,0,0,0,1
+id,Historians,1,3,7,4,8,23
+id,"History Teachers, Postsecondary",0,1,0,0,0,1
+id,Hoist And Winch Operators,2,3,2,3,2,12
+id,Home Appliance Repairers,0,0,0,0,1,1
+id,Home Health Aides,8,1,4,9,20,42
+id,"Hosts And Hostesses, Restaurant, Lounge, And Coffee Shop",0,0,1,0,0,1
+id,"Hotel, Motel, And Resort Desk Clerks",1,5,6,4,5,21
+id,"Human Resources Assistants, Except Payroll And Timekeeping",10,19,42,14,25,110
+id,Human Resources Managers,21,35,67,63,97,283
+id,Human Resources Specialists,28,38,76,79,231,452
+id,Hydroelectric Plant Technicians,0,2,0,0,0,2
+id,Hydroelectric Production Managers,7,6,17,13,25,68
+id,Hydrologists,0,0,0,0,3,3
+id,Industrial Engineering Technologists And Technicians,9,14,20,22,47,112
+id,Industrial Engineers,6,6,12,12,10,46
+id,Industrial Machinery Mechanics,0,1,0,0,0,1
+id,Industrial Production Managers,2,4,2,4,1,13
+id,Industrial Truck And Tractor Operators,2,3,3,0,3,11
+id,Industrial-Organizational Psychologists,1,2,10,7,11,31
+id,"Information And Record Clerks, All Other",0,4,5,6,10,25
+id,Information Security Analysts,0,3,9,20,11,43
+id,Information Security Engineers,2,1,11,21,37,72
+id,Information Technology Project Managers,11,5,23,30,55,124
+id,"Inspectors, Testers, Sorters, Samplers, And Weighers",6,8,23,24,79,140
+id,"Installation, Maintenance, And Repair Workers, All Other",2,1,7,6,9,25
+id,Instructional Coordinators,5,8,6,10,9,38
+id,"Insurance Appraisers, Auto Damage",0,2,0,0,1,3
+id,Insurance Claims And Policy Processing Clerks,25,8,12,31,78,154
+id,Insurance Sales Agents,2,5,4,3,19,33
+id,Insurance Underwriters,0,0,0,1,0,1
+id,Intelligence Analysts,0,0,0,3,4,7
+id,Interior Designers,10,5,8,0,2,25
+id,Interpreters And Translators,2,15,15,23,8,63
+id,"Interviewers, Except Eligibility And Loan",2,1,3,1,3,10
+id,Investment Fund Managers,0,2,2,3,6,13
+id,"Janitors And Cleaners, Except Maids And Housekeeping Cleaners",9,3,5,3,5,25
+id,Jewelers And Precious Stone And Metal Workers,1,2,6,0,6,15
+id,"Kindergarten Teachers, Except Special Education",0,1,1,0,0,2
+id,Labor Relations Specialists,1,1,4,1,7,14
+id,"Laborers And Freight, Stock, And Material Movers, Hand",4,7,6,2,5,24
+id,Landscape Architects,6,6,7,2,8,29
+id,Landscaping And Groundskeeping Workers,1,2,1,0,1,5
+id,"Lathe And Turning Machine Tool Setters, Operators, And Tenders, Metal And Plastic",1,1,0,0,5,7
+id,Laundry And Dry-Cleaning Workers,2,3,0,0,2,7
+id,Lawyers,7,4,22,11,16,60
+id,Legal Secretaries And Administrative Assistants,0,3,2,2,1,8
+id,"Legal Support Workers, All Other",2,6,3,1,8,20
+id,Librarians And Media Collections Specialists,0,1,3,4,1,9
+id,"Library Assistants, Clerical",7,5,9,5,7,33
+id,Licensed Practical And Licensed Vocational Nurses,5,5,12,1,4,27
+id,"Life, Physical, And Social Science Technicians, All Other",1,0,0,2,0,3
+id,"Lifeguards, Ski Patrol, And Other Recreational Protective Service Workers",1,1,0,1,0,3
+id,Light Truck Drivers,0,4,1,0,5,10
+id,"Loading And Moving Machine Operators, Underground Mining",0,0,0,5,1,6
+id,Loan Interviewers And Clerks,3,2,6,6,4,21
+id,Loan Officers,10,12,11,18,34,85
+id,"Locker Room, Coatroom, And Dressing Room Attendants",1,4,6,1,0,12
+id,Locomotive Engineers,4,3,5,11,14,37
+id,Lodging Managers,7,11,18,9,4,49
+id,Log Graders And Scalers,0,0,1,1,0,2
+id,"Logging Workers, All Other",1,0,0,0,0,1
+id,Logisticians,0,0,3,0,0,3
+id,Logistics Analysts,3,1,10,16,9,39
+id,Logistics Engineers,1,2,5,1,3,12
+id,"Low Vision Therapists, Orientation And Mobility Specialists, And Vision Rehabilitation Therapists",0,0,0,2,2,4
+id,Machine Feeders And Offbearers,1,5,2,3,0,11
+id,Machinists,1,0,0,1,0,2
+id,Maids And Housekeeping Cleaners,1,6,5,0,2,14
+id,"Mail Clerks And Mail Machine Operators, Except Postal Service",2,1,0,2,7,12
+id,"Maintenance And Repair Workers, General",5,6,15,2,12,40
+id,Management Analysts,3,0,18,11,11,43
+id,"Managers, All Other",23,30,78,77,102,310
+id,Manicurists And Pedicurists,0,10,6,0,0,16
+id,Manufacturing Engineers,2,1,0,1,5,9
+id,Marine Engineers And Naval Architects,0,3,4,4,2,13
+id,Market Research Analysts And Marketing Specialists,39,76,142,82,144,483
+id,Marketing Managers,41,65,91,84,137,418
+id,Massage Therapists,3,2,4,0,0,9
+id,"Material Moving Workers, All Other",5,8,8,4,10,35
+id,Materials Engineers,0,0,3,1,0,4
+id,"Mathematical Science Teachers, Postsecondary",1,6,4,2,0,13
+id,"Meat, Poultry, And Fish Cutters And Trimmers",1,1,2,2,4,10
+id,Mechanical Drafters,6,14,7,7,4,38
+id,Mechanical Engineering Technologists And Technicians,5,3,13,26,10,57
+id,Mechanical Engineers,8,11,19,10,7,55
+id,Mechatronics Engineers,1,1,0,4,6,12
+id,"Media And Communication Equipment Workers, All Other",0,0,0,0,2,2
+id,"Media And Communication Workers, All Other",0,0,1,0,1,2
+id,Media Programming Directors,1,1,1,6,12,21
+id,Media Technical Directors/Managers,8,9,26,35,60,138
+id,Medical And Clinical Laboratory Technicians,3,2,1,0,3,9
+id,Medical And Clinical Laboratory Technologists,2,2,4,18,19,45
+id,Medical And Health Services Managers,13,7,6,28,9,63
+id,Medical Appliance Technicians,0,0,1,0,0,1
+id,Medical Assistants,4,6,9,14,12,45
+id,Medical Equipment Preparers,0,0,0,1,0,1
+id,Medical Equipment Repairers,1,1,2,1,3,8
+id,Medical Records Specialists,1,1,2,2,15,21
+id,Medical Secretaries And Administrative Assistants,10,8,12,8,8,46
+id,Medical Transcriptionists,7,6,7,1,7,28
+id,"Meeting, Convention, And Event Planners",5,14,11,6,3,39
+id,Mental Health And Substance Abuse Social Workers,0,1,0,3,0,4
+id,Mental Health Counselors,0,0,0,0,1,1
+id,Merchandise Displayers And Window Trimmers,4,3,14,7,5,33
+id,"Metal Workers And Plastic Workers, All Other",1,1,0,3,3,8
+id,Metal-Refining Furnace Operators And Tenders,3,3,8,3,2,19
+id,"Meter Readers, Utilities",0,0,0,0,1,1
+id,Microbiologists,0,1,1,1,0,3
+id,Microsystems Engineers,6,3,8,17,56,90
+id,"Middle School Teachers, Except Special And Career/Technical Education",1,0,2,1,3,7
+id,"Military Enlisted Tactical Operations And Air/Weapons Specialists And Crew Members, All Other",0,0,0,1,2,3
+id,"Military Officer Special And Tactical Operations Leaders, All Other",0,1,1,4,10,16
+id,"Milling And Planing Machine Setters, Operators, And Tenders, Metal And Plastic",0,0,1,0,0,1
+id,Millwrights,0,0,1,0,0,1
+id,"Mining And Geological Engineers, Including Mining Safety Engineers",0,0,3,3,2,8
+id,"Mixing And Blending Machine Setters, Operators, And Tenders",3,2,11,10,16,42
+id,"Mobile Heavy Equipment Mechanics, Except Engines",0,0,4,1,7,12
+id,"Model Makers, Metal And Plastic",0,0,0,1,0,1
+id,Models,1,4,2,0,0,7
+id,"Molders, Shapers, And Casters, Except Metal And Plastic",0,2,2,3,7,14
+id,"Molding, Coremaking, And Casting Machine Setters, Operators, And Tenders, Metal And Plastic",0,1,0,0,0,1
+id,"Morticians, Undertakers, And Funeral Arrangers",1,0,0,0,3,4
+id,Motion Picture Projectionists,0,0,0,1,0,1
+id,"Motor Vehicle Operators, All Other",0,0,1,0,1,2
+id,Motorboat Mechanics And Service Technicians,0,0,1,0,0,1
+id,Motorcycle Mechanics,0,1,1,0,1,3
+id,"Multiple Machine Tool Setters, Operators, And Tenders, Metal And Plastic",0,0,1,0,1,2
+id,Museum Technicians And Conservators,0,1,0,1,0,2
+id,Music Directors And Composers,2,1,4,3,5,15
+id,Music Therapists,0,2,2,1,1,6
+id,Musicians And Singers,1,1,2,9,1,14
+id,Nannies,0,9,6,0,3,18
+id,Nanotechnology Engineering Technologists And Technicians,0,0,1,0,0,1
+id,Natural Sciences Managers,2,3,4,0,3,12
+id,Naturopathic Physicians,1,0,0,1,0,2
+id,Network And Computer Systems Administrators,17,16,25,53,53,164
+id,New Accounts Clerks,7,1,12,12,46,78
+id,"News Analysts, Reporters, And Journalists",0,2,13,10,8,33
+id,Non-Destructive Testing Specialists,0,0,1,0,0,1
+id,Nuclear Engineers,0,2,0,1,3,6
+id,Nuclear Technicians,0,0,7,3,2,12
+id,Nursing Assistants,2,3,6,8,7,26
+id,Occupational Health And Safety Specialists,1,1,3,5,1,11
+id,Occupational Health And Safety Technicians,0,0,1,0,1,2
+id,Occupational Therapists,0,1,0,0,1,2
+id,"Office And Administrative Support Workers, All Other",18,25,38,16,23,120
+id,"Office Clerks, General",19,54,39,21,44,177
+id,"Office Machine Operators, Except Computer",8,3,10,7,8,36
+id,Online Merchants,2,1,6,9,11,29
+id,Operating Engineers And Other Construction Equipment Operators,1,1,2,4,10,18
+id,Operations Research Analysts,1,1,19,11,11,43
+id,Ophthalmic Laboratory Technicians,0,0,1,0,2,3
+id,Ophthalmic Medical Technicians,1,2,4,1,4,12
+id,Optometrists,1,3,1,0,0,5
+id,Order Clerks,19,21,31,18,18,107
+id,Orderlies,0,0,0,1,0,1
+id,Outdoor Power Equipment And Other Small Engine Mechanics,0,0,1,0,2,3
+id,Packaging And Filling Machine Operators And Tenders,2,2,4,10,11,29
+id,"Packers And Packagers, Hand",0,1,3,6,10,20
+id,"Painters, Construction And Maintenance",0,1,0,0,0,1
+id,"Painting, Coating, And Decorating Workers",0,1,0,1,1,3
+id,"Paper Goods Machine Setters, Operators, And Tenders",0,0,0,1,0,1
+id,Paperhangers,0,2,0,0,0,2
+id,Paralegals And Legal Assistants,5,8,18,12,17,60
+id,Paramedics,7,2,5,10,24,48
+id,Park Naturalists,3,0,1,0,1,5
+id,Parts Salespersons,1,0,1,1,1,4
+id,Passenger Attendants,0,1,0,1,2,4
+id,Patient Representatives,0,0,1,3,2,6
+id,"Patternmakers, Metal And Plastic",0,1,1,0,0,2
+id,Payroll And Timekeeping Clerks,52,85,93,44,83,357
+id,"Pediatricians, General",0,0,1,0,0,1
+id,Penetration Testers,0,1,1,7,5,14
+id,Personal Care Aides,2,1,0,0,0,3
+id,"Personal Care And Service Workers, All Other",0,2,1,1,2,6
+id,Personal Financial Advisors,14,30,64,104,121,333
+id,Pest Control Workers,0,2,1,0,0,3
+id,"Pesticide Handlers, Sprayers, And Applicators, Vegetation",0,2,2,0,1,5
+id,"Petroleum Pump System Operators, Refinery Operators, And Gaugers",0,0,2,0,1,3
+id,Pharmacists,8,13,8,7,22,58
+id,Pharmacy Aides,3,1,6,0,2,12
+id,Pharmacy Technicians,0,0,0,0,1,1
+id,Photographers,1,3,3,3,3,13
+id,Photographic Process Workers And Processing Machine Operators,6,18,46,82,157,309
+id,Photonics Engineers,0,0,0,1,0,1
+id,Physical Therapist Assistants,0,1,0,1,1,3
+id,Physical Therapists,0,0,0,1,0,1
+id,Physician Assistants,0,1,2,1,0,4
+id,"Physicians, All Other",0,0,1,0,0,1
+id,Physicists,0,0,1,2,1,4
+id,Plasterers And Stucco Masons,1,1,1,0,1,4
+id,"Plumbers, Pipefitters, And Steamfitters",2,6,5,0,2,15
+id,"Poets, Lyricists And Creative Writers",15,35,37,36,41,164
+id,Police And Sheriff'S Patrol Officers,0,0,2,5,6,13
+id,Police Identification And Records Officers,0,0,0,0,2,2
+id,Political Scientists,0,0,2,3,0,5
+id,Postal Service Mail Carriers,0,0,1,0,0,1
+id,Postmasters And Mail Superintendents,1,0,0,0,2,3
+id,"Postsecondary Teachers, All Other",1,4,4,6,24,39
+id,"Pourers And Casters, Metal",0,0,1,0,0,1
+id,Power Distributors And Dispatchers,1,3,5,6,9,24
+id,Power Plant Operators,1,0,0,0,2,3
+id,"Precision Instrument And Equipment Repairers, All Other",0,0,2,1,1,4
+id,Prepress Technicians And Workers,2,4,2,1,3,12
+id,"Preschool Teachers, Except Special Education",4,17,4,3,5,33
+id,"Pressers, Textile, Garment, And Related Materials",0,0,1,1,0,2
+id,Preventive Medicine Physicians,0,0,1,0,0,1
+id,Print Binding And Finishing Workers,0,0,0,0,1,1
+id,Printing Press Operators,0,1,4,19,0,24
+id,Private Detectives And Investigators,2,0,7,9,25,43
+id,Probation Officers And Correctional Treatment Specialists,2,0,3,1,5,11
+id,Procurement Clerks,15,24,63,45,42,189
+id,Producers And Directors,1,4,18,21,22,66
+id,"Production Workers, All Other",19,31,31,20,36,137
+id,"Production, Planning, And Expediting Clerks",4,8,14,9,21,56
+id,Project Management Specialists,18,21,58,76,118,291
+id,Proofreaders And Copy Markers,2,10,12,2,2,28
+id,"Property, Real Estate, And Community Association Managers",19,25,60,22,28,154
+id,Psychiatric Aides,0,1,0,1,0,2
+id,Psychiatric Technicians,0,1,1,0,3,5
+id,"Psychology Teachers, Postsecondary",0,0,1,1,0,2
+id,Public Relations Managers,0,1,1,2,1,5
+id,Public Relations Specialists,12,9,25,28,45,119
+id,Public Safety Telecommunicators,2,0,2,3,2,9
+id,"Pump Operators, Except Wellhead Pumpers",2,0,3,1,2,8
+id,"Purchasing Agents, Except Wholesale, Retail, And Farm Products",1,3,14,8,16,42
+id,Purchasing Managers,7,2,14,13,17,53
+id,Quality Control Analysts,13,15,18,31,42,119
+id,Quality Control Systems Managers,4,6,9,5,27,51
+id,Radio Frequency Identification Device Specialists,4,4,12,11,15,46
+id,"Radio, Cellular, And Tower Equipment Installers And Repairers",1,0,0,1,1,3
+id,Radiologic Technologists And Technicians,1,2,1,6,5,15
+id,Rail Car Repairers,0,0,1,0,0,1
+id,"Rail Yard Engineers, Dinkey Operators, And Hostlers",1,0,3,0,0,4
+id,"Railroad Brake, Signal, And Switch Operators And Locomotive Firers",5,5,16,8,25,59
+id,Railroad Conductors And Yardmasters,5,4,6,8,16,39
+id,Range Managers,1,0,4,11,5,21
+id,Real Estate Brokers,1,4,8,5,3,21
+id,Real Estate Sales Agents,27,62,104,58,84,335
+id,Receptionists And Information Clerks,187,72,77,41,250,627
+id,"Recreation And Fitness Studies Teachers, Postsecondary",0,2,0,0,1,3
+id,Recreation Workers,0,1,3,1,1,6
+id,Recreational Therapists,0,0,3,0,0,3
+id,Recreational Vehicle Service Technicians,1,2,1,3,5,12
+id,Recycling And Reclamation Workers,0,0,0,1,0,1
+id,Recycling Coordinators,0,0,1,0,2,3
+id,Refuse And Recyclable Material Collectors,1,3,1,1,1,7
+id,Registered Nurses,33,45,96,74,104,352
+id,Regulatory Affairs Specialists,1,1,6,6,11,25
+id,Rehabilitation Counselors,4,4,0,1,2,11
+id,"Religious Workers, All Other",0,0,0,3,0,3
+id,Reservation And Transportation Ticket Agents And Travel Clerks,32,11,19,13,64,139
+id,Residential Advisors,3,1,4,1,1,10
+id,Respiratory Therapists,0,0,0,1,0,1
+id,Retail Loss Prevention Specialists,0,0,1,0,1,2
+id,Retail Salespersons,12,10,25,6,18,71
+id,Robotics Engineers,0,0,1,6,5,12
+id,Robotics Technicians,1,0,0,1,1,3
+id,"Rolling Machine Setters, Operators, And Tenders, Metal And Plastic",1,1,1,0,1,4
+id,Roofers,0,0,2,0,1,3
+id,"Rotary Drill Operators, Oil And Gas",0,0,0,0,2,2
+id,"Roustabouts, Oil And Gas",0,0,0,0,1,1
+id,Sailors And Marine Oilers,4,7,2,1,2,16
+id,"Sales And Related Workers, All Other",33,69,103,42,62,309
+id,Sales Engineers,41,41,41,15,27,165
+id,Sales Managers,61,95,170,94,111,531
+id,"Sales Representatives Of Services, Except Advertising, Insurance, Financial Services, And Travel",9,15,20,18,24,86
+id,"Sales Representatives, Wholesale And Manufacturing, Except Technical And Scientific Products",21,25,62,25,67,200
+id,"Sales Representatives, Wholesale And Manufacturing, Technical And Scientific Products",36,25,43,33,58,195
+id,"Sawing Machine Setters, Operators, And Tenders, Wood",0,0,0,2,0,2
+id,School Psychologists,0,2,0,0,0,2
+id,Search Marketing Strategists,56,86,140,117,114,513
+id,"Secondary School Teachers, Except Special And Career/Technical Education",5,14,11,28,16,74
+id,"Secretaries And Administrative Assistants, Except Legal, Medical, And Executive",37,67,92,33,47,276
+id,"Securities, Commodities, And Financial Services Sales Agents",103,173,262,140,267,945
+id,Security And Fire Alarm Systems Installers,1,0,2,6,15,24
+id,Security Guards,0,0,10,6,4,20
+id,Security Management Specialists,3,0,4,5,3,15
+id,Security Managers,1,0,1,2,2,6
+id,Self-Enrichment Teachers,10,20,24,13,9,76
+id,Semiconductor Processing Technicians,1,0,2,1,3,7
+id,"Separating, Filtering, Clarifying, Precipitating, And Still Machine Setters, Operators, And Tenders",0,1,1,4,4,10
+id,Septic Tank Servicers And Sewer Pipe Cleaners,0,0,0,0,1,1
+id,Set And Exhibit Designers,0,1,3,0,3,7
+id,"Sewers, Hand",0,1,4,2,1,8
+id,Sewing Machine Operators,1,0,0,0,1,2
+id,Sheet Metal Workers,2,0,0,0,1,3
+id,Ship Engineers,1,2,11,28,38,80
+id,"Shipping, Receiving, And Inventory Clerks",0,0,3,2,1,6
+id,Shoe And Leather Workers And Repairers,0,0,0,1,0,1
+id,Shoe Machine Operators And Tenders,0,0,1,0,0,1
+id,Shuttle Drivers And Chauffeurs,9,11,24,2,8,54
+id,Skincare Specialists,1,5,5,2,2,15
+id,Slaughterers And Meat Packers,2,3,0,0,3,8
+id,Social And Community Service Managers,2,0,1,0,4,7
+id,Social And Human Service Assistants,0,0,0,0,3,3
+id,Social Science Research Assistants,0,1,3,1,2,7
+id,"Social Scientists And Related Workers, All Other",1,0,1,0,1,3
+id,"Social Workers, All Other",5,17,14,21,15,72
+id,Software Developers,73,105,257,474,912,1821
+id,Software Quality Assurance Analysts And Testers,7,8,25,54,83,177
+id,Soil And Plant Scientists,0,0,2,0,5,7
+id,Solar Energy Installation Managers,1,1,2,0,0,4
+id,Solar Energy Systems Engineers,1,3,3,3,3,13
+id,Solar Photovoltaic Installers,0,1,0,0,0,1
+id,Solar Sales Representatives And Assessors,35,73,110,31,52,301
+id,Sound Engineering Technicians,0,0,1,0,0,1
+id,Spa Managers,0,2,0,1,1,4
+id,"Special Education Teachers, All Other",1,0,0,0,0,1
+id,"Special Education Teachers, Elementary School",0,2,2,0,0,4
+id,"Special Education Teachers, Preschool",2,1,2,0,0,5
+id,"Special Education Teachers, Secondary School",0,4,0,3,2,9
+id,Special Effects Artists And Animators,7,24,28,16,25,100
+id,Special Forces Officers,1,0,0,0,0,1
+id,Speech-Language Pathology Assistants,0,0,2,2,0,4
+id,Stationary Engineers And Boiler Operators,1,5,2,2,1,11
+id,Statistical Assistants,3,6,8,16,19,52
+id,Statisticians,1,0,1,1,1,4
+id,Stockers And Order Fillers,12,32,71,42,74,231
+id,"Stone Cutters And Carvers, Manufacturing",0,0,1,0,0,1
+id,Structural Iron And Steel Workers,2,0,1,1,0,4
+id,Structural Metal Fabricators And Fitters,3,3,1,0,0,7
+id,Substance Abuse And Behavioral Disorder Counselors,0,0,0,1,1,2
+id,Subway And Streetcar Operators,1,0,1,0,0,2
+id,Supply Chain Managers,0,2,4,5,1,12
+id,Survey Researchers,0,4,2,0,1,7
+id,Surveying And Mapping Technicians,4,7,3,5,3,22
+id,Surveyors,0,2,0,0,0,2
+id,Sustainability Specialists,0,0,0,10,3,13
+id,"Switchboard Operators, Including Answering Service",1,3,4,6,19,33
+id,"Tailors, Dressmakers, And Custom Sewers",1,3,2,1,0,7
+id,Talent Directors,0,1,1,0,0,2
+id,"Tax Examiners And Collectors, And Revenue Agents",2,2,6,6,17,33
+id,Tax Preparers,0,0,3,1,15,19
+id,Taxi Drivers,0,1,4,1,0,6
+id,"Teachers And Instructors, All Other",10,15,25,8,6,64
+id,"Teaching Assistants, Postsecondary",10,6,1,5,3,25
+id,"Teaching Assistants, Preschool, Elementary, Middle, And Secondary School, Except Special Education",0,0,2,0,0,2
+id,"Teaching Assistants, Special Education",0,2,0,0,0,2
+id,Technical Writers,4,6,14,17,29,70
+id,Telecommunications Engineering Specialists,1,2,4,5,8,20
+id,"Telecommunications Equipment Installers And Repairers, Except Line Installers",2,3,12,10,12,39
+id,Telecommunications Line Installers And Repairers,1,2,2,3,3,11
+id,Telemarketers,18,27,25,16,32,118
+id,Telephone Operators,7,0,4,7,18,36
+id,Tellers,3,1,10,4,5,23
+id,Terrazzo Workers And Finishers,0,1,0,1,1,3
+id,Textile Bleaching And Dyeing Machine Operators And Tenders,0,0,1,1,0,2
+id,"Textile Cutting Machine Setters, Operators, And Tenders",0,1,0,1,0,2
+id,"Textile Knitting And Weaving Machine Setters, Operators, And Tenders",0,0,0,0,2,2
+id,"Textile Winding, Twisting, And Drawing Out Machine Setters, Operators, And Tenders",2,0,0,1,2,5
+id,"Textile, Apparel, And Furnishings Workers, All Other",4,6,4,5,12,31
+id,Tile And Stone Setters,0,0,0,1,0,1
+id,Tire Builders,1,1,1,1,0,4
+id,"Title Examiners, Abstractors, And Searchers",0,0,1,7,4,12
+id,Tool And Die Makers,2,0,0,0,0,2
+id,Tour Guides And Escorts,0,1,1,0,11,13
+id,Traffic Technicians,0,1,0,0,7,8
+id,Training And Development Managers,4,2,11,8,11,36
+id,Training And Development Specialists,6,5,18,32,62,123
+id,Transit And Railroad Police,33,64,81,53,51,282
+id,Transportation Engineers,0,0,1,0,0,1
+id,Transportation Inspectors,0,1,3,1,0,5
+id,Transportation Planners,1,0,0,0,1,2
+id,Transportation Security Screeners,1,0,8,2,4,15
+id,"Transportation Vehicle, Equipment And Systems Inspectors, Except Aviation",4,11,14,10,24,63
+id,"Transportation, Storage, And Distribution Managers",12,8,31,33,64,148
+id,Travel Agents,42,7,6,7,36,98
+id,Travel Guides,0,5,0,0,0,5
+id,Treasurers And Controllers,0,2,6,5,13,26
+id,Tutors,9,47,20,11,10,97
+id,"Underground Mining Machine Operators, All Other",0,0,0,1,0,1
+id,Upholsterers,0,0,0,0,2,2
+id,Urban And Regional Planners,0,0,0,0,2,2
+id,"Ushers, Lobby Attendants, And Ticket Takers",0,2,0,0,0,2
+id,Validation Engineers,3,2,3,2,12,22
+id,Veterinarians,0,1,0,0,0,1
+id,Veterinary Assistants And Laboratory Animal Caretakers,0,1,0,0,1,2
+id,Veterinary Technologists And Technicians,1,1,1,0,0,3
+id,Video Game Designers,3,6,6,10,14,39
+id,Waiters And Waitresses,4,10,5,1,6,26
+id,Water And Wastewater Treatment Plant And System Operators,0,0,2,1,4,7
+id,Water Resource Specialists,0,0,1,0,0,1
+id,Water/Wastewater Engineers,0,0,0,1,0,1
+id,Weatherization Installers And Technicians,0,1,0,0,0,1
+id,Web Administrators,5,1,8,10,13,37
+id,Web And Digital Interface Designers,44,93,134,141,252,664
+id,Web Developers,36,41,72,139,158,446
+id,"Weighers, Measurers, Checkers, And Samplers, Recordkeeping",3,0,2,3,3,11
+id,"Welders, Cutters, Solderers, And Brazers",5,7,0,3,11,26
+id,"Welding, Soldering, And Brazing Machine Setters, Operators, And Tenders",1,0,1,0,2,4
+id,Wellhead Pumpers,0,2,4,0,0,6
+id,"Wholesale And Retail Buyers, Except Farm Products",1,0,3,3,1,8
+id,Wind Energy Development Managers,13,14,27,23,52,129
+id,Wind Energy Engineers,15,20,16,22,10,83
+id,Wind Energy Operations Managers,10,8,6,3,12,39
+id,Wind Turbine Service Technicians,2,0,3,2,7,14
+id,"Woodworking Machine Setters, Operators, And Tenders, Except Sawing",1,0,0,0,0,1
+id,Word Processors And Typists,1,2,2,2,1,8
+id,Writers And Authors,13,9,20,31,22,95
+id,Total,3753,5015,8229,7303,12465,36765

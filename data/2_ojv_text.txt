@@ -1,0 +1,1 @@
+STEM jobs are identified based on a list of occupations on according to the Occupational Information Network (O\*NET) job structure which provides a [list of STEM occupations](https://www.onetonline.org/find/stem?t=0). Through a normalization process, each of the scraped OJVs from 2015 to 2022 are mapped to an occupation and thus can be classified as STEM or not.
