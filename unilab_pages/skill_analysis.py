@@ -201,7 +201,7 @@ def get_contents():
         AgGrid(df_skills)
 
         skill_selected = st.text_input('Skill Phrase or Skill Word to Analyze', 'NumPy')
-        skill_selected = '_'.join(skill_selected.split())
+        skill_selected_transformed = '_'.join(skill_selected.split())
 
     row5_spacer1, row5_1, row5_spacer_between, row5_2 ,row5_spacer2 = st.columns((.1, 2.5,.1, 2.6, .2))
     with row5_1:
@@ -211,7 +211,7 @@ def get_contents():
 
     with row5_2:
         st.subheader(f'Most Similar or Most Relevant Skills to {skill_selected}')
-        most_sim = pd.DataFrame(w2v_model.wv.most_similar([skill_selected], topn=10))
+        most_sim = pd.DataFrame(w2v_model.wv.most_similar([skill_selected_transformed], topn=10))
         most_sim.rename({0:'Skill', 1:'Similarity/Relevance'}, axis = 1, inplace = True)
         most_sim['Skill'] = most_sim['Skill'].apply(lambda x: ' '.join(x.split('_')))
         AgGrid(most_sim)
@@ -221,6 +221,5 @@ def get_contents():
         st.subheader(f'Trend of Usage of {skill_selected} over the years')
         df_skills_exploded_match['year'] = df_skills_exploded_match['datePosted'].apply(lambda x: x.split('-')[0])
         df_skills_exploded_trend = df_skills_exploded_match.groupby(['year'])['Skills'].agg('count').reset_index().sort_values(['year'])
-        print(df_skills_exploded_trend)
         fig = px.line(df_skills_exploded_trend, x="year", y="Skills")
         st.plotly_chart(fig)
