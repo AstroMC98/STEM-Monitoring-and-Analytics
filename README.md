@@ -169,7 +169,7 @@ Distributed under the General Commons License. See `LICENSE.txt` for more inform
 <!-- CONTACT -->
 ## Contact
 
-Marc Castro - [@Main Contact for Improvements and Clarification](https://twitter.com/your_username](https://www.linkedin.com/in/nipmcastro/) - mjrcastro98@gmail.com
+Marc Castro (Main Contact) :  mjrcastro98@gmail.com
 
 Project Link: [https://github.com/AstroMC98/STEM-Monitoring-and-Analytics](https://github.com/AstroMC98/STEM-Monitoring-and-Analytics)
 
