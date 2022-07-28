@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run --server.port $PORT --theme.backgroundColor #FFFFFF main.py
+web: sh setup.sh && streamlit run --server.port $PORT --theme.base "light" main.py
