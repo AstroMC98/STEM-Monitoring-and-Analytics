@@ -7,14 +7,13 @@
 *** See the bottom of this document for the declaration of the reference variables
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-
+-->
 
 
 <!-- PROJECT LOGO -->
@@ -73,18 +72,14 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+STEM PH Monitoring and Analytics (STEMma) is a joint project by the Asian Institute of Management Masters in Data Science Program (AIM MSDS) and the Unilab Foundation, which seeks to develop a deeper understanding of the emerging skill gaps in the ever-changing labor market. As a valued addition to the valiant efforts of the STEM Leadership Alliance PH, STEMma aims to help policymakers, educators, students, and job seekers understand the dynamics and current demands of the Philippine Labor Market.
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
+STEMma presents a simple framework that leverages Data Science concepts such as statistical analytical tools, network science, and natural language processing (NLP) techniques. Our "bottom-up" methodology examines the dynamics of the labor market through open job vacancies (OJVs) to better understand the larger, more general forces that influence market readiness and adaptiveness of our STEM graduates. In its current iteration, STEMma presents a five-step framework that includes:
+* Skill identification from both OJVs and tertiary-level curriculums
+* Development of a skill taxonomy
+* Identification of emerging jobs
+* The contrast of labor market skill demands and skill outputs,
+* and Policy development guide through the employment of the insights from STEMma with the interpretation of subject matter experts (SMEs). 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
