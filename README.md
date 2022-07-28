@@ -28,7 +28,7 @@
   <p align="center">
     A joint project by the Asian Institute of Management Masters in Data Science Program (AIM MSDS) and the Unilab Foundation!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the Report»</strong></a>
+    <a href="https://drive.google.com/file/d/1Q13vDqy4wxeH4Xw2IizTREKlhdH2raW3/view?usp=sharing"><strong>Explore the Report»</strong></a>
     <br />
     <br />
     <a href="https://docs.streamlit.io/">Check Streamlit</a>
