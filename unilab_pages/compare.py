@@ -55,6 +55,7 @@ with open('data/jobsandcurric.pickle', 'rb') as handle:
 with open(f'data/Word2Vec/Word2Vec_500_-0.5.pkl', 'rb') as handle:
     w2v_model = pickle.load(handle)
 
+uploaded_data = {}
 
 df_emerging = pd.read_csv('data/df_emerging.csv')
 df_emerging['Central Nodes'] = [literal_eval(x) for x in df_emerging['Central Nodes']]
@@ -338,9 +339,11 @@ def create_cej(df, jobFilter, metric):
 
     #Add in uploads
     if metric == 'Cosine Similarity':
-        for uploaded_file_name in glob.glob('data/uploads/*.csv'):
-            jobName = uploaded_file_name.split('/')[-1].split('\\')[1][:-4]
-            df_uploaded = pd.read_csv(uploaded_file_name, index_col = 0)
+        # for uploaded_file_name in glob.glob('data/uploads/*.csv'):
+        #     jobName = uploaded_file_name.split('/')[-1].split('\\')[1][:-4]
+        #     df_uploaded = pd.read_csv(uploaded_file_name, index_col = 0)
+        for uploaded_file_name in uploaded_data.keys():
+            df_uploaded = uploaded_data[uploaded_file_name]
             df_uploaded.dropna(inplace = True)
             all_skills = ['_'.join(x.split()) for x in df_uploaded.Skill]
             s2 = mean_embeddings(all_skills)
@@ -353,9 +356,11 @@ def create_cej(df, jobFilter, metric):
 
 
     elif metric == 'Jaccard Similarity':
-        for uploaded_file_name in glob.glob('data/uploads/*.csv'):
-            jobName = uploaded_file_name.split('/')[-1].split('\\')[1][:-4]
-            df_uploaded = pd.read_csv(uploaded_file_name, index_col = 0)
+        # for uploaded_file_name in glob.glob('data/uploads/*.csv'):
+        #     jobName = uploaded_file_name.split('/')[-1].split('\\')[1][:-4]
+        #     df_uploaded = pd.read_csv(uploaded_file_name, index_col = 0)
+        for uploaded_file_name in uploaded_data.keys():
+            df_uploaded = uploaded_data[uploaded_file_name]
             df_uploaded.dropna(inplace = True)
             all_skills = ['_'.join(x.split()) for x in df_uploaded.Skill]
             jccrd = []
@@ -473,10 +478,11 @@ def get_contents():
         uploaded_files = st.file_uploader("Choose a CSV file", type = 'csv', accept_multiple_files=True)
         for uploaded_file in uploaded_files:
              bytes_data = uploaded_file.read()
-             df_upload = pd.read_csv(BytesIO(bytes_data), index_col = 0)
-             df_upload.to_csv(f'data/uploads/{uploaded_file.name}.csv')
-             st.write("Uploaded filename:", uploaded_file.name)
-             st.write(bytes_data)
+             uploaded_data[uploaded_file.name] = pd.read_csv(BytesIO(bytes_data), index_col = 0)
+             # df_upload = pd.read_csv(BytesIO(bytes_data), index_col = 0)
+             # df_upload.to_csv(f'data/uploads/{uploaded_file.name}.csv')
+             # st.write("Uploaded filename:", uploaded_file.name)
+             # st.write(bytes_data)
 
     row6_spacer1, row6_1, row6_spacer2 = st.columns((.1, 5.1, .2))
     with row6_1:
