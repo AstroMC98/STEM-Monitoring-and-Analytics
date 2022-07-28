@@ -115,19 +115,17 @@ _Below is the step-by-step instructions to launch the STEMma Dashboard._
 
 1. Open Anaconda Prompt from Start Menu.
 2. Navigate to Disk or Location of Repository
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+3. Create a Python Environment
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   conda create -n stemma python=3.6.15
    ```
-3. Install NPM packages
+4. Activate Python Environment
    ```sh
-   npm install
+   conda activate stemma
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+5. Install Python packages and dependencies.
+   ```sh
+   pip install -r requirements.txt
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
