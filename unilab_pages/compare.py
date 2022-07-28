@@ -343,6 +343,7 @@ def create_cej(df, jobFilter, metric):
         #     jobName = uploaded_file_name.split('/')[-1].split('\\')[1][:-4]
         #     df_uploaded = pd.read_csv(uploaded_file_name, index_col = 0)
         for uploaded_file_name in uploaded_data.keys():
+            jobName = uploaded_file_name[:-4]
             df_uploaded = uploaded_data[uploaded_file_name]
             df_uploaded.dropna(inplace = True)
             all_skills = ['_'.join(x.split()) for x in df_uploaded.Skill]
@@ -360,6 +361,7 @@ def create_cej(df, jobFilter, metric):
         #     jobName = uploaded_file_name.split('/')[-1].split('\\')[1][:-4]
         #     df_uploaded = pd.read_csv(uploaded_file_name, index_col = 0)
         for uploaded_file_name in uploaded_data.keys():
+            jobName = uploaded_file_name[:-4]
             df_uploaded = uploaded_data[uploaded_file_name]
             df_uploaded.dropna(inplace = True)
             all_skills = ['_'.join(x.split()) for x in df_uploaded.Skill]
