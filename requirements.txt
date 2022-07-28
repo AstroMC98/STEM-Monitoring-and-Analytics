@@ -68,7 +68,7 @@ pytz==2022.1
 pytz-deprecation-shim==0.1.0.post0
 pywaffle==1.1.0
 pypiwin32==223
-pywinpty==1.1.6
+pywinpty
 PyYAML==6.0
 pyzmq==23.2.0
 qtconsole==5.2.2
