@@ -3,8 +3,8 @@ from  PIL import Image
 from streamlit_option_menu import option_menu
 from st_aggrid import AgGrid
 
-logo = Image.open(r'images\logo.png')
-icon = Image.open(r'images\icon.png')
+logo = Image.open(r'images/logo.png')
+icon = Image.open(r'images/icon.png')
 
 def get_contents():
     col1_space1,col1_1, col1_2, col1_space1, = st.columns([0.15, 0.4, 0.3, 0.15])
