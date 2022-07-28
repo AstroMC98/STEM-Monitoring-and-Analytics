@@ -46,17 +46,17 @@ text_file = open(f"{data_folder}/Skills/vague_skills.txt", "r")
 vague_skills = text_file.readlines()
 vague_skills = [x.replace('\n','') for x in vague_skills]
 
-# Load OJV
-df_ojv = pd.read_csv(f'{data_folder}/df_ojv_HARD.csv')
-df_ojv['All Hard Skills'] = df_ojv['All Hard Skills'].apply(literal_eval)
-df_ojv.dropna(subset = ['job_title'], axis = 'rows', inplace = True)
-df_ojv['All Hard Skills'] = df_ojv['All Hard Skills'].apply(lambda x: [s for s in x if s != None])
+#Load OJV
+# df_ojv = pd.read_csv(f'{data_folder}/df_ojv_HARD.csv')
+# df_ojv['All Hard Skills'] = df_ojv['All Hard Skills'].apply(literal_eval)
+# df_ojv.dropna(subset = ['job_title'], axis = 'rows', inplace = True)
+# df_ojv['All Hard Skills'] = df_ojv['All Hard Skills'].apply(lambda x: [s for s in x if s != None])
 
 # Map Normalized Job Titles
-normalized_titles = pd.read_csv(f'{data_folder}/df_id_normalized_stem_groups.csv')
-normalized_titles = normalized_titles.query('`similarity` > 0.2')
-id_to_NormOccu = dict(zip(normalized_titles.id, normalized_titles['Onet Occupation']))
-df_ojv['NormOcc'] = df_ojv.id.apply(lambda x: id_to_NormOccu.get(x, 'Unmatched Job Titles'))
+# normalized_titles = pd.read_csv(f'{data_folder}/df_id_normalized_stem_groups.csv')
+# normalized_titles = normalized_titles.query('`similarity` > 0.2')
+# id_to_NormOccu = dict(zip(normalized_titles.id, normalized_titles['Onet Occupation']))
+# df_ojv['NormOcc'] = df_ojv.id.apply(lambda x: id_to_NormOccu.get(x, 'Unmatched Job Titles'))
 
 # Load Word2Vec model
 with open(f'{data_folder}/Word2Vec/Word2Vec_500_-0.5.pkl', 'rb') as handle:
@@ -181,20 +181,20 @@ def get_contents():
         #st.image(f"{img_folder}/SLA_PH_Logo/Main-Horizontal.png", use_column_width=True)
         st.image(f"{img_folder}/SLA_PH_Logo/Black/Black-Horizontal.png", use_column_width=True)
 
-    row1_spacer1, row1_1, row1_spacer2 = st.columns((.1, mid_width, .1))
-    with row1_1:
-        network_select = st.selectbox('Select a Job Network to Explore:',
-                                      job_networks, 6
-        )
-        generate_network(network_select)
+    # row1_spacer1, row1_1, row1_spacer2 = st.columns((.1, mid_width, .1))
+    # with row1_1:
+    #     network_select = st.selectbox('Select a Job Network to Explore:',
+    #                                   job_networks, 6
+    #     )
+    #     generate_network(network_select)
 
     row4_spacer1, row4_1, row4_spacer2 = st.columns((.1, 5.1, .2))
     with row4_1:
         st.header('Skill Statistics')
         st.subheader('A view of the most similar skills and the most relevant jobs to a selected skill')
 
-        df_skills = df_ojv[['id', 'datePosted', 'NormOcc', 'All Hard Skills']]
-        #df_skills_exploded = df_skills.explode(['All Hard Skills'])
+        df_skills = pd.read_csv('data/df_skills.csv')
+        df_skills['All Hard Skills'] = [literal_eval(x) for x in df_skills['All Hard Skills']]
         df_skills.rename({'id':'Job ID', 'NormOcc' : 'Job Title', 'All Hard Skills': 'Skills'}, axis = 1, inplace = True)
         df_skills_exploded = df_skills.explode('Skills')
 
