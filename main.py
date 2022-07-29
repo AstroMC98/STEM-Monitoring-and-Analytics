@@ -9,10 +9,10 @@ from unilab_pages.compare import get_contents as compare_content
 from unilab_pages.skill_analysis import get_contents as skill_content
 from unilab_pages.faq import get_contents as faq_content
 
-icon = Image.open(r'images/icon-removebg-preview.png')
+#icon = Image.open(r'images/icon-removebg-preview.png')
 st.set_page_config(
-page_title = "STEMma Dashboard",
-page_icon = icon,
+# page_title = "STEMma Dashboard",
+# page_icon = icon,
 layout="wide")
 
 with st.sidebar:
