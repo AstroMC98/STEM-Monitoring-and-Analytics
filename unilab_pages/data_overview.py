@@ -105,7 +105,7 @@ def plot_educ(df_educ_waffle):
 
 def plot_experience(df_no_exp_waffle):
     df_no_exp_waffle['Job Count'] = df_no_exp_waffle['Job Count'].apply(lambda x: int(x/100))
-    
+
     # To plot the waffle Chart
     fig = plt.figure(
         FigureClass = Waffle,
@@ -157,7 +157,7 @@ def plot_curriculum_readiness():
 
 # -------------- LAYOUT --------------------
 def get_contents():
-    
+
     ##############
     ##  HEADER  ##
     ##############
@@ -208,7 +208,7 @@ def get_contents():
         st.metric('Job Titles (Normalized)', 4_402)
         st.metric('Occupations', 814)
         st.metric('STEM Occupations', 208)
-        
+
     with row2a_2:
         st.text("")
         st.text("")
@@ -217,17 +217,17 @@ def get_contents():
         st.image(f"{img_folder}/glassdoor.jpg", width=200)
         st.image(f"{img_folder}/pinoyjobs.png", width=200)
         st.image(f"{img_folder}/cc.jpg", width=200)
-        
+
     with row2a_3:
         st.subheader("Curriculums")
         st.metric('STEM Curriculums', 52)
         st.image(f"{img_folder}/ched.png", width=100)
-        
+
     with row2a_4:
         st.subheader("Existing Labor Taxonomies (referenced)")
         st.image(f"{img_folder}/emsi-labor-market-analytics-vector-logo.png", width=100)
         st.image(f"{img_folder}/onet-circle.png", width=100)
-    
+
 
     #--- Job Vacancies ---
     row3_spacer1, row3_1, row3_spacer2 = st.columns((.1, mid_width, .1))
@@ -236,10 +236,10 @@ def get_contents():
         ojv_text = open(f"{data_folder}/2_ojv_text.txt","r+")
         ojv_text = "".join(ojv_text.readlines())
         st.markdown(ojv_text)
-        
+
         ojv_more = open(f"{data_folder}/2_ojv_more.txt","r+")
         ojv_more = "".join(ojv_more.readlines())
-        
+
         with st.expander("More on the Job Title Normalization Process"):
             st.markdown(ojv_more)
 
@@ -253,23 +253,23 @@ def get_contents():
     with row3a_2:
         plot_stem_jobs(df_stem)
 
-    row3b_spacer1, row3b_1, row3b_spacer2, row3b_2, row3b_spacer2 = st.columns((.2, mid_width/2, .1, mid_width/2, .2))
-    with row3b_1:
-
-        st.subheader("Required Education for STEM jobs")
-        educ_text = open(f"{data_folder}/2_educ_text.txt","r+")
-        educ_text = "".join(educ_text.readlines())
-        
-        plot_educ(df_educ_waffle)
-        st.markdown(educ_text)
-
-    with row3b_2:
-        st.subheader("Required Experience for STEM jobs")
-        experience_text = open(f"{data_folder}/2_experience_text.txt","r+")
-        experience_text = "".join(experience_text.readlines())
-
-        plot_experience(df_no_exp_waffle)
-        st.markdown(experience_text)
+    # row3b_spacer1, row3b_1, row3b_spacer2, row3b_2, row3b_spacer2 = st.columns((.2, mid_width/2, .1, mid_width/2, .2))
+    # with row3b_1:
+    #
+    #     st.subheader("Required Education for STEM jobs")
+    #     educ_text = open(f"{data_folder}/2_educ_text.txt","r+")
+    #     educ_text = "".join(educ_text.readlines())
+    #
+    #     plot_educ(df_educ_waffle)
+    #     st.markdown(educ_text)
+    #
+    # with row3b_2:
+    #     st.subheader("Required Experience for STEM jobs")
+    #     experience_text = open(f"{data_folder}/2_experience_text.txt","r+")
+    #     experience_text = "".join(experience_text.readlines())
+    #
+    #     plot_experience(df_no_exp_waffle)
+    #     st.markdown(experience_text)
 
 
     #--- Curriculums ---
