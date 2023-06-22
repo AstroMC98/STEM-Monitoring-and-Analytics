@@ -10,5 +10,6 @@ scikit_learn==1.2.2
 scipy==1.10.0
 seaborn==0.12.2
 streamlit==1.23.1
+streamlit-aggrid==0.3.4.post3
 streamlit_option_menu==0.3.6
 streamlit_plotly_events==0.0.6
