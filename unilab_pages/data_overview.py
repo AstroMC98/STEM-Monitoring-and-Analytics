@@ -2,7 +2,6 @@
 """
 Created on Thu Jul  7 20:38:09 2022
 
-@author: Sarah Isabel Mendoza
 """
 
 # --------------- IMPORTS ------------------
