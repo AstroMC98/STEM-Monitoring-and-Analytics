@@ -146,7 +146,8 @@ def plot_curriculum_readiness():
     # Set options common to all traces with fig.update_traces
     fig.update_traces(mode='markers', marker_size=10)
     fig.update_layout(title='Curriculum Readiness',
-                      width=800, height=800,
+                      #width=800,
+                      height=600,
                       yaxis_zeroline=False, xaxis_zeroline=False,
                       xaxis_title='% of Skills found in Job Postings',
                       yaxis_title='log(Number of Skills Identified)'
@@ -253,23 +254,23 @@ def get_contents():
     with row3a_2:
         plot_stem_jobs(df_stem)
 
-    # row3b_spacer1, row3b_1, row3b_spacer2, row3b_2, row3b_spacer2 = st.columns((.2, mid_width/2, .1, mid_width/2, .2))
-    # with row3b_1:
-    #
-    #     st.subheader("Required Education for STEM jobs")
-    #     educ_text = open(f"{data_folder}/2_educ_text.txt","r+")
-    #     educ_text = "".join(educ_text.readlines())
-    #
-    #     plot_educ(df_educ_waffle)
-    #     st.markdown(educ_text)
-    #
-    # with row3b_2:
-    #     st.subheader("Required Experience for STEM jobs")
-    #     experience_text = open(f"{data_folder}/2_experience_text.txt","r+")
-    #     experience_text = "".join(experience_text.readlines())
-    #
-    #     plot_experience(df_no_exp_waffle)
-    #     st.markdown(experience_text)
+    row3b_spacer1, row3b_1, row3b_spacer2, row3b_2, row3b_spacer2 = st.columns((.2, mid_width/2, .1, mid_width/2, .2))
+    with row3b_1:
+    
+        st.subheader("Required Education for STEM jobs")
+        educ_text = open(f"{data_folder}/2_educ_text.txt","r+")
+        educ_text = "".join(educ_text.readlines())
+    
+        plot_educ(df_educ_waffle)
+        st.markdown(educ_text)
+    
+    with row3b_2:
+        st.subheader("Required Experience for STEM jobs")
+        experience_text = open(f"{data_folder}/2_experience_text.txt","r+")
+        experience_text = "".join(experience_text.readlines())
+    
+        plot_experience(df_no_exp_waffle)
+        st.markdown(experience_text)
 
 
     #--- Curriculums ---
@@ -280,12 +281,4 @@ def get_contents():
         curric_text = "".join(curric_text.readlines())
         st.markdown(curric_text)
 
-    row4a_spacer1, row4a_1, row4a_spacer2, row4a_2, row4a_spacer3  = st.columns((.2, 2, .1, 5, .2))
-
-    with row4a_1:
-        st.write('')
-        st.write('')
-
-
-    with row4a_2:
         plot_curriculum_readiness()
