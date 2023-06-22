@@ -80,7 +80,7 @@ ready_curric_list = ['Aeronautical Engineering','Agricultural and Biosystems Eng
 other_curric_list = list(set(df_curr.degree.to_list()) - set(ready_curric_list))
 sorted_columns = ['Occupation']+ready_curric_list+other_curric_list
 
-@st.cache
+@st.cache_data
 def convert_df(df):
    return df.to_csv().encode('utf-8')
 
