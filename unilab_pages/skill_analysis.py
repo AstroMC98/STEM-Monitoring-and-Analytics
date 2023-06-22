@@ -1,236 +1,284 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Jul  7 20:38:09 2022
+
+@author: Sarah Isabel Mendoza
+"""
+
+# --------------- IMPORTS ------------------
 import streamlit as st
-from  PIL import Image
-from streamlit_option_menu import option_menu
-from st_aggrid import AgGrid
-import pandas as pd
 import plotly.figure_factory as ff
 import plotly.graph_objects as go
-import plotly.express as px
+from pywaffle import Waffle
+import matplotlib.pyplot as plt
 
-# Additional Packages
-import networkx as nx
 import pandas as pd
-import pickle
-from itertools import combinations
-from scipy import sparse
-from ast import literal_eval
-from functools import reduce
-
-import re
 import numpy as np
-import itertools
-import pandas as pd
-import glob
-import plotly.graph_objects as go
-from collections import Counter
-import seaborn as sns
-from streamlit_plotly_events import plotly_events
 
-pd.options.plotting.backend = "plotly"
-
-#Setup
-data_folder = 'data'
-img_folder = "images/"
+# ---------------- SETUP -------------------
+data_folder = "data"
+img_folder = "images"
 mid_width = 5.1
 
-job_networks = ['Blockchain_Engineers','Business_Intelligence_Analysts', 'Computer_And_Information_Systems_Managers',
-                'Computer_Network_Support_Specialists', 'Computer_Systems_Analysts', 'Computer_Systems_Engineers_Architects',
-                'Data_Scientists', 'Electrical_And_Electronic_Engineering_Technologists_And_Technicians',
-                'Industrial-Organizational_Psychologists', 'Information_Security_Engineers', 'Medical_Records_Specialists',
-                'Operations_Research_Analysts', 'Robotics_Engineers', 'Software_Developers', 'Software_Quality_Assurance_Analysts_And_Testers']
+# ---------------FILES ---------------------
+
+df_stem = pd.read_csv(f"{data_folder}/2_df_stem_job_counts.csv")
+
+df_educ_waffle = pd.read_csv(f"{data_folder}/df_educ_waffle.csv")
+df_no_exp_waffle = pd.read_csv(f"{data_folder}/df_no_exp_waffle.csv")
+df_relevance =  pd.read_csv(f"{data_folder}/df_relevance.csv")
+
+bot_detail = df_relevance.logskills.quantile(0.33)
+top_detail = df_relevance.logskills.quantile(0.66)
+bot_relevance = df_relevance['%. of OJV skills'].quantile(0.33)
+top_relevance = df_relevance['%. of OJV skills'].quantile(0.66)
+
+df_comparable = df_relevance.query(f'`logskills` > {bot_detail}').query(f'`%. of OJV skills` > {bot_relevance}')
+df_noncomparable = df_relevance[(df_relevance.logskills <= bot_detail) | (df_relevance['%. of OJV skills'] <= bot_relevance)]
 
 
-# Load Vague Skills
-text_file = open(f"{data_folder}/Skills/vague_skills.txt", "r")
-vague_skills = text_file.readlines()
-vague_skills = [x.replace('\n','') for x in vague_skills]
+# -------------- HELPER FUNCTIONS ----------
+def plot_line_temp():
+    chart_data = pd.DataFrame(
+         np.random.randn(20, 3),
+         columns=['a', 'b', 'c'])
 
-#Load OJV
-# df_ojv = pd.read_csv(f'{data_folder}/df_ojv_HARD.csv')
-# df_ojv['All Hard Skills'] = df_ojv['All Hard Skills'].apply(literal_eval)
-# df_ojv.dropna(subset = ['job_title'], axis = 'rows', inplace = True)
-# df_ojv['All Hard Skills'] = df_ojv['All Hard Skills'].apply(lambda x: [s for s in x if s != None])
+    st.line_chart(chart_data)
 
-# Map Normalized Job Titles
-# normalized_titles = pd.read_csv(f'{data_folder}/df_id_normalized_stem_groups.csv')
-# normalized_titles = normalized_titles.query('`similarity` > 0.2')
-# id_to_NormOccu = dict(zip(normalized_titles.id, normalized_titles['Onet Occupation']))
-# df_ojv['NormOcc'] = df_ojv.id.apply(lambda x: id_to_NormOccu.get(x, 'Unmatched Job Titles'))
+def plot_temp():
 
-# Load Word2Vec model
-with open(f'{data_folder}/Word2Vec/Word2Vec_500_-0.5.pkl', 'rb') as handle:
-    w2v_model = pickle.load(handle)
+    # Add histogram data
+    x1 = np.random.randn(200) - 2
+    x2 = np.random.randn(200)
+    x3 = np.random.randn(200) + 2
 
-def load_network(file):
-    data_matrix = pd.read_csv(f'{data_folder}/networks/Job_title_{file}_skill_cooccurence_df.csv',index_col = 0)
-    Gmain = nx.from_pandas_adjacency(data_matrix)
-    sim_dct ={}
-    for n1,n2 in Gmain.edges():
-        sim_dct[(n1,n2)] = {'c':w2v_model.wv.similarity(n1,n2)}
-    nx.set_edge_attributes(Gmain, sim_dct)
+    # Group data together
+    hist_data = [x1, x2, x3]
 
-    def filter_edge(n1, n2):
-        return Gmain[n1][n2]['c'] > 0
+    group_labels = ['Group 1', 'Group 2', 'Group 3']
 
-    G_course = nx.subgraph_view(Gmain, filter_edge=filter_edge).copy()
-    Gcc = sorted(nx.connected_components(G_course), key=len, reverse=True)
-    G_course = G_course.subgraph(Gcc[0])
-    return G_course
+    # Create distplot with custom bin_size
+    fig = ff.create_distplot(
+             hist_data, group_labels, bin_size=[.1, .25, .5])
 
-def generate_network(filename):
+    # Plot!
+    st.plotly_chart(fig, use_container_width=True)
 
-    G = load_network(filename)
-    labels = pd.read_csv(f'{data_folder}/labels/Job_title_{filename}_labels.csv')
-    label_dct = dict(zip(labels.node, labels.NMF_label))
-    H = nx.spring_layout(G)
+def plot_stem_jobs(df_):
+    fig = go.Figure(data =[
+        go.Bar(name='STEM Jobs', x=df_stem['year'], y=df_stem['STEM'],
+               marker_color='#30BBB1'),
+        go.Bar(name='Non-STEM Jobs', x=df_stem['year'], y=df_stem['Non-STEM'],
+               marker_color='lightgrey',)
+        ])
+    fig.update_layout(barmode='stack',
+                      title='Jobs per year',
+                      template='simple_white',
+                      autosize=True,
+                      xaxis=dict(type='category'),
+                      xaxis_title='Year',
+                      yaxis_title='Job Counts'
+                      )
+    fig.update_traces()
+    st.plotly_chart(fig, use_container_width=True)
 
-    edge_x = []
-    edge_y = []
-    for edge in G.edges():
-        x0, y0 = H[edge[0]] #G.nodes[edge[0]]['pos']
-        x1, y1 = H[edge[1]]
-        edge_x.append(x0)
-        edge_x.append(x1)
-        edge_x.append(None)
-        edge_y.append(y0)
-        edge_y.append(y1)
-        edge_y.append(None)
+def plot_educ(df_educ_waffle):
+    df_educ_waffle['Job Count'] = df_educ_waffle['Job Count'].apply(lambda x: int(x/100))
 
-    edge_trace = go.Scatter(
-        x=edge_x, y=edge_y,
-        line=dict(width=0.5, color='#888'),
-        hoverinfo='none',
-        mode='lines')
+    # To plot the waffle Chart
+    fig = plt.figure(
+        FigureClass = Waffle,
+        rows = 10,
+        values = df_educ_waffle['Job Count'],
+        labels = list(df_educ_waffle['Education']),
+        legend = {'loc': 'lower left',
+                  'bbox_to_anchor': (0,-.4),
+                  'fontsize': 40
+                 },
+        colors = ['#d9d9d9', '#00c2cb', '#ffcd00'],
+        figsize = (50, 80),
+        dpi=100
+    )
 
-    node_x = []
-    node_y = []
-    cluster = []
-    for node in G.nodes():
-        if G.degree[node] == 0:
-            continue
-        x, y = H[node]
-        cluster.append(label_dct[node])
-        node_x.append(x)
-        node_y.append(y)
+    st.pyplot(fig)
 
-    network_df = pd.DataFrame({'x':node_x, 'y':node_y, 'cluster':cluster})
 
-    node_trace = go.Scatter(
-        x=node_x, y=node_y,
+def plot_experience(df_no_exp_waffle):
+    df_no_exp_waffle['Job Count'] = df_no_exp_waffle['Job Count'].apply(lambda x: int(x/100))
+
+    # To plot the waffle Chart
+    fig = plt.figure(
+        FigureClass = Waffle,
+        rows = 10,
+        values = df_no_exp_waffle['Job Count'],
+        labels = list(df_no_exp_waffle['Work Experience']),
+        legend = {'loc': 'lower left',
+                  'bbox_to_anchor': (0,-.4),
+                  'fontsize': 40
+                 },
+        colors = ['#00c2cb', '#d9d9d9', '#ffcd00'],
+        figsize = (50, 80),
+        dpi=100
+    )
+
+    st.pyplot(fig)
+
+def plot_curriculum_readiness():
+
+    fig = go.Figure()
+
+    fig.add_trace(go.Scatter(
+        x=df_comparable['%. of OJV skills'],
+        y=df_comparable.logskills,
+        name='Comparable',
         mode='markers',
-        hoverinfo='text',
-        marker=dict(
-            showscale=True,
-            # colorscale options
-            #'Greys' | 'YlGnBu' | 'Greens' | 'YlOrRd' | 'Bluered' | 'RdBu' |
-            #'Reds' | 'Blues' | 'Picnic' | 'Rainbow' | 'Portland' | 'Jet' |
-            #'Hot' | 'Blackbody' | 'Earth' | 'Electric' | 'Viridis' |
-            colorscale='YlGnBu',
-            #reversescale=True,
-            color=cluster,
-            size=10,
-            colorbar=dict(
-                thickness=15,
-                title='Cluster Membership',
-                xanchor='left',
-                titleside='right'
-            ),
-            line_width=2)
-            )
+        text=df_comparable['degree'],
+        marker_color='#FDC13A' #'rgba(152, 0, 0, .8)'
+    ))
 
-    node_adjacencies = []
-    node_text = []
-    for node, adjacencies in enumerate(G.adjacency()):
-        #node_adjacencies.append(len(adjacencies[1]))
-        node_adjacencies.append(label_dct[adjacencies[0]])
-        node_text.append(f'Skill : {adjacencies[0]}')
+    fig.add_trace(go.Scatter(
+        x=df_noncomparable['%. of OJV skills'],
+        y=df_noncomparable.logskills,
+        name='Non-comparable',
+        marker_color='Grey' #'rgba(255, 182, 193, .9)'
+    ))
 
-    node_trace.marker.color = node_adjacencies
-    node_trace.text = node_text
+    # Set options common to all traces with fig.update_traces
+    fig.update_traces(mode='markers', marker_size=10)
+    fig.update_layout(title='Curriculum Readiness',
+                      #width=800,
+                      height=600,
+                      yaxis_zeroline=False, xaxis_zeroline=False,
+                      xaxis_title='% of Skills found in Job Postings',
+                      yaxis_title='log(Number of Skills Identified)'
+                      )
 
-    fig = go.Figure(data=[edge_trace, node_trace],
-             layout=go.Layout(
-                showlegend=False,
-                hovermode='closest',
-                margin=dict(b=20,l=5,r=5,t=40),
-                # annotations=[ dict(
-                #     text="Python code: <a href='https://plotly.com/ipython-notebooks/network-graphs/'> https://plotly.com/ipython-notebooks/network-graphs/</a>",
-                #     showarrow=False,
-                #     xref="paper", yref="paper",
-                #     x=0.005, y=-0.002 ) ],
-                xaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
-                yaxis=dict(showgrid=False, zeroline=False, showticklabels=False))
-                )
-    st.plotly_chart(fig)
+
+    st.plotly_chart(fig, use_container_width=True)
 
 # -------------- LAYOUT --------------------
-##############
-##  HEADER  ##
-##############
 def get_contents():
+
+    ##############
+    ##  HEADER  ##
+    ##############
     st.header("Branching from STEM Education")
     st.write("Correlating the Curricula and STEM Skills Necessary to Support In-Demand Jobs in the Philippines")
 
     row0_spacer1, row0_1, row0_spacer2, row0_2, row0_spacer3 = st.columns((.1, 2.3, .1, 1.3, .1))
     with row0_1:
-        st.title('Skill Networks of the Emerging Jobs within the Philippines')
+        st.title('Data Overview')
 
 
     with row0_2:
         #st.image(f"{img_folder}/SLA_PH_Logo/Main-Horizontal.png", use_column_width=True)
         st.image(f"{img_folder}/SLA_PH_Logo/Black/Black-Horizontal.png", use_column_width=True)
 
-    # row1_spacer1, row1_1, row1_spacer2 = st.columns((.1, mid_width, .1))
-    # with row1_1:
-    #     network_select = st.selectbox('Select a Job Network to Explore:',
-    #                                   job_networks, 6
-    #     )
-    #     generate_network(network_select)
+        # if st.theme() == 'Dark':
+        #     st.image(f"{img_folder}/SLA_PH_Logo/White/White-Horizontal.png", use_column_width=True)
+        # else:
+        #     st.image(f"{img_folder}/SLA_PH_Logo/Black/Black-Horizontal.png", use_column_width=True)
+        #st.subheader('Streamlit App by [Tim Denzler](https://www.linkedin.com/in/tim-denzler/)')
 
-    row4_spacer1, row4_1, row4_spacer2 = st.columns((.1, 5.1, .2))
+    row1_spacer1, row1_1, row1_spacer2 = st.columns((.1, mid_width, .1))
+    with row1_1:
+        h_text = open(f"{data_folder}/2_header.txt","r+")
+        h_text = "".join(h_text.readlines())
+        st.markdown(h_text)
+        # st.markdown('There are three primary data types used for this project, all of which were from publicly available sources – existing labor taxonomies, online job vacancies, and government-issued curriculums.')
+
+    ###############
+    ##  CONTENT  ##
+    ###############
+
+    #--- STATS ---
+    row2_spacer1, row2_1, row2_spacer2 = st.columns((.1, mid_width, .1))
+
+    with row2_1:
+        st.header("At a Glance")
+        metrics_text = open(f"{data_folder}/2_metrics.txt","r+")
+        metrics_text = "".join(metrics_text.readlines())
+        st.markdown(metrics_text)
+
+
+    row2a_spacer1, row2a_1,  row2a_2, row2a_spacer3, row2a_3, row2a_spacer4, row2a_4, row2a_spacer5 = st.columns((.2, 2, 3,.1,3,.1,2,.2))
+
+    with row2a_1:
+        st.subheader("Online Job Vacancies")
+        st.metric('Job Posts', 56_150)
+        st.metric('Job Titles (Normalized)', 4_402)
+        st.metric('Occupations', 814)
+        st.metric('STEM Occupations', 208)
+
+    with row2a_2:
+        st.text("")
+        st.text("")
+        st.text("")
+        st.image(f"{img_folder}/monster.png", width=200)
+        st.image(f"{img_folder}/glassdoor.jpg", width=200)
+        st.image(f"{img_folder}/pinoyjobs.png", width=200)
+        st.image(f"{img_folder}/cc.jpg", width=200)
+
+    with row2a_3:
+        st.subheader("Curriculums")
+        st.metric('STEM Curriculums', 52)
+        st.image(f"{img_folder}/ched.png", width=100)
+
+    with row2a_4:
+        st.subheader("Existing Labor Taxonomies (referenced)")
+        st.image(f"{img_folder}/emsi-labor-market-analytics-vector-logo.png", width=100)
+        st.image(f"{img_folder}/onet-circle.png", width=100)
+
+
+    #--- Job Vacancies ---
+    row3_spacer1, row3_1, row3_spacer2 = st.columns((.1, mid_width, .1))
+    with row3_1:
+        st.header("Online Job Vacancies (OJV)")
+        ojv_text = open(f"{data_folder}/2_ojv_text.txt","r+")
+        ojv_text = "".join(ojv_text.readlines())
+        st.markdown(ojv_text)
+
+        ojv_more = open(f"{data_folder}/2_ojv_more.txt","r+")
+        ojv_more = "".join(ojv_more.readlines())
+
+        with st.expander("More on the Job Title Normalization Process"):
+            st.markdown(ojv_more)
+
+    row3a_spacer1, row3a_1, row3a_spacer2, row3a_2, row3a_spacer3  = st.columns((.2, 4, .1, 4, .2))
+    with row3a_1:
+        st.write('')
+        st.markdown('Job Count Data:')
+        st.write('')
+        st.dataframe(df_stem.head(10))
+
+    with row3a_2:
+        plot_stem_jobs(df_stem)
+
+    row3b_spacer1, row3b_1, row3b_spacer2, row3b_2, row3b_spacer2 = st.columns((.2, mid_width/2, .1, mid_width/2, .2))
+    with row3b_1:
+    
+        st.subheader("Required Education for STEM jobs")
+        educ_text = open(f"{data_folder}/2_educ_text.txt","r+")
+        educ_text = "".join(educ_text.readlines())
+    
+        plot_educ(df_educ_waffle)
+        st.markdown(educ_text)
+    
+    with row3b_2:
+        st.subheader("Required Experience for STEM jobs")
+        experience_text = open(f"{data_folder}/2_experience_text.txt","r+")
+        experience_text = "".join(experience_text.readlines())
+    
+        plot_experience(df_no_exp_waffle)
+        st.markdown(experience_text)
+
+
+    #--- Curriculums ---
+    row4_spacer1, row4_1, row4_spacer2 = st.columns((.1, mid_width, .1))
     with row4_1:
-        st.header('Skill Statistics')
-        st.subheader('A view of the most similar skills and the most relevant jobs to a selected skill')
+        st.header("Curriculums")
+        curric_text = open(f"{data_folder}/2_curriculums.txt","r+")
+        curric_text = "".join(curric_text.readlines())
+        st.markdown(curric_text)
 
-        df_skills = pd.read_csv('data/df_skills.csv')
-        df_skills['All Hard Skills'] = [literal_eval(x) for x in df_skills['All Hard Skills']]
-        df_skills.rename({'id':'Job ID', 'NormOcc' : 'Job Title', 'All Hard Skills': 'Skills'}, axis = 1, inplace = True)
-        df_skills_exploded = df_skills.explode('Skills')
-        
-        # Filter Vague Info
-        df_skills = df_skills[df_skills['Job Title'] != 'Unmatched Job Titles']
-        df_skills = df_skills.groupby(['Job Title']).agg({'Skills' : sum}).reset_index()
-        df_skills['Skills'] = df_skills.Skills.apply(lambda x: [skill for skill in set(x) if skill not in ['SKILL', 'Self', 'C']])
-        df_skills.sort_values(by = 'Job Title', inplace = True, ascending=True)
-        
-        st.dataframe(df_skills, use_container_width=True)
-        skill_selected = st.selectbox('Skill Phrase or Skill Word to Analyze', sorted(df_skills_exploded['Skills'].unique()),  index = 0)
-        skill_selected_transformed = '_'.join(skill_selected.split())
-
-    row5_spacer1, row5_1, row5_spacer_between, row5_2 ,row5_spacer2 = st.columns((.1, 2.5,.1, 2.6, .2))
-    with row5_1:
-        st.subheader(f'Top Job Titles of {skill_selected}')
-        df_skills_exploded_match = df_skills_exploded.query(f'`Skills` == "{skill_selected}"')
-        st.dataframe(df_skills_exploded_match['Job Title'].value_counts().reset_index().head(100), use_container_width=True)
-
-    with row5_2:
-        st.subheader(f'Most Similar or Most Relevant Skills to {skill_selected}')
-        try:
-            most_sim = pd.DataFrame(w2v_model.wv.most_similar([skill_selected_transformed], topn=10))
-            most_sim.rename({0:'Skill', 1:'Similarity/Relevance'}, axis = 1, inplace = True)
-            most_sim['Skill'] = most_sim['Skill'].apply(lambda x: ' '.join(x.split('_')))
-            st.dataframe(most_sim.head(100), use_container_width=True)
-        except:
-            st.error(f'Too few instances of {skill_selected} is detected in our data thus no similar skills can be returned', icon="🚨")
-
-    row6_spacer1, row6_1, row6_spacer2 = st.columns((.1, 5.1, 2))
-    with row6_1:
-        st.subheader(f'Trend of Usage of {skill_selected} over the years')
-        df_skills_exploded_match['year'] = df_skills_exploded_match['datePosted'].apply(lambda x: x.split('-')[0])
-        df_skills_exploded_trend = df_skills_exploded_match.groupby(['year'])['Skills'].agg('count').reset_index().sort_values(['year'])
-
-        try:
-            fig = px.line(df_skills_exploded_trend, x="year", y="Skills")
-            st.plotly_chart(fig, use_container_width=True)
-        except:
-            st.error(f'Too few instances of {skill_selected} is detected in our data thus a figure cannot be generated.', icon="🚨")
+        plot_curriculum_readiness()
