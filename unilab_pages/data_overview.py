@@ -82,6 +82,7 @@ def plot_stem_jobs(df_):
     fig.update_traces()
     st.plotly_chart(fig, use_container_width=True)
 
+@st.cache_data
 def plot_educ(df_educ_waffle):
     df_educ_waffle['Job Count'] = df_educ_waffle['Job Count'].apply(lambda x: int(x/100))
 
@@ -97,12 +98,11 @@ def plot_educ(df_educ_waffle):
                  },
         colors = ['#d9d9d9', '#00c2cb', '#ffcd00'],
         figsize = (50, 80),
-        dpi=100
     )
 
-    st.pyplot(fig)
+    st.pyplot(fig, use_container_width=True)
 
-
+@st.cache_data
 def plot_experience(df_no_exp_waffle):
     df_no_exp_waffle['Job Count'] = df_no_exp_waffle['Job Count'].apply(lambda x: int(x/100))
 
@@ -118,10 +118,9 @@ def plot_experience(df_no_exp_waffle):
                  },
         colors = ['#00c2cb', '#d9d9d9', '#ffcd00'],
         figsize = (50, 80),
-        dpi=100
     )
 
-    st.pyplot(fig)
+    st.pyplot(fig, use_container_width=True)
 
 def plot_curriculum_readiness():
 
