@@ -26,7 +26,6 @@ from collections import Counter
 import seaborn as sns
 from streamlit_plotly_events import plotly_events
 
-from st_aggrid import AgGrid
 pd.options.plotting.backend = "plotly"
 
 #Setup
@@ -197,29 +196,41 @@ def get_contents():
         df_skills['All Hard Skills'] = [literal_eval(x) for x in df_skills['All Hard Skills']]
         df_skills.rename({'id':'Job ID', 'NormOcc' : 'Job Title', 'All Hard Skills': 'Skills'}, axis = 1, inplace = True)
         df_skills_exploded = df_skills.explode('Skills')
-
-        AgGrid(df_skills)
-
-        skill_selected = st.text_input('Skill Phrase or Skill Word to Analyze', 'NumPy')
+        
+        # Filter Vague Info
+        df_skills = df_skills[df_skills['Job Title'] != 'Unmatched Job Titles']
+        df_skills = df_skills.groupby(['Job Title']).agg({'Skills' : sum}).reset_index()
+        df_skills['Skills'] = df_skills.Skills.apply(lambda x: [skill for skill in set(x) if skill not in ['SKILL', 'Self', 'C']])
+        df_skills.sort_values(by = 'Job Title', inplace = True, ascending=True)
+        
+        st.dataframe(df_skills, use_container_width=True)
+        skill_selected = st.selectbox('Skill Phrase or Skill Word to Analyze', sorted(df_skills_exploded['Skills'].unique()),  index = 0)
         skill_selected_transformed = '_'.join(skill_selected.split())
 
     row5_spacer1, row5_1, row5_spacer_between, row5_2 ,row5_spacer2 = st.columns((.1, 2.5,.1, 2.6, .2))
     with row5_1:
         st.subheader(f'Top Job Titles of {skill_selected}')
         df_skills_exploded_match = df_skills_exploded.query(f'`Skills` == "{skill_selected}"')
-        AgGrid(df_skills_exploded_match['Job Title'].value_counts().reset_index())
+        st.dataframe(df_skills_exploded_match['Job Title'].value_counts().reset_index().head(100), use_container_width=True)
 
     with row5_2:
         st.subheader(f'Most Similar or Most Relevant Skills to {skill_selected}')
-        most_sim = pd.DataFrame(w2v_model.wv.most_similar([skill_selected_transformed], topn=10))
-        most_sim.rename({0:'Skill', 1:'Similarity/Relevance'}, axis = 1, inplace = True)
-        most_sim['Skill'] = most_sim['Skill'].apply(lambda x: ' '.join(x.split('_')))
-        AgGrid(most_sim)
+        try:
+            most_sim = pd.DataFrame(w2v_model.wv.most_similar([skill_selected_transformed], topn=10))
+            most_sim.rename({0:'Skill', 1:'Similarity/Relevance'}, axis = 1, inplace = True)
+            most_sim['Skill'] = most_sim['Skill'].apply(lambda x: ' '.join(x.split('_')))
+            st.dataframe(most_sim.head(100), use_container_width=True)
+        except:
+            st.error(f'Too few instances of {skill_selected} is detected in our data thus no similar skills can be returned', icon="🚨")
 
     row6_spacer1, row6_1, row6_spacer2 = st.columns((.1, 5.1, 2))
     with row6_1:
         st.subheader(f'Trend of Usage of {skill_selected} over the years')
         df_skills_exploded_match['year'] = df_skills_exploded_match['datePosted'].apply(lambda x: x.split('-')[0])
         df_skills_exploded_trend = df_skills_exploded_match.groupby(['year'])['Skills'].agg('count').reset_index().sort_values(['year'])
-        fig = px.line(df_skills_exploded_trend, x="year", y="Skills")
-        st.plotly_chart(fig)
+
+        try:
+            fig = px.line(df_skills_exploded_trend, x="year", y="Skills")
+            st.plotly_chart(fig, use_container_width=True)
+        except:
+            st.error(f'Too few instances of {skill_selected} is detected in our data thus a figure cannot be generated.', icon="🚨")
