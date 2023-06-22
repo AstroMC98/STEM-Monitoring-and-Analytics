@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Jul  6 00:04:17 2022
-@author: Sarah Isabel Mendoza
 """
 # --------------- IMPORTS ------------------
 import streamlit as st
