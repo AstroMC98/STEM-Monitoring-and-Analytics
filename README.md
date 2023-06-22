@@ -122,7 +122,8 @@ _Below is the step-by-step instructions to launch the STEMma Dashboard._
    ```sh
    conda activate stemma
    ```
-5. Install Python packages and dependencies.
+5. Install Rust.rs which is a dependecy for Streamlit through https://rustup.rs/. 
+6. Install Python packages and dependencies.
    ```sh
    pip install -r requirements.txt
    ```
