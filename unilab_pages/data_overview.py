@@ -94,10 +94,10 @@ def plot_educ(df_educ_waffle):
         labels = list(df_educ_waffle['Education']),
         legend = {'loc': 'lower left',
                   'bbox_to_anchor': (0,-.4),
-                  'fontsize': 40
+                  'fontsize': 6
                  },
         colors = ['#d9d9d9', '#00c2cb', '#ffcd00'],
-        figsize = (50, 80),
+
     )
 
     st.pyplot(fig, use_container_width=True)
@@ -114,10 +114,9 @@ def plot_experience(df_no_exp_waffle):
         labels = list(df_no_exp_waffle['Work Experience']),
         legend = {'loc': 'lower left',
                   'bbox_to_anchor': (0,-.4),
-                  'fontsize': 40
+                  'fontsize': 6
                  },
         colors = ['#00c2cb', '#d9d9d9', '#ffcd00'],
-        figsize = (50, 80),
     )
 
     st.pyplot(fig, use_container_width=True)
